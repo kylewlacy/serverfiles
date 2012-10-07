@@ -1,0 +1,3237 @@
+Name           : acl
+Version        : 2.2.51-2
+URL            : http://savannah.nongnu.org/projects/acl
+Licenses       : LGPL
+Groups         : None
+Provides       : xfsacl
+Depends On     : attr>=2.4.46
+Optional Deps  : None
+Required By    : coreutils  gettext  libarchive  sed  shadow  systemd
+Conflicts With : xfsacl
+Replaces       : xfsacl
+Installed Size : 532.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Apr 28 21:50:46 2012
+Install Date   : Thu Dec 31 19:42:11 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Access control list utilities, libraries and headers
+
+Name           : archlinux-keyring
+Version        : 20120812-1
+URL            : https://projects.archlinux.org/archlinux-keyring.git/
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : pacman
+Conflicts With : None
+Replaces       : None
+Installed Size : 476.00 KiB
+Packager       : Pierre Schmitz <pierre@archlinux.de>
+Architecture   : any
+Build Date     : Sat Aug 11 15:28:33 2012
+Install Date   : Thu Dec 31 19:43:43 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : Arch Linux PGP keyring
+
+Name           : attr
+Version        : 2.4.46-2
+URL            : http://savannah.nongnu.org/projects/attr
+Licenses       : LGPL
+Groups         : None
+Provides       : xfsattr
+Depends On     : glibc
+Optional Deps  : None
+Required By    : acl  libcap
+Conflicts With : xfsattr
+Replaces       : xfsattr
+Installed Size : 364.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Apr 28 21:54:11 2012
+Install Date   : Thu Dec 31 19:42:11 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Extended attribute support library for ACL support
+
+Name           : autoconf
+Version        : 2.69-1
+URL            : http://www.gnu.org/software/autoconf
+Licenses       : GPL2  GPL3  custom
+Groups         : base-devel
+Provides       : None
+Depends On     : awk  m4  diffutils  bash
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 2228.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : any
+Build Date     : Wed Apr 25 00:42:47 2012
+Install Date   : Mon Sep  3 10:30:03 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : A GNU tool for automatically configuring source code
+
+Name           : automake
+Version        : 1.12.3-1
+URL            : http://www.gnu.org/software/automake
+Licenses       : GPL
+Groups         : base-devel
+Provides       : None
+Depends On     : perl  bash
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 1876.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : any
+Build Date     : Wed Aug 15 00:11:47 2012
+Install Date   : Mon Sep  3 10:30:05 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : A GNU tool for automatically creating Makefiles
+
+Name           : bash
+Version        : 4.2.037-1
+URL            : http://www.gnu.org/software/bash/bash.html
+Licenses       : GPL
+Groups         : base
+Provides       : sh
+Depends On     : readline>=6.1  glibc
+Optional Deps  : None
+Required By    : autoconf  automake  bison  ca-certificates  cronie  db  dhcpcd  diffutils  e2fsprogs  fakeroot  filesystem  findutils  flex  gawk  gdbm  gettext  gmp  grep  gzip  initscripts  keyutils  libgpg-error  libksba  libpcap  libtool  lvm2  m4  make  man-db  mkinitcpio  nano  nss  pacman  perl  sed  shadow  systemd  tar  unzip  which  xz
+Conflicts With : None
+Replaces       : None
+Installed Size : 3660.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Jul 19 19:00:25 2012
+Install Date   : Mon Sep  3 10:28:48 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : The GNU Bourne Again shell
+
+Name           : binutils
+Version        : 2.22-10
+URL            : http://www.gnu.org/software/binutils/
+Licenses       : GPL
+Groups         : base-devel
+Provides       : None
+Depends On     : glibc>=2.16  zlib
+Optional Deps  : None
+Required By    : gcc
+Conflicts With : None
+Replaces       : None
+Installed Size : 16236.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Aug 10 23:04:06 2012
+Install Date   : Mon Sep  3 10:30:06 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : A set of programs to assemble and manipulate binary and object files
+
+Name           : bison
+Version        : 2.6.2-1
+URL            : http://www.gnu.org/software/bison/bison.html
+Licenses       : GPL3
+Groups         : base-devel
+Provides       : None
+Depends On     : glibc  m4  sh
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 2104.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Aug  3 17:52:03 2012
+Install Date   : Mon Sep  3 10:30:06 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : The GNU general-purpose parser generator
+
+Name           : bzip2
+Version        : 1.0.6-4
+URL            : http://sources.redhat.com/bzip2
+Licenses       : custom
+Groups         : base
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : gnupg  libarchive  python  python2  unzip  zip
+Conflicts With : None
+Replaces       : None
+Installed Size : 260.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Apr 29 01:14:30 2012
+Install Date   : Mon Sep  3 10:28:49 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : A high-quality data compression program
+
+Name           : ca-certificates
+Version        : 20120623-1
+URL            : http://packages.qa.debian.org/c/ca-certificates.html
+Licenses       : MPL  GPL
+Groups         : None
+Provides       : None
+Depends On     : bash  run-parts  openssl  findutils  coreutils  sed
+Optional Deps  : None
+Required By    : ca-certificates-java  curl
+Conflicts With : None
+Replaces       : None
+Installed Size : 696.00 KiB
+Packager       : Pierre Schmitz <pierre@archlinux.de>
+Architecture   : any
+Build Date     : Fri Jun 29 00:46:31 2012
+Install Date   : Thu Dec 31 19:43:37 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : Common CA certificates
+
+Name           : ca-certificates-java
+Version        : 20120608-1
+URL            : http://packages.qa.debian.org/c/ca-certificates-java.html
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : ca-certificates
+Optional Deps  : None
+Required By    : jre7-openjdk-headless
+Conflicts With : None
+Replaces       : None
+Installed Size :  68.00 KiB
+Packager       : Pierre Schmitz <pierre@archlinux.de>
+Architecture   : any
+Build Date     : Fri Jun 29 01:15:49 2012
+Install Date   : Sun Sep  2 14:38:40 2012
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : Common CA certificates (JKS keystore)
+
+Name           : cloog
+Version        : 0.17.0-2
+URL            : http://www.bastoul.net/cloog/
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : isl  gmp
+Optional Deps  : None
+Required By    : gcc
+Conflicts With : cloog-ppl<0.15.10-2
+Replaces       : None
+Installed Size : 508.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Jun 14 21:18:27 2012
+Install Date   : Thu Dec 31 19:43:54 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Library that generates loops for scanning polyhedra
+
+Name           : coreutils
+Version        : 8.17-3
+URL            : http://www.gnu.org/software/coreutils
+Licenses       : GPL3
+Groups         : base
+Provides       : None
+Depends On     : glibc  pam  acl  gmp  libcap
+Optional Deps  : None
+Required By    : ca-certificates  dbus-core  filesystem  initscripts  linux  mkinitcpio  perl  sysvinit-tools
+Conflicts With : None
+Replaces       : mktemp
+Installed Size : 13644.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Jul 15 19:32:01 2012
+Install Date   : Mon Sep  3 10:28:50 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : The basic file, shell and text manipulation utilities of the GNU operating system
+
+Name           : cracklib
+Version        : 2.8.19-1
+URL            : http://sourceforge.net/projects/cracklib
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : glibc  zlib
+Optional Deps  : None
+Required By    : pam
+Conflicts With : None
+Replaces       : None
+Installed Size : 1756.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Aug 23 05:34:21 2012
+Install Date   : Thu Dec 31 19:42:11 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Password Checking Library
+
+Name           : cronie
+Version        : 1.4.8-3
+URL            : https://fedorahosted.org/cronie/
+Licenses       : custom:BSD
+Groups         : base
+Provides       : cron
+Depends On     : pam  bash  run-parts
+Optional Deps  : pm-utils: defer anacron when on battery power
+                 smtp-server: sending cron job output via email
+Required By    : logrotate
+Conflicts With : cron
+Replaces       : None
+Installed Size : 192.00 KiB
+Packager       : Tom Gundersen <teg@jklm.no>
+Architecture   : i686
+Build Date     : Wed Aug  8 18:24:50 2012
+Install Date   : Mon Sep  3 10:28:50 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Daemon that runs specified programs at scheduled times and related tools
+
+Name           : cryptsetup
+Version        : 1.5.0-2
+URL            : http://code.google.com/p/cryptsetup/
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : device-mapper  libgcrypt  popt  util-linux
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 796.00 KiB
+Packager       : Thomas Bächler <thomas@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Aug  9 11:08:08 2012
+Install Date   : Mon Sep  3 10:28:51 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Userspace setup tool for transparent encryption of block devices using dm-crypt
+
+Name           : curl
+Version        : 7.27.0-1
+URL            : http://curl.haxx.se
+Licenses       : MIT
+Groups         : None
+Provides       : None
+Depends On     : ca-certificates  libssh2  openssl  zlib
+Optional Deps  : None
+Required By    : git  pacman
+Conflicts With : None
+Replaces       : None
+Installed Size : 1652.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Jul 27 14:43:19 2012
+Install Date   : Thu Dec 31 19:43:42 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : An URL retrival utility and library
+
+Name           : db
+Version        : 5.3.21-1
+URL            : http://www.oracle.com/technology/software/products/berkeley-db/index.html
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : gcc-libs  sh
+Optional Deps  : None
+Required By    : iproute2  pam  perl
+Conflicts With : None
+Replaces       : None
+Installed Size : 13588.00 KiB
+Packager       : Stéphane Gaudreault <stephane@archlinux.org>
+Architecture   : i686
+Build Date     : Thu May 31 14:18:40 2012
+Install Date   : Thu Dec 31 19:42:11 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : The Berkeley DB embedded database system
+
+Name           : dbus-core
+Version        : 1.6.4-1
+URL            : http://www.freedesktop.org/Software/dbus
+Licenses       : GPL  custom
+Groups         : None
+Provides       : None
+Depends On     : expat  coreutils  filesystem  libsystemd  shadow  systemd-tools
+Optional Deps  : None
+Required By    : systemd  wpa_supplicant
+Conflicts With : None
+Replaces       : None
+Installed Size : 1781.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Jul 21 04:10:59 2012
+Install Date   : Thu Dec 31 19:42:15 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : Freedesktop.org message bus system
+
+Name           : device-mapper
+Version        : 2.02.97-1
+URL            : http://sourceware.org/dm/
+Licenses       : GPL2  LGPL2.1
+Groups         : base
+Provides       : None
+Depends On     : glibc  udev
+Optional Deps  : None
+Required By    : cryptsetup  lvm2
+Conflicts With : None
+Replaces       : None
+Installed Size : 568.00 KiB
+Packager       : Eric Belanger <eric@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Aug  9 14:39:09 2012
+Install Date   : Mon Sep  3 10:28:50 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Device mapper userspace library and tools
+
+Name           : dhcpcd
+Version        : 5.6.0-1
+URL            : http://roy.marples.name/projects/dhcpcd/
+Licenses       : BSD
+Groups         : base
+Provides       : None
+Depends On     : glibc  sh
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 272.00 KiB
+Packager       : Ronald van Haren <ronald@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Jul 31 13:39:47 2012
+Install Date   : Mon Sep  3 10:28:51 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : RFC2131 compliant DHCP client daemon
+
+Name           : diffutils
+Version        : 3.2-1
+URL            : http://www.gnu.org/software/diffutils
+Licenses       : GPL3
+Groups         : base
+Provides       : None
+Depends On     : glibc  sh
+Optional Deps  : None
+Required By    : autoconf
+Conflicts With : None
+Replaces       : None
+Installed Size : 1152.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Sep  2 16:37:56 2011
+Install Date   : Mon Sep  3 10:28:51 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : Utility programs used for creating patch files
+
+Name           : dirmngr
+Version        : 1.1.0-4
+URL            : ftp://ftp.gnupg.org/gcrypt/dirmngr
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : libgcrypt  libldap  libksba  libgpg-error  libassuan  pth
+Optional Deps  : None
+Required By    : gnupg
+Conflicts With : None
+Replaces       : None
+Installed Size : 660.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Mar  8 05:27:45 2012
+Install Date   : Thu Dec 31 19:43:42 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : A daemon to handle CRL and certificate requests
+
+Name           : dnssec-anchors
+Version        : 20120422-1
+URL            : http://data.iana.org/root-anchors/
+Licenses       : custom:NoCopyright
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : ldns
+Conflicts With : None
+Replaces       : None
+Installed Size :   8.00 KiB
+Packager       : Gaetan Bisson <bisson@archlinux.org>
+Architecture   : any
+Build Date     : Sun Apr 22 00:31:34 2012
+Install Date   : Sat Sep  1 09:44:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : DNSSEC trust anchors for the root zone
+
+Name           : e2fsprogs
+Version        : 1.42.5-1
+URL            : http://e2fsprogs.sourceforge.net
+Licenses       : GPL  LGPL  MIT
+Groups         : base
+Provides       : None
+Depends On     : sh  util-linux
+Optional Deps  : None
+Required By    : krb5  libldap
+Conflicts With : None
+Replaces       : None
+Installed Size : 3476.00 KiB
+Packager       : Ronald van Haren <ronald@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Jul 31 13:45:22 2012
+Install Date   : Mon Sep  3 10:28:52 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : Ext2/3/4 filesystem utilities
+
+Name           : eventlog
+Version        : 0.2.12-3
+URL            : http://www.balabit.com/support/community/products/
+Licenses       : BSD
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : syslog-ng
+Conflicts With : None
+Replaces       : None
+Installed Size :  60.00 KiB
+Packager       : Andrea Scarpino <andrea@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Nov  2 13:05:59 2011
+Install Date   : Thu Dec 31 19:43:44 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : API to format and send structured log messages
+
+Name           : expat
+Version        : 2.1.0-1
+URL            : http://expat.sourceforge.net/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : dbus-core  git  libarchive  python  python2
+Conflicts With : None
+Replaces       : None
+Installed Size : 500.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Mar 27 16:58:55 2012
+Install Date   : Thu Dec 31 19:42:15 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : An XML parser library
+
+Name           : fakeroot
+Version        : 1.18.4-1
+URL            : http://packages.debian.org/fakeroot
+Licenses       : GPL
+Groups         : base-devel
+Provides       : None
+Depends On     : glibc  filesystem  sed  util-linux  sh
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 224.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Jun  3 22:01:25 2012
+Install Date   : Mon Sep  3 10:30:07 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : Gives a fake root environment, useful for building packages as a non-privileged user
+
+Name           : file
+Version        : 5.11-1
+URL            : http://www.darwinsys.com/file/
+Licenses       : custom
+Groups         : base
+Provides       : None
+Depends On     : glibc  zlib
+Optional Deps  : None
+Required By    : mkinitcpio
+Conflicts With : None
+Replaces       : None
+Installed Size : 2588.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Feb 23 00:23:20 2012
+Install Date   : Mon Sep  3 10:28:52 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : File type identification utility
+
+Name           : filesystem
+Version        : 2012.8-1
+URL            : http://www.archlinux.org
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : iana-etc  bash  coreutils
+Optional Deps  : None
+Required By    : dbus-core  fakeroot  mkinitcpio
+Conflicts With : None
+Replaces       : None
+Installed Size :  96.00 KiB
+Packager       : Tom Gundersen <teg@jklm.no>
+Architecture   : any
+Build Date     : Mon Aug 27 12:56:52 2012
+Install Date   : Mon Sep  3 10:28:52 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : Base filesystem
+
+Name           : findutils
+Version        : 4.4.2-4
+URL            : http://www.gnu.org/software/findutils
+Licenses       : GPL3
+Groups         : base
+Provides       : None
+Depends On     : glibc  sh
+Optional Deps  : None
+Required By    : ca-certificates  initscripts  mkinitcpio  texinfo
+Conflicts With : None
+Replaces       : None
+Installed Size : 1592.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Nov  2 05:52:53 2011
+Install Date   : Mon Sep  3 10:28:53 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : GNU utilities to locate files
+
+Name           : flex
+Version        : 2.5.37-1
+URL            : http://flex.sourceforge.net
+Licenses       : custom
+Groups         : base-devel
+Provides       : None
+Depends On     : glibc  m4  sh
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 1792.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Aug  3 18:01:32 2012
+Install Date   : Mon Sep  3 10:30:07 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : A tool for generating text-scanning programs
+
+Name           : gawk
+Version        : 4.0.1-1
+URL            : http://www.gnu.org/directory/GNU/gawk.html
+Licenses       : GPL
+Groups         : base
+Provides       : awk
+Depends On     : sh  glibc
+Optional Deps  : None
+Required By    : autoconf  mkinitcpio  pth  syslog-ng  sysvinit-tools
+Conflicts With : None
+Replaces       : None
+Installed Size : 2444.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Apr  4 02:12:26 2012
+Install Date   : Mon Sep  3 10:28:53 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : GNU version of awk
+
+Name           : gcc
+Version        : 4.7.1-6
+URL            : http://gcc.gnu.org
+Licenses       : GPL  LGPL  FDL  custom
+Groups         : base-devel
+Provides       : None
+Depends On     : gcc-libs=4.7.1-6  binutils>=2.22  libmpc  cloog  ppl
+Optional Deps  : None
+Required By    : libtool
+Conflicts With : None
+Replaces       : None
+Installed Size : 70664.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Aug 10 22:25:45 2012
+Install Date   : Mon Sep  3 10:30:20 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : The GNU Compiler Collection - C and C++ frontends
+
+Name           : gcc-libs
+Version        : 4.7.1-6
+URL            : http://gcc.gnu.org
+Licenses       : GPL  LGPL  FDL  custom
+Groups         : base
+Provides       : None
+Depends On     : glibc>=2.16
+Optional Deps  : None
+Required By    : db  gcc  gettext  gmp  groff  pcre
+Conflicts With : None
+Replaces       : None
+Installed Size : 3080.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Aug 10 22:26:37 2012
+Install Date   : Mon Sep  3 10:28:54 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : Runtime libraries shipped by GCC
+
+Name           : gdbm
+Version        : 1.10-1
+URL            : http://www.gnu.org/software/gdbm/gdbm.html
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : glibc  sh
+Optional Deps  : None
+Required By    : man-db  perl  python  python2
+Conflicts With : None
+Replaces       : None
+Installed Size : 348.00 KiB
+Packager       : Stéphane Gaudreault <stephane@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Nov 18 16:26:34 2011
+Install Date   : Thu Dec 31 19:42:25 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : GNU database library
+
+Name           : gettext
+Version        : 0.18.1.1-4
+URL            : http://www.gnu.org/software/gettext/
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : gcc-libs  acl  sh  glib2
+Optional Deps  : cvs: for autopoint tool
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 13912.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Nov  4 04:46:34 2011
+Install Date   : Mon Sep  3 10:28:57 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : GNU internationalization library
+
+Name           : git
+Version        : 1.7.12-1
+URL            : http://git-scm.com/
+Licenses       : GPL2
+Groups         : None
+Provides       : git-core
+Depends On     : curl  expat>=2.0  perl-error  perl>=5.14.0  openssl  pcre
+Optional Deps  : tk: gitk and git gui
+                 perl-libwww: git svn
+                 perl-term-readkey: git svn
+                 perl-mime-tools: git send-email
+                 perl-net-smtp-ssl: git send-email TLS support
+                 perl-authen-sasl: git send-email TLS support
+                 python2: various helper scripts
+                 subversion: git svn
+                 cvsps: git cvsimport
+Required By    : None
+Conflicts With : None
+Replaces       : git-core
+Installed Size : 17340.00 KiB
+Packager       : Dan McGee <dan@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Aug 21 06:49:25 2012
+Install Date   : Sat Sep  1 10:39:56 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : the fast distributed version control system
+
+Name           : glib2
+Version        : 2.32.4-1
+URL            : http://www.gtk.org/
+Licenses       : LGPL
+Groups         : None
+Provides       : None
+Depends On     : pcre  libffi
+Optional Deps  : python2: for gdbus-codegen
+Required By    : gettext  pkg-config  syslog-ng  systemd
+Conflicts With : None
+Replaces       : None
+Installed Size : 12080.00 KiB
+Packager       : Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
+Architecture   : i686
+Build Date     : Thu Jul 19 01:02:03 2012
+Install Date   : Thu Dec 31 19:42:20 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Common C routines used by GTK+ and other libs
+
+Name           : glibc
+Version        : 2.16.0-4
+URL            : http://www.gnu.org/software/libc
+Licenses       : GPL  LGPL
+Groups         : base
+Provides       : None
+Depends On     : linux-api-headers>=3.5  tzdata
+Optional Deps  : None
+Required By    : attr  bash  binutils  bison  bzip2  coreutils  cracklib  device-mapper  dhcpcd  diffutils  eventlog  expat  fakeroot  file  findutils  flex  gawk  gcc-libs  gdbm  grep  gzip  initscripts  iproute2  kbd  keyutils  kmod  libcap  libffi  libgpg-error  libgssglue  libjpeg-turbo  libksba  libnl  libpcap  libpipeline  libusbx  m4  make  mdadm  mkinitcpio-busybox  ncurses  nspr  pacman  pam  patch  pciutils  perl  popt  ppp  pth  readline  run-parts  sudo  sysfsutils  syslinux  sysvinit-tools  tar  which  zlib
+Conflicts With : None
+Replaces       : None
+Installed Size : 34856.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Aug 29 04:50:15 2012
+Install Date   : Mon Sep  3 10:28:42 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : GNU C Library
+
+Name           : gmp
+Version        : 5.0.5-1
+URL            : http://gmplib.org/
+Licenses       : LGPL3
+Groups         : None
+Provides       : None
+Depends On     : gcc-libs  sh
+Optional Deps  : None
+Required By    : cloog  coreutils  mpfr  ppl
+Conflicts With : None
+Replaces       : None
+Installed Size : 1672.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Mon May  7 01:35:09 2012
+Install Date   : Thu Dec 31 19:42:11 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : A free library for arbitrary precision arithmetic
+
+Name           : gnupg
+Version        : 2.0.19-2
+URL            : http://www.gnupg.org/
+Licenses       : GPL
+Groups         : None
+Provides       : gnupg2=2.0.19
+Depends On     : bzip2  libksba  libgcrypt  pth  libassuan  readline  pinentry  dirmngr
+Optional Deps  : curl: gpg2keys_curl
+                 libldap: gpg2keys_ldap
+                 libusb-compat: scdaemon
+                 texinfo: documentation
+Required By    : gpgme
+Conflicts With : gnupg2
+Replaces       : gnupg2
+Installed Size : 6912.00 KiB
+Packager       : Gaetan Bisson <bisson@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Apr 19 16:04:53 2012
+Install Date   : Thu Dec 31 19:43:43 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : Complete and free implementation of the OpenPGP standard
+
+Name           : gpgme
+Version        : 1.3.1-4
+URL            : http://www.gnupg.org/related_software/gpgme/
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : libgpg-error  pth  gnupg>=2
+Optional Deps  : None
+Required By    : pacman
+Conflicts With : None
+Replaces       : None
+Installed Size : 876.00 KiB
+Packager       : Gaetan Bisson <bisson@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Mar 24 10:07:32 2012
+Install Date   : Thu Dec 31 19:43:43 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : A C wrapper library for GnuPG
+
+Name           : grep
+Version        : 2.14-1
+URL            : http://www.gnu.org/software/grep/grep.html
+Licenses       : GPL3
+Groups         : base
+Provides       : None
+Depends On     : glibc  pcre  sh
+Optional Deps  : None
+Required By    : mkinitcpio
+Conflicts With : None
+Replaces       : None
+Installed Size : 1352.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Mon Aug 20 04:33:24 2012
+Install Date   : Mon Sep  3 10:28:58 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : A string search utility
+
+Name           : groff
+Version        : 1.21-2
+URL            : http://www.gnu.org/software/groff/groff.html
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : perl  gcc-libs  texinfo
+Optional Deps  : netpbm: for use together with man -H command interaction in browsers
+                 psutils: for use together with man -H command interaction in browsers
+Required By    : man-db
+Conflicts With : None
+Replaces       : None
+Installed Size : 8048.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Nov  2 06:10:03 2011
+Install Date   : Thu Dec 31 19:43:33 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : GNU troff text-formatting system
+
+Name           : gzip
+Version        : 1.5-1
+URL            : http://www.gnu.org/software/gzip/
+Licenses       : GPL3
+Groups         : base
+Provides       : None
+Depends On     : glibc  bash
+Optional Deps  : None
+Required By    : logrotate  mkinitcpio  texinfo
+Conflicts With : None
+Replaces       : None
+Installed Size : 244.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Jun 17 16:18:14 2012
+Install Date   : Mon Sep  3 10:28:58 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : GNU compression utility
+
+Name           : heirloom-mailx
+Version        : 12.5-3
+URL            : http://heirloom.sourceforge.net/mailx.html
+Licenses       : custom
+Groups         : base
+Provides       : mailx  mailx-heirloom
+Depends On     : openssl  krb5
+Optional Deps  : smtp-forwarder: for sending mail
+Required By    : None
+Conflicts With : mailx  mailx-heirloom
+Replaces       : mailx  mailx-heirloom
+Installed Size : 464.00 KiB
+Packager       : Stéphane Gaudreault <stephane@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Nov  4 13:46:38 2011
+Install Date   : Mon Sep  3 10:28:58 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : A commandline utility for sending and receiving email
+
+Name           : hwids
+Version        : 20120815-1
+URL            : https://github.com/gentoo/hwids
+Licenses       : GPL2
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : pciutils  systemd  usbutils
+Conflicts With : None
+Replaces       : None
+Installed Size : 1212.00 KiB
+Packager       : Tom Gundersen <teg@jklm.no>
+Architecture   : any
+Build Date     : Thu Aug 23 01:41:36 2012
+Install Date   : Thu Dec 31 19:42:21 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : hardware identification databases
+
+Name           : iana-etc
+Version        : 2.30-3
+URL            : http://sethwklein.net/iana-etc.html
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : filesystem
+Conflicts With : None
+Replaces       : None
+Installed Size : 3524.00 KiB
+Packager       : Gaetan Bisson <bisson@archlinux.org>
+Architecture   : any
+Build Date     : Sun Jul 22 10:24:07 2012
+Install Date   : Thu Dec 31 19:42:15 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : /etc/protocols and /etc/services provided by IANA
+
+Name           : inetutils
+Version        : 1.9.1-3
+URL            : http://www.gnu.org/software/inetutils/
+Licenses       : GPL3
+Groups         : base
+Provides       : None
+Depends On     : readline  ncurses  pam
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 1032.00 KiB
+Packager       : Eric Belanger <eric@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Aug 18 02:33:10 2012
+Install Date   : Mon Sep  3 10:28:58 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : A collection of common network programs
+
+Name           : initscripts
+Version        : 2012.08.3-2
+URL            : http://www.archlinux.org
+Licenses       : GPL2
+Groups         : base
+Provides       : initscripts-systemd
+Depends On     : glibc  bash  coreutils  systemd-tools  iproute2  ncurses  findutils  sysvinit
+Optional Deps  : dhcpcd: DHCP network configuration
+                 bridge-utils: Legacy network bridging support
+                 net-tools: Legacy network support
+                 wireless_tools: Legacy wireless networking
+Required By    : None
+Conflicts With : initscripts-systemd
+Replaces       : initscripts-systemd
+Installed Size : 152.00 KiB
+Packager       : Tom Gundersen <teg@jklm.no>
+Architecture   : any
+Build Date     : Mon Aug 27 13:02:32 2012
+Install Date   : Mon Sep  3 10:28:58 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : System initialization/bootup scripts
+
+Name           : iproute2
+Version        : 3.5.1-1
+URL            : http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
+Licenses       : GPL2
+Groups         : None
+Provides       : iproute
+Depends On     : glibc  db
+Optional Deps  : linux-atm: ATM support
+Required By    : initscripts
+Conflicts With : iproute
+Replaces       : iproute
+Installed Size : 1656.00 KiB
+Packager       : Ronald van Haren <ronald@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Aug 14 12:02:18 2012
+Install Date   : Thu Dec 31 19:42:34 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : IP Routing Utilities
+
+Name           : iputils
+Version        : 20101006-4
+URL            : http://www.linuxfoundation.org/en/Net:Iputils
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : openssl  sysfsutils  libcap
+Optional Deps  : xinetd: for tftpd
+Required By    : None
+Conflicts With : netkit-base  arping  netkit-tftpd
+Replaces       : netkit-base
+Installed Size : 264.00 KiB
+Packager       : Stéphane Gaudreault <stephane@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Jul 12 03:20:17 2012
+Install Date   : Mon Sep  3 10:28:58 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : IP Configuration Utilities (and Ping)
+
+Name           : isl
+Version        : 0.10-1
+URL            : http://www.kotnet.org/~skimo/isl/
+Licenses       : LGPL2.1
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : cloog
+Conflicts With : None
+Replaces       : None
+Installed Size : 2640.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Jun 14 21:10:20 2012
+Install Date   : Thu Dec 31 19:43:54 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Library for manipulating sets and relations of integer points bounded by linear constraints
+
+Name           : java-rhino
+Version        : 1.7R3-3
+URL            : http://www.mozilla.org/rhino/
+Licenses       : MPL  GPL2
+Groups         : None
+Provides       : None
+Depends On     : java-runtime-headless
+Optional Deps  : None
+Required By    : jre7-openjdk-headless
+Conflicts With : None
+Replaces       : None
+Installed Size : 1076.00 KiB
+Packager       : Guillaume ALAUX <guillaume@archlinux.org>
+Architecture   : any
+Build Date     : Sat May  5 04:51:56 2012
+Install Date   : Sun Sep  2 14:38:40 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Open-source implementation of JavaScript written entirely in Java - JAR
+
+Name           : jfsutils
+Version        : 1.1.15-3
+URL            : http://jfs.sourceforge.net
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : util-linux-ng
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 1084.00 KiB
+Packager       : Gaetan Bisson <bisson@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Nov  2 05:48:59 2011
+Install Date   : Mon Sep  3 10:28:58 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : JFS filesystem utilities
+
+Name           : jre7-openjdk-headless
+Version        : 7.u7_2.3.2-1
+URL            : http://icedtea.classpath.org
+Licenses       : custom
+Groups         : None
+Provides       : java-runtime-headless=7
+Depends On     : libjpeg-turbo  lcms2  nss  ca-certificates-java  java-rhino
+Optional Deps  : libcups: needed for Java Mauve support - libmawt.so
+                 fontconfig: needed for Java Mauve support - libmawt.so
+Required By    : java-rhino
+Conflicts With : openjdk6
+Replaces       : None
+Installed Size : 58368.00 KiB
+Packager       : Guillaume ALAUX <guillaume@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Sep  1 05:26:42 2012
+Install Date   : Sun Sep  2 14:38:55 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : Free Java environment based on OpenJDK 7.0 with IcedTea7 replacing binary plugs - Minimal Java runtime - needed for executing non GUI Java programs
+
+Name           : kbd
+Version        : 1.15.3-3
+URL            : ftp://ftp.altlinux.org/pub/people/legion/kbd/
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : systemd
+Conflicts With : None
+Replaces       : None
+Installed Size : 4364.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Jul 15 18:58:49 2012
+Install Date   : Thu Dec 31 19:42:20 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Keytable files and keyboard utilities
+
+Name           : keyutils
+Version        : 1.5.5-3
+URL            : http://www.kernel.org
+Licenses       : GPL2  LGPL2.1
+Groups         : None
+Provides       : None
+Depends On     : glibc  sh
+Optional Deps  : None
+Required By    : krb5
+Conflicts With : None
+Replaces       : None
+Installed Size : 248.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Jun 23 09:28:05 2012
+Install Date   : Thu Dec 31 19:42:33 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Linux Key Management Utilities
+
+Name           : kmod
+Version        : 9-2
+URL            : http://git.kernel.org/?p=utils/kernel/kmod/kmod.git;a=summary
+Licenses       : GPL2
+Groups         : None
+Provides       : module-init-tools=3.16
+Depends On     : glibc  zlib
+Optional Deps  : None
+Required By    : linux  mkinitcpio  systemd
+Conflicts With : module-init-tools
+Replaces       : module-init-tools
+Installed Size : 292.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Jul  3 15:38:39 2012
+Install Date   : Thu Dec 31 19:42:21 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : Linux kernel module handling
+
+Name           : krb5
+Version        : 1.10.3-1
+URL            : http://web.mit.edu/kerberos/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : e2fsprogs  libldap  keyutils
+Optional Deps  : None
+Required By    : heirloom-mailx  openssh  postgresql  postgresql-libs
+Conflicts With : None
+Replaces       : None
+Installed Size : 4168.00 KiB
+Packager       : Stéphane Gaudreault <stephane@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Aug  9 02:25:11 2012
+Install Date   : Thu Dec 31 19:42:33 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : The Kerberos network authentication system
+
+Name           : lcms2
+Version        : 2.3-2
+URL            : http://www.littlecms.com
+Licenses       : MIT
+Groups         : None
+Provides       : None
+Depends On     : libtiff
+Optional Deps  : None
+Required By    : jre7-openjdk-headless
+Conflicts With : None
+Replaces       : None
+Installed Size : 1020.00 KiB
+Packager       : Eric Belanger <eric@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Jan 18 12:05:08 2012
+Install Date   : Sun Sep  2 14:38:39 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Small-footprint color management engine, version 2
+
+Name           : ldns
+Version        : 1.6.13-1
+URL            : http://www.nlnetlabs.nl/projects/ldns/
+Licenses       : custom:BSD
+Groups         : None
+Provides       : None
+Depends On     : openssl  dnssec-anchors
+Optional Deps  : libpcap: ldns-dpa tool
+Required By    : openssh
+Conflicts With : None
+Replaces       : None
+Installed Size : 3104.00 KiB
+Packager       : Gaetan Bisson <bisson@archlinux.org>
+Architecture   : i686
+Build Date     : Mon May 21 07:32:59 2012
+Install Date   : Sat Sep  1 09:44:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Fast DNS library supporting recent RFCs
+
+Name           : less
+Version        : 444-3
+URL            : http://www.greenwoodsoftware.com/less
+Licenses       : GPL3
+Groups         : base
+Provides       : None
+Depends On     : ncurses  pcre
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 220.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Feb  5 18:25:08 2012
+Install Date   : Mon Sep  3 10:28:58 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : A terminal based program for viewing text files
+
+Name           : libarchive
+Version        : 3.0.4-1
+URL            : http://libarchive.googlecode.com/
+Licenses       : BSD
+Groups         : None
+Provides       : None
+Depends On     : zlib  bzip2  xz>=5.0.0  acl  openssl>=1.0.0  expat
+Optional Deps  : None
+Required By    : mkinitcpio  pacman
+Conflicts With : None
+Replaces       : None
+Installed Size : 2816.00 KiB
+Packager       : Dan McGee <dan@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Mar 30 08:42:04 2012
+Install Date   : Thu Dec 31 19:42:42 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : library that can create and read several streaming archive formats
+
+Name           : libassuan
+Version        : 2.0.3-1
+URL            : http://www.gnupg.org/related_software/libassuan
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : libgpg-error
+Optional Deps  : None
+Required By    : dirmngr  gnupg
+Conflicts With : None
+Replaces       : None
+Installed Size : 180.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Jan 12 08:35:57 2012
+Install Date   : Thu Dec 31 19:43:42 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : A IPC library used by some GnuPG related software
+
+Name           : libcap
+Version        : 2.22-3
+URL            : http://sites.google.com/site/fullycapable/
+Licenses       : GPL2
+Groups         : None
+Provides       : None
+Depends On     : glibc  attr
+Optional Deps  : None
+Required By    : coreutils  iputils  pinentry  syslog-ng  systemd
+Conflicts With : None
+Replaces       : None
+Installed Size : 200.00 KiB
+Packager       : Tom Gundersen <teg@jklm.no>
+Architecture   : i686
+Build Date     : Sat Apr 28 12:39:15 2012
+Install Date   : Thu Dec 31 19:42:11 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : POSIX 1003.1e capabilities
+
+Name           : libedit
+Version        : 20120601_3.0-1
+URL            : http://www.thrysoee.dk/editline/
+Licenses       : BSD
+Groups         : None
+Provides       : None
+Depends On     : ncurses
+Optional Deps  : None
+Required By    : openssh
+Conflicts With : None
+Replaces       : None
+Installed Size : 264.00 KiB
+Packager       : Gaetan Bisson <bisson@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Aug 29 06:05:06 2012
+Install Date   : Sat Sep  1 10:39:58 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Command line editor library providing generic line editing, history, and tokenization functions
+
+Name           : libffi
+Version        : 3.0.11-1
+URL            : http://sourceware.org/libffi
+Licenses       : MIT
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : glib2  python  python2  ruby
+Conflicts With : None
+Replaces       : None
+Installed Size : 160.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Mon Apr 23 04:04:33 2012
+Install Date   : Thu Dec 31 19:42:17 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : A portable, high level programming interface to various calling conventions
+
+Name           : libgcrypt
+Version        : 1.5.0-3
+URL            : http://www.gnupg.org
+Licenses       : LGPL
+Groups         : None
+Provides       : None
+Depends On     : libgpg-error>=1.10-2
+Optional Deps  : None
+Required By    : cryptsetup  dirmngr  gnupg  systemd
+Conflicts With : None
+Replaces       : None
+Installed Size : 733.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Apr 14 01:31:02 2012
+Install Date   : Thu Dec 31 19:42:12 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : a general purpose crypto library based on the code used
+
+Name           : libgpg-error
+Version        : 1.10-2
+URL            : http://www.gnupg.org
+Licenses       : LGPL
+Groups         : None
+Provides       : None
+Depends On     : glibc  sh
+Optional Deps  : None
+Required By    : dirmngr  gpgme  libassuan  libgcrypt  libksba
+Conflicts With : None
+Replaces       : None
+Installed Size : 272.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Apr 14 01:25:13 2012
+Install Date   : Thu Dec 31 19:42:12 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Support library for libgcrypt
+
+Name           : libgssglue
+Version        : 0.4-1
+URL            : http://www.citi.umich.edu/projects/nfsv4/linux/
+Licenses       : BSD
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : libtirpc
+Conflicts With : None
+Replaces       : None
+Installed Size : 164.00 KiB
+Packager       : Tom Gundersen <teg@jklm.no>
+Architecture   : i686
+Build Date     : Thu Aug 23 01:44:46 2012
+Install Date   : Thu Dec 31 19:42:11 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Exports a gssapi interface which calls other random gssapi libraries
+
+Name           : libjpeg-turbo
+Version        : 1.2.1-1
+URL            : http://libjpeg-turbo.virtualgl.org/
+Licenses       : GPL  custom
+Groups         : None
+Provides       : libjpeg=8.0.2
+Depends On     : glibc
+Optional Deps  : None
+Required By    : jre7-openjdk-headless  libtiff
+Conflicts With : libjpeg
+Replaces       : libjpeg
+Installed Size : 1340.00 KiB
+Packager       : Eric Belanger <eric@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Jul  3 13:53:16 2012
+Install Date   : Sun Sep  2 14:38:38 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : libjpeg derivative with accelerated baseline JPEG compression and decompression
+
+Name           : libksba
+Version        : 1.2.0-1
+URL            : ftp://ftp.gnupg.org/gcrypt/alpha/libksba
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : bash  libgpg-error  glibc
+Optional Deps  : None
+Required By    : dirmngr  gnupg
+Conflicts With : None
+Replaces       : None
+Installed Size : 312.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Aug  3 23:35:27 2011
+Install Date   : Thu Dec 31 19:43:42 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : A CMS and X.509 access library
+
+Name           : libldap
+Version        : 2.4.32-1
+URL            : http://www.openldap.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : libsasl  e2fsprogs
+Optional Deps  : None
+Required By    : dirmngr  krb5
+Conflicts With : None
+Replaces       : None
+Installed Size : 2024.00 KiB
+Packager       : Eric Belanger <eric@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Aug  1 00:51:58 2012
+Install Date   : Thu Dec 31 19:42:33 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Lightweight Directory Access Protocol (LDAP) client libraries
+
+Name           : libltdl
+Version        : 2.4.2-6
+URL            : http://www.gnu.org/software/libtool
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : libtool
+Conflicts With : None
+Replaces       : None
+Installed Size : 960.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Jun 16 05:17:52 2012
+Install Date   : Thu Dec 31 19:44:09 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : A system independent dlopen wrapper for GNU libtool
+
+Name           : libmpc
+Version        : 1.0-1
+URL            : http://www.multiprecision.org/
+Licenses       : LGPL
+Groups         : None
+Provides       : None
+Depends On     : mpfr>=3.0.0
+Optional Deps  : None
+Required By    : gcc
+Conflicts With : None
+Replaces       : None
+Installed Size : 344.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Aug 10 19:09:13 2012
+Install Date   : Thu Dec 31 19:43:53 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : Library for the arithmetic of complex numbers with arbitrarily high precision
+
+Name           : libnl
+Version        : 3.2.11-1
+URL            : http://www.infradead.org/~tgr/libnl/
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : libpcap  wpa_supplicant
+Conflicts With : None
+Replaces       : None
+Installed Size : 1184.00 KiB
+Packager       : Thomas Bächler <thomas@archlinux.org>
+Architecture   : i686
+Build Date     : Mon Jun 25 11:38:25 2012
+Install Date   : Thu Dec 31 19:43:44 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Library for applications dealing with netlink sockets
+
+Name           : libpcap
+Version        : 1.3.0-1
+URL            : http://www.tcpdump.org/
+Licenses       : BSD
+Groups         : None
+Provides       : None
+Depends On     : glibc  libnl  sh  libusbx
+Optional Deps  : None
+Required By    : ppp
+Conflicts With : None
+Replaces       : None
+Installed Size : 660.00 KiB
+Packager       : Thomas Bächler <thomas@archlinux.org>
+Architecture   : i686
+Build Date     : Mon Jun 25 11:34:45 2012
+Install Date   : Thu Dec 31 19:43:44 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : A system-independent interface for user-level packet capture
+
+Name           : libpipeline
+Version        : 1.2.1-1
+URL            : http://libpipeline.nongnu.org/
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : man-db
+Conflicts With : None
+Replaces       : None
+Installed Size :  87.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Mon May 28 04:29:26 2012
+Install Date   : Thu Dec 31 19:43:33 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : a C library for manipulating pipelines of subprocesses in a flexible and convenient way
+
+Name           : libpqxx
+Version        : 4.0-1
+URL            : http://pqxx.org/development/libpqxx/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : postgresql-libs>=8.4.1
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 1624.00 KiB
+Packager       : Sergej Pupykin <pupykin.s+arch@gmail.com>
+Architecture   : i686
+Build Date     : Mon Dec 12 11:37:03 2011
+Install Date   : Mon Sep 17 11:05:00 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : C++ client API for PostgreSQL
+
+Name           : libsasl
+Version        : 2.1.23-9
+URL            : http://cyrusimap.web.cmu.edu/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : openssl
+Optional Deps  : None
+Required By    : libldap
+Conflicts With : cyrus-sasl-plugins
+Replaces       : None
+Installed Size : 468.00 KiB
+Packager       : Ionut Biru <ibiru@archlinux.org>
+Architecture   : i686
+Build Date     : Mon Jan  9 06:52:18 2012
+Install Date   : Thu Dec 31 19:42:33 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Cyrus Simple Authentication Service Layer (SASL) Library
+
+Name           : libssh2
+Version        : 1.4.2-1
+URL            : http://www.libssh2.org/
+Licenses       : BSD
+Groups         : None
+Provides       : libssh2.so=1-32
+Depends On     : openssl
+Optional Deps  : None
+Required By    : curl
+Conflicts With : None
+Replaces       : None
+Installed Size : 1160.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : i686
+Build Date     : Fri May 18 16:32:40 2012
+Install Date   : Thu Dec 31 19:43:42 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : A library implementing the SSH2 protocol as defined by Internet Drafts
+
+Name           : libtiff
+Version        : 4.0.2-1
+URL            : http://www.remotesensing.org/libtiff/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : libjpeg  zlib  xz
+Optional Deps  : freeglut: for using tiffgt
+Required By    : lcms2
+Conflicts With : None
+Replaces       : None
+Installed Size : 3520.00 KiB
+Packager       : Eric Belanger <eric@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Jun 24 13:36:47 2012
+Install Date   : Sun Sep  2 14:38:39 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Library for manipulation of TIFF images
+
+Name           : libtirpc
+Version        : 0.2.2-2
+URL            : http://libtirpc.sourceforge.net/
+Licenses       : BSD
+Groups         : None
+Provides       : None
+Depends On     : libgssglue
+Optional Deps  : None
+Required By    : pam
+Conflicts With : None
+Replaces       : None
+Installed Size : 768.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Jul 29 14:00:57 2011
+Install Date   : Thu Dec 31 19:42:11 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Transport Independent RPC library (SunRPC replacement)
+
+Name           : libtool
+Version        : 2.4.2-6
+URL            : http://www.gnu.org/software/libtool
+Licenses       : GPL
+Groups         : base-devel
+Provides       : None
+Depends On     : sh  libltdl=2.4.2  tar  gcc=4.7.1
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 1308.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Jun 16 05:17:50 2012
+Install Date   : Mon Sep  3 10:30:20 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : A generic library support script
+
+Name           : libusbx
+Version        : 1.0.12-2
+URL            : http://libusbx.org
+Licenses       : LGPL
+Groups         : None
+Provides       : libusb=1.0.12
+Depends On     : glibc
+Optional Deps  : None
+Required By    : libpcap  usbutils
+Conflicts With : libusb
+Replaces       : libusb1  libusb
+Installed Size : 152.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Jun 28 13:58:27 2012
+Install Date   : Thu Dec 31 19:43:44 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Library that provides generic access to USB device
+
+Name           : libxml2
+Version        : 2.8.0-1
+URL            : http://www.xmlsoft.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : zlib>=1.2.4  readline>=6.1  ncurses>=5.7  xz
+Optional Deps  : None
+Required By    : postgresql
+Conflicts With : None
+Replaces       : None
+Installed Size : 11072.00 KiB
+Packager       : Jan de Groot <jgc@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Aug  9 13:10:16 2012
+Install Date   : Mon Sep 17 11:06:59 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : XML parsing library, version 2
+
+Name           : libyaml
+Version        : 0.1.4-2
+URL            : http://pyyaml.org/wiki/LibYAML
+Licenses       : MIT
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : ruby
+Conflicts With : None
+Replaces       : None
+Installed Size : 332.00 KiB
+Packager       : Sergej Pupykin <pupykin.s+arch@gmail.com>
+Architecture   : i686
+Build Date     : Wed Feb 22 19:01:01 2012
+Install Date   : Sat Sep  1 12:35:59 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : YAML 1.1 library
+
+Name           : licenses
+Version        : 2.9-1
+URL            : http://www.archlinux.org/
+Licenses       : custom:none
+Groups         : base
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 544.00 KiB
+Packager       : Dan McGee <dan@archlinux.org>
+Architecture   : any
+Build Date     : Thu Oct 27 09:08:45 2011
+Install Date   : Mon Sep  3 10:28:59 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : The standard licenses distribution package
+
+Name           : linux
+Version        : 3.5.3-1
+URL            : http://www.kernel.org/
+Licenses       : GPL2
+Groups         : base
+Provides       : kernel26=3.5.3
+Depends On     : coreutils  linux-firmware  kmod  mkinitcpio>=0.7
+Optional Deps  : crda: to set the correct wireless channels of your country
+Required By    : None
+Conflicts With : kernel26
+Replaces       : kernel26
+Installed Size : 59268.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Aug 26 01:19:46 2012
+Install Date   : Mon Sep  3 10:29:13 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : The linux kernel and modules
+
+Name           : linux-api-headers
+Version        : 3.5.1-1
+URL            : http://www.gnu.org/software/libc
+Licenses       : GPL2
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : glibc
+Conflicts With : None
+Replaces       : None
+Installed Size : 4612.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Aug 10 18:22:48 2012
+Install Date   : Thu Dec 31 19:42:05 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Kernel headers sanitized for use in userspace
+
+Name           : linux-firmware
+Version        : 20120625-1
+URL            : http://git.kernel.org/?p=linux/kernel/git/dwmw2/linux-firmware.git;a=summary
+Licenses       : GPL2  GPL3  custom
+Groups         : None
+Provides       : kernel26-firmware=2.6.34.99
+Depends On     : None
+Optional Deps  : None
+Required By    : linux
+Conflicts With : linux-firmware-git  kernel26-firmware  ar9170-fw  iwlwifi-1000-ucode  iwlwifi-3945-ucode  iwlwifi-4965-ucode  iwlwifi-5000-ucode  iwlwifi-5150-ucode  iwlwifi-6000-ucode  rt2870usb-fw  rt2x00-rt61-fw  rt2x00-rt71w-fw
+Replaces       : kernel26-firmware  ar9170-fw  iwlwifi-1000-ucode  iwlwifi-3945-ucode  iwlwifi-4965-ucode  iwlwifi-5000-ucode  iwlwifi-5150-ucode  iwlwifi-6000-ucode  rt2870usb-fw  rt2x00-rt61-fw  rt2x00-rt71w-fw
+Installed Size : 42644.00 KiB
+Packager       : Thomas Bächler <thomas@archlinux.org>
+Architecture   : any
+Build Date     : Mon Jun 25 11:23:16 2012
+Install Date   : Thu Dec 31 19:42:42 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Firmware files for Linux
+
+Name           : logrotate
+Version        : 3.8.2-1
+URL            : https://fedorahosted.org/logrotate/
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : popt  cron  gzip
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 112.00 KiB
+Packager       : Pierre Schmitz <pierre@archlinux.de>
+Architecture   : i686
+Build Date     : Fri Aug  3 01:05:23 2012
+Install Date   : Mon Sep  3 10:29:47 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Rotates system logs automatically
+
+Name           : lvm2
+Version        : 2.02.97-1
+URL            : http://sourceware.org/lvm2/
+Licenses       : GPL2  LGPL2.1
+Groups         : base
+Provides       : None
+Depends On     : bash  device-mapper>=2.02.97  udev  readline
+Optional Deps  : None
+Required By    : None
+Conflicts With : lvm  mkinitcpio<0.7
+Replaces       : None
+Installed Size : 3356.00 KiB
+Packager       : Eric Belanger <eric@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Aug  9 14:39:06 2012
+Install Date   : Mon Sep  3 10:29:48 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Logical Volume Manager 2 utilities
+
+Name           : m4
+Version        : 1.4.16-2
+URL            : http://www.gnu.org/software/m4
+Licenses       : GPL3
+Groups         : base-devel
+Provides       : None
+Depends On     : glibc  bash
+Optional Deps  : None
+Required By    : autoconf  bison  flex
+Conflicts With : None
+Replaces       : None
+Installed Size : 272.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Nov  3 04:02:18 2011
+Install Date   : Mon Sep  3 10:30:03 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : The GNU macro processor
+
+Name           : make
+Version        : 3.82-4
+URL            : http://www.gnu.org/software/make
+Licenses       : GPL3
+Groups         : base-devel
+Provides       : None
+Depends On     : glibc  sh
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 1320.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Mon Sep 12 20:05:45 2011
+Install Date   : Mon Sep  3 10:30:20 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : GNU make utility to maintain groups of programs
+
+Name           : man-db
+Version        : 2.6.2-1
+URL            : http://www.nongnu.org/man-db/
+Licenses       : GPL  LGPL
+Groups         : base
+Provides       : man
+Depends On     : bash  gdbm  zlib  groff  libpipeline
+Optional Deps  : less
+                 gzip
+Required By    : None
+Conflicts With : man
+Replaces       : man
+Installed Size : 1425.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Jun 19 11:24:48 2012
+Install Date   : Mon Sep  3 10:29:48 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : A utility for reading man pages
+
+Name           : man-pages
+Version        : 3.42-1
+URL            : http://man7.org/linux/man-pages/index.html
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 15379.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : any
+Build Date     : Tue Aug 14 14:07:41 2012
+Install Date   : Mon Sep  3 10:29:50 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Linux man pages
+
+Name           : mdadm
+Version        : 3.2.5-2
+URL            : http://neil.brown.name/blog/mdadm
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : None
+Conflicts With : mkinitcpio<0.7
+Replaces       : raidtools
+Installed Size : 1204.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : i686
+Build Date     : Fri May 25 16:51:58 2012
+Install Date   : Mon Sep  3 10:29:50 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : A tool for managing/monitoring Linux md device arrays, also known as Software RAID
+
+Name           : mkinitcpio
+Version        : 0.10-1
+URL            : http://www.archlinux.org/
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : awk  mkinitcpio-busybox>=1.19.4-2  kmod>=3  util-linux>=2.21  libarchive  coreutils  bash  findutils  grep  filesystem>=2011.10-1  file  gzip  systemd-tools
+Optional Deps  : xz: Use lzma or xz compression for the initramfs image
+                 bzip2: Use bzip2 compression for the initramfs image
+                 lzop: Use lzo compression for the initramfs image
+                 mkinitcpio-nfs-utils: Support for root filesystem on NFS
+Required By    : linux
+Conflicts With : None
+Replaces       : None
+Installed Size : 260.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : any
+Build Date     : Sun Jul 29 09:08:39 2012
+Install Date   : Thu Dec 31 19:42:42 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : Modular initramfs image creation utility
+
+Name           : mkinitcpio-busybox
+Version        : 1.20.1-1
+URL            : http://www.busybox.net/
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : mkinitcpio
+Conflicts With : None
+Replaces       : None
+Installed Size : 336.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Jun  1 11:12:02 2012
+Install Date   : Thu Dec 31 19:42:42 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : base initramfs tools
+
+Name           : mpfr
+Version        : 3.1.1-1
+URL            : http://www.mpfr.org/
+Licenses       : LGPL
+Groups         : None
+Provides       : None
+Depends On     : gmp>=5.0
+Optional Deps  : None
+Required By    : libmpc
+Conflicts With : None
+Replaces       : None
+Installed Size : 1312.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Jul  3 20:20:08 2012
+Install Date   : Thu Dec 31 19:43:53 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : Multiple-precision floating-point library
+
+Name           : mutagen
+Version        : 1.20-4
+URL            : http://code.google.com/p/mutagen/
+Licenses       : GPL2
+Groups         : None
+Provides       : None
+Depends On     : python2
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 832.00 KiB
+Packager       : Eric Belanger <eric@archlinux.org>
+Architecture   : any
+Build Date     : Tue Feb  7 00:42:55 2012
+Install Date   : Sun Sep  2 12:21:39 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : An audio metadata tag reader and writer
+
+Name           : nano
+Version        : 2.2.6-2
+URL            : http://www.nano-editor.org
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : ncurses  sh
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 1521.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Nov  2 09:17:28 2011
+Install Date   : Mon Sep  3 10:29:50 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : Pico editor clone with enhancements
+
+Name           : ncurses
+Version        : 5.9-3
+URL            : http://www.gnu.org/software/ncurses/
+Licenses       : MIT
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : inetutils  initscripts  less  libedit  libxml2  nano  pinentry  procps-ng  psmisc  readline  screen  texinfo  vi
+Conflicts With : None
+Replaces       : None
+Installed Size : 9484.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Feb  7 23:08:18 2012
+Install Date   : Thu Dec 31 19:42:09 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : System V Release 4.0 curses emulation library
+
+Name           : nspr
+Version        : 4.9.2-1
+URL            : http://www.mozilla.org/projects/nspr/
+Licenses       : MPL  GPL
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : nss
+Conflicts With : None
+Replaces       : None
+Installed Size : 1260.00 KiB
+Packager       : Jan de Groot <jgc@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Aug  1 02:22:24 2012
+Install Date   : Sun Sep  2 14:38:39 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Netscape Portable Runtime
+
+Name           : nss
+Version        : 3.13.6-1
+URL            : http://www.mozilla.org/projects/security/pki/nss/
+Licenses       : MPL  GPL
+Groups         : None
+Provides       : None
+Depends On     : nspr>=4.9.2  sqlite  zlib  sh
+Optional Deps  : None
+Required By    : jre7-openjdk-headless
+Conflicts With : None
+Replaces       : None
+Installed Size : 5848.00 KiB
+Packager       : Jan de Groot <jgc@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Aug 19 09:03:00 2012
+Install Date   : Sun Sep  2 14:38:40 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Mozilla Network Security Services
+
+Name           : openssh
+Version        : 6.1p1-1
+URL            : http://www.openssh.org/portable.html
+Licenses       : custom:BSD
+Groups         : None
+Provides       : None
+Depends On     : krb5  openssl  libedit  ldns
+Optional Deps  : xorg-xauth: X11 forwarding
+                 x11-ssh-askpass: input passphrase in X
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 2600.00 KiB
+Packager       : Gaetan Bisson <bisson@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Aug 28 22:10:41 2012
+Install Date   : Sat Sep  1 10:39:58 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Free version of the SSH connectivity tools
+
+Name           : openssl
+Version        : 1.0.1.c-1
+URL            : https://www.openssl.org
+Licenses       : custom:BSD
+Groups         : None
+Provides       : None
+Depends On     : perl
+Optional Deps  : ca-certificates
+Required By    : ca-certificates  curl  git  heirloom-mailx  iputils  ldns  libarchive  libsasl  libssh2  openssh  postgresql  postgresql-libs  python  python2  ruby  syslog-ng  wpa_supplicant
+Conflicts With : None
+Replaces       : None
+Installed Size : 10396.00 KiB
+Packager       : Pierre Schmitz <pierre@archlinux.de>
+Architecture   : i686
+Build Date     : Thu May 10 09:26:44 2012
+Install Date   : Thu Dec 31 19:42:33 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
+
+Name           : pacman
+Version        : 4.0.3-3
+URL            : http://www.archlinux.org/pacman/
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : bash  glibc>=2.15  libarchive>=3.0.2  curl>=7.19.4  gpgme  pacman-mirrorlist  archlinux-keyring
+Optional Deps  : fakeroot: for makepkg usage as normal user
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 3532.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Jul 10 14:45:33 2012
+Install Date   : Mon Sep  3 10:29:51 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : A library-based package manager with dependency support
+
+Name           : pacman-mirrorlist
+Version        : 20120626-1
+URL            : http://www.archlinux.org/mirrorlist/
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : pacman
+Conflicts With : None
+Replaces       : None
+Installed Size :  24.00 KiB
+Packager       : Dan McGee <dan@archlinux.org>
+Architecture   : any
+Build Date     : Mon Jun 25 20:26:25 2012
+Install Date   : Thu Dec 31 19:43:43 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Arch Linux mirror list for use by pacman
+
+Name           : pam
+Version        : 1.1.5-4
+URL            : http://www.kernel.org/pub/linux/libs/pam/
+Licenses       : GPL2
+Groups         : None
+Provides       : None
+Depends On     : glibc  db  cracklib  libtirpc  pambase
+Optional Deps  : None
+Required By    : coreutils  cronie  inetutils  screen  shadow  sudo  systemd  util-linux
+Conflicts With : None
+Replaces       : None
+Installed Size : 4128.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : i686
+Build Date     : Mon Jun  4 08:25:57 2012
+Install Date   : Thu Dec 31 19:42:11 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : PAM (Pluggable Authentication Modules) library
+
+Name           : pambase
+Version        : 20120701-1
+URL            : http://www.archlinux.org
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : pam
+Conflicts With : None
+Replaces       : None
+Installed Size :  36.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : any
+Build Date     : Sun Jul  1 08:34:18 2012
+Install Date   : Thu Dec 31 19:42:11 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Base PAM configuration for services
+
+Name           : patch
+Version        : 2.6.1-3
+URL            : http://www.gnu.org/software/patch/patch.html
+Licenses       : GPL
+Groups         : base-devel
+Provides       : None
+Depends On     : glibc
+Optional Deps  : ed: Interpret the patch as an ed script; for patch -e functionality(deprecated)
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 160.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Nov  3 05:11:23 2011
+Install Date   : Mon Sep  3 10:30:20 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : A utility to apply patch files to original sources
+
+Name           : pciutils
+Version        : 3.1.10-1
+URL            : http://mj.ucw.cz/sw/pciutils/
+Licenses       : GPL2
+Groups         : base
+Provides       : None
+Depends On     : glibc  hwids
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 360.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Jun 27 08:03:04 2012
+Install Date   : Mon Sep  3 10:29:51 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : PCI bus configuration space access library and tools
+
+Name           : pcmciautils
+Version        : 018-4
+URL            : http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : udev  sysfsutils
+Optional Deps  : None
+Required By    : None
+Conflicts With : pcmcia-cs
+Replaces       : None
+Installed Size :  80.00 KiB
+Packager       : Tom Gundersen <teg@jklm.no>
+Architecture   : i686
+Build Date     : Wed Apr  4 04:30:13 2012
+Install Date   : Mon Sep  3 10:29:51 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Utilities for inserting and removing PCMCIA cards
+
+Name           : pcre
+Version        : 8.31-1
+URL            : http://www.pcre.org/
+Licenses       : BSD
+Groups         : None
+Provides       : None
+Depends On     : gcc-libs
+Optional Deps  : None
+Required By    : git  glib2  grep  less
+Conflicts With : None
+Replaces       : None
+Installed Size : 3744.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Jul  8 18:25:08 2012
+Install Date   : Thu Dec 31 19:42:17 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : A library that implements Perl 5-style regular expressions
+
+Name           : perl
+Version        : 5.16.1-1
+URL            : http://www.perl.org
+Licenses       : GPL  PerlArtistic
+Groups         : base
+Provides       : perl-archive-extract=0.58  perl-archive-tar=1.82  perl-attribute-handlers=0.93  perl-autodie=2.10  perl-autoloader=5.72  perl-autouse=1.07  perl-b-debug=1.17  perl-b-deparse=1.14  perl-b-lint=1.14  perl-base=2.18  perl-bignum=0.29  perl-carp=1.26  perl-cgi=3.59  perl-compress-raw-bzip2=2.048  perl-compress-raw-zlib=2.048  perl-constant=1.23  perl-cpan=1.9800  perl-cpan-meta=2.120630  perl-cpan-meta-yaml=0.007  perl-cpanplus=0.9121  perl-cpanplus-dist-build=0.62  perl-data-dumper=2.135  perl-db-file=1.826  perl-devel-ppport=3.20  perl-devel-selfstubber=1.05  perl-digest=1.17  perl-digest-md5=2.51  perl-digest-sha=5.71  perl-dumpvalue=1.17  perl-encode=2.44  perl-encoding-warnings=0.11  perl-env=1.03  perl-exporter=5.66  perl-extutils-cbuilder=0.280206  perl-extutils-command=1.17  perl-extutils-constant=0.23  perl-extutils-install=1.58  perl-extutils-makemaker=6.63  perl-extutils-manifest=1.61  perl-extutils-parsexs=3.16  perl-file-checktree=4.41  perl-file-fetch=0.32  perl-file-path=2.08  perl-file-temp=0.22  perl-filter-simple=0.88  perl-filter-util-call=1.40  perl-getopt-long=2.38  perl-http-tiny=0.017  perl-i18n-collate=1.02  perl-i18n-langtags=0.38  perl-if=0.0602  perl-io=1.25  perl-io-compress=2.048  perl-io-zlib=1.10  perl-ipc-cmd=0.76  perl-ipc-sysv=2.03  perl-json-pp=2.27200  perl-lib=0.63  perl-libnet=1.22  perl-locale-codes=3.21  perl-locale-maketext=1.22  perl-locale-maketext-simple=0.21  perl-log-message=0.04  perl-log-message-simple=0.08  perl-math-bigint=1.998  perl-math-bigint-fastcalc=0.30  perl-math-bigrat=0.2603  perl-math-complex=1.59  perl-memoize=1.02  perl-mime-base64=3.13  perl-module-build=0.39  perl-module-corelist=2.70  perl-module-load=0.22  perl-module-load-conditional=0.46  perl-module-loaded=0.08  perl-module-metadata=1.000009  perl-module-pluggable=4.0  perl-net-ping=2.38  perl-next=0.65  perl-object-accessor=0.42  perl-package-constants=0.02  perl-params-check=0.32  perl-parent=0.225  perl-parse-cpan-meta=1.4402  perl-pathtools=3.39  perl-perl-ostype=1.002  perl-perlfaq=5.0150039  perl-perlio-via-quotedprint=0.06  perl-pod-escapes=1.04  perl-pod-latex=0.60  perl-pod-parser=1.51  perl-pod-perldoc=3.17  perl-pod-simple=3.20  perl-podlators=2.4.0  perl-safe=2.31  perl-scalar-list-utils=1.25  perl-search-dict=1.04  perl-selfloader=1.20  perl-socket=2.001  perl-storable=2.34  perl-sys-syslog=0.29  perl-term-ansicolor=3.01  perl-term-cap=1.13  perl-term-complete=1.402  perl-term-readline=1.09  perl-term-ui=0.30  perl-test=1.25  perl-test-harness=3.23  perl-test-simple=0.98  perl-text-abbrev=1.02  perl-text-balanced=2.02  perl-text-parsewords=3.27  perl-text-soundex=3.03  perl-text-tabs-wrap=2009.0305  perl-thread-queue=2.12  perl-thread-semaphore=2.12  perl-threads=1.86  perl-threads-shared=1.40  perl-tie-file=0.98  perl-tie-refhash=1.39  perl-time-hires=1.9725  perl-time-local=1.2000  perl-time-piece=1.20  perl-unicode-collate=0.89  perl-unicode-normalize=1.14  perl-version=0.99  perl-version-requirements=0.101022  perl-win32=0.44  perl-win32api-file=0.1200  perl-xsloader=0.16
+Depends On     : gdbm  db  coreutils  glibc  sh
+Optional Deps  : None
+Required By    : automake  git  groff  openssl  perl-error  syslinux
+Conflicts With : None
+Replaces       : None
+Installed Size : 49492.00 KiB
+Packager       : Florian Pritz <bluewind@xinu.at>
+Architecture   : i686
+Build Date     : Thu Aug  9 07:51:29 2012
+Install Date   : Mon Sep  3 10:29:59 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : A highly capable, feature-rich programming language
+
+Name           : perl-error
+Version        : 0.17018-1
+URL            : http://search.cpan.org/dist/Error/
+Licenses       : PerlArtistic  GPL
+Groups         : None
+Provides       : None
+Depends On     : perl>=5.10.0
+Optional Deps  : None
+Required By    : git
+Conflicts With : None
+Replaces       : None
+Installed Size :  76.00 KiB
+Packager       : Eric Belanger <eric@archlinux.org>
+Architecture   : any
+Build Date     : Sun Jul 15 20:16:44 2012
+Install Date   : Sat Sep  1 10:39:55 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Perl/CPAN Error module - Error/exception handling in an OO-ish way
+
+Name           : pinentry
+Version        : 0.8.1-4
+URL            : http://www.gnupg.org/aegypten2
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : ncurses  libcap>=2.16
+Optional Deps  : gtk2: for gtk2 backend
+                 qt: for qt4 backend
+Required By    : gnupg
+Conflicts With : None
+Replaces       : None
+Installed Size : 308.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Architecture   : i686
+Build Date     : Fri May 25 05:43:07 2012
+Install Date   : Thu Dec 31 19:43:42 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : a collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
+
+Name           : pkg-config
+Version        : 0.27.1-1
+URL            : http://pkgconfig.freedesktop.org/wiki/
+Licenses       : GPL
+Groups         : base-devel
+Provides       : pkgconfig=0.27.1
+Depends On     : glib2
+Optional Deps  : None
+Required By    : None
+Conflicts With : pkgconfig
+Replaces       : pkgconfig
+Installed Size : 112.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Aug 24 22:03:49 2012
+Install Date   : Mon Sep  3 10:30:20 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : A system for managing library compile/link flags
+
+Name           : popt
+Version        : 1.16-5
+URL            : http://rpm5.org
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : cryptsetup  logrotate
+Conflicts With : None
+Replaces       : None
+Installed Size : 572.00 KiB
+Packager       : Stéphane Gaudreault <stephane@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Apr  8 16:39:41 2012
+Install Date   : Thu Dec 31 19:42:22 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : A commandline option parser
+
+Name           : postgresql
+Version        : 9.1.4-1
+URL            : http://www.postgresql.org/
+Licenses       : custom:PostgreSQL
+Groups         : None
+Provides       : None
+Depends On     : postgresql-libs>=9.1.4  krb5  libxml2  readline>=6.0  openssl>=1.0.0
+Optional Deps  : python2: for PL/Python support
+                 perl: for PL/Perl support
+                 tcl: for PL/Tcl support
+                 postgresql-old-upgrade: upgrade from previous major version using pg_upgrade
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 25148.00 KiB
+Packager       : Dan McGee <dan@archlinux.org>
+Architecture   : i686
+Build Date     : Mon Jun  4 08:34:09 2012
+Install Date   : Mon Sep 17 11:07:01 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : A sophisticated object-relational DBMS
+
+Name           : postgresql-libs
+Version        : 9.1.4-1
+URL            : http://www.postgresql.org/
+Licenses       : custom:PostgreSQL
+Groups         : None
+Provides       : postgresql-client
+Depends On     : krb5  openssl>=1.0.0  readline>=6.0
+Optional Deps  : None
+Required By    : libpqxx  postgresql
+Conflicts With : postgresql-client
+Replaces       : None
+Installed Size : 3716.00 KiB
+Packager       : Dan McGee <dan@archlinux.org>
+Architecture   : i686
+Build Date     : Mon Jun  4 08:33:35 2012
+Install Date   : Mon Sep 17 11:05:00 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Libraries for use with PostgreSQL
+
+Name           : ppl
+Version        : 1.0-1
+URL            : http://bugseng.com/products/ppl
+Licenses       : GPL3
+Groups         : None
+Provides       : None
+Depends On     : gmp>=5.0
+Optional Deps  : None
+Required By    : gcc
+Conflicts With : None
+Replaces       : None
+Installed Size : 21460.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Jun 30 01:06:06 2012
+Install Date   : Thu Dec 31 19:43:58 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : A modern library for convex polyhedra and other numerical abstractions.
+
+Name           : ppp
+Version        : 2.4.5-3
+URL            : http://www.samba.org/ppp/
+Licenses       : custom:GPL/BSD
+Groups         : base
+Provides       : None
+Depends On     : glibc  libpcap>=1.0.0
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 892.00 KiB
+Packager       : Thomas Bächler <thomas@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Nov  3 11:59:55 2011
+Install Date   : Mon Sep  3 10:29:59 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : A daemon which implements the Point-to-Point Protocol for dial-up networking
+
+Name           : procps-ng
+Version        : 3.3.3-3
+URL            : http://gitorious.org/procps
+Licenses       : GPL  LGPL
+Groups         : base
+Provides       : procps
+Depends On     : ncurses
+Optional Deps  : None
+Required By    : None
+Conflicts With : procps
+Replaces       : procps
+Installed Size : 824.00 KiB
+Packager       : Eric Belanger <eric@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Jul 11 10:47:56 2012
+Install Date   : Mon Sep  3 10:29:59 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Utilities for monitoring your system and processes on your system
+
+Name           : psmisc
+Version        : 22.19-1
+URL            : http://psmisc.sourceforge.net/index.html
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : ncurses
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 692.00 KiB
+Packager       : Eric Belanger <eric@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Jun 24 12:51:59 2012
+Install Date   : Mon Sep  3 10:29:59 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Miscellaneous procfs tools
+
+Name           : pth
+Version        : 2.0.7-4
+URL            : http://www.gnu.org/software/pth/
+Licenses       : LGPL
+Groups         : None
+Provides       : None
+Depends On     : glibc  awk
+Optional Deps  : None
+Required By    : dirmngr  gnupg  gpgme
+Conflicts With : None
+Replaces       : None
+Installed Size : 200.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Oct 19 08:09:55 2011
+Install Date   : Thu Dec 31 19:43:42 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : The GNU Portable Threads.
+
+Name           : python
+Version        : 3.2.3-3
+URL            : http://www.python.org/
+Licenses       : custom
+Groups         : None
+Provides       : python3
+Depends On     : expat  bzip2  gdbm  openssl  libffi  zlib
+Optional Deps  : tk: for tkinter
+                 sqlite
+Required By    : None
+Conflicts With : None
+Replaces       : python3
+Installed Size : 78524.00 KiB
+Packager       : Stéphane Gaudreault <stephane@archlinux.org>
+Architecture   : i686
+Build Date     : Mon Apr 23 16:49:19 2012
+Install Date   : Sat Sep  1 12:30:02 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Next generation of the python high-level scripting language
+
+Name           : python2
+Version        : 2.7.3-2
+URL            : http://www.python.org/
+Licenses       : PSF
+Groups         : None
+Provides       : None
+Depends On     : bzip2  gdbm  openssl  zlib  expat  sqlite  libffi
+Optional Deps  : tk: for IDLE
+Required By    : mutagen
+Conflicts With : python<3
+Replaces       : None
+Installed Size : 69996.00 KiB
+Packager       : Stéphane Gaudreault <stephane@archlinux.org>
+Architecture   : i686
+Build Date     : Mon Apr 23 17:08:24 2012
+Install Date   : Sun Sep  2 12:21:39 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : A high-level scripting language
+
+Name           : readline
+Version        : 6.2.004-1
+URL            : http://tiswww.case.edu/php/chet/readline/rltop.html
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : glibc  ncurses
+Optional Deps  : None
+Required By    : bash  gnupg  inetutils  libxml2  lvm2  postgresql  postgresql-libs  sqlite  wpa_supplicant
+Conflicts With : None
+Replaces       : None
+Installed Size : 996.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Jul 19 18:15:27 2012
+Install Date   : Thu Dec 31 19:42:09 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : GNU readline library
+
+Name           : reiserfsprogs
+Version        : 3.6.21-4
+URL            : http://www.kernel.org/
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : util-linux-ng
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 1108.00 KiB
+Packager       : Pierre Schmitz <pierre@archlinux.de>
+Architecture   : i686
+Build Date     : Sat Nov  5 02:19:47 2011
+Install Date   : Mon Sep  3 10:29:59 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Reiserfs utilities
+
+Name           : ruby
+Version        : 1.9.3_p194-2
+URL            : http://www.ruby-lang.org/en/
+Licenses       : BSD  custom
+Groups         : None
+Provides       : rubygems  rake
+Depends On     : openssl  libffi  libyaml
+Optional Deps  : tk: for Ruby/TK
+                 ruby-docs: Ruby documentation
+Required By    : None
+Conflicts With : rake
+Replaces       : None
+Installed Size : 20384.00 KiB
+Packager       : Thomas Dziedzic <gostrc@gmail.com>
+Architecture   : i686
+Build Date     : Mon Apr 23 05:59:14 2012
+Install Date   : Sat Sep  1 12:36:01 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : An object-oriented language for quick and easy programming
+
+Name           : run-parts
+Version        : 4.3.2-1
+URL            : http://packages.qa.debian.org/d/debianutils.html
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : ca-certificates  cronie
+Conflicts With : None
+Replaces       : None
+Installed Size :  92.00 KiB
+Packager       : Pierre Schmitz <pierre@archlinux.de>
+Architecture   : i686
+Build Date     : Fri Jun 29 00:39:05 2012
+Install Date   : Thu Dec 31 19:42:12 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : run scripts or programs in a directory
+
+Name           : screen
+Version        : 4.0.3-13
+URL            : http://www.gnu.org/software/screen/
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : ncurses  pam
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 860.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Jan 28 20:47:38 2012
+Install Date   : Mon Sep  3 09:55:26 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : Full-screen window manager that multiplexes a physical terminal
+
+Name           : sed
+Version        : 4.2.1-4
+URL            : http://www.gnu.org/software/sed
+Licenses       : GPL3
+Groups         : base
+Provides       : None
+Depends On     : acl  sh
+Optional Deps  : None
+Required By    : ca-certificates  fakeroot
+Conflicts With : None
+Replaces       : None
+Installed Size : 796.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Nov  3 06:38:56 2011
+Install Date   : Mon Sep  3 10:29:59 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : GNU stream editor
+
+Name           : shadow
+Version        : 4.1.5.1-1
+URL            : http://pkg-shadow.alioth.debian.org/
+Licenses       : BSD
+Groups         : base
+Provides       : None
+Depends On     : bash  pam  acl
+Optional Deps  : None
+Required By    : dbus-core
+Conflicts With : None
+Replaces       : None
+Installed Size : 4888.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Jun 30 08:54:39 2012
+Install Date   : Mon Sep  3 10:30:00 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : Password and account management tool suite with support for shadow files and PAM
+
+Name           : sqlite
+Version        : 3.7.13-1
+URL            : http://www.sqlite.org/
+Licenses       : custom
+Groups         : None
+Provides       : sqlite3=3.7.13
+Depends On     : readline
+Optional Deps  : None
+Required By    : nss  python2
+Conflicts With : None
+Replaces       : sqlite3
+Installed Size : 1117.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Jun 12 08:11:25 2012
+Install Date   : Sun Sep  2 12:21:35 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : A C library that implements an SQL database engine
+
+Name           : sudo
+Version        : 1.8.5.p3-1
+URL            : http://www.sudo.ws/sudo/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : glibc  pam
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 2504.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Aug 14 23:20:51 2012
+Install Date   : Sat Sep  1 10:39:55 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Give certain users the ability to run some commands as root
+
+Name           : sysfsutils
+Version        : 2.1.0-8
+URL            : http://linux-diag.sourceforge.net/Sysfsutils.html
+Licenses       : GPL  LGPL
+Groups         : base
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : iputils  pcmciautils
+Conflicts With : None
+Replaces       : None
+Installed Size : 168.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Apr 28 22:12:13 2012
+Install Date   : Mon Sep  3 10:28:58 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : System Utilities Based on Sysfs
+
+Name           : syslinux
+Version        : 4.05-7
+URL            : http://syslinux.zytor.com/
+Licenses       : GPL2
+Groups         : None
+Provides       : None
+Depends On     : perl  glibc
+Optional Deps  : perl-passwd-md5: For md5pass
+                 perl-digest-sha1: For sha1pass
+                 mtools: For mkdiskimage and syslinux support
+                 gptfdisk: For GPT support
+                 util-linux: For isohybrid
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 3864.00 KiB
+Packager       : Thomas Bächler <thomas@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Aug 23 11:23:32 2012
+Install Date   : Mon Sep  3 10:36:57 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : Collection of boot loaders that boot from FAT, ext2/3/4 and btrfs filesystems, from CDs and via PXE
+
+Name           : syslog-ng
+Version        : 3.3.5-2
+URL            : http://www.balabit.com/network-security/syslog-ng/
+Licenses       : GPL2
+Groups         : base
+Provides       : logger
+Depends On     : glib2  eventlog  openssl  libcap  awk
+Optional Deps  : logrotate: for rotating log files
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 1820.00 KiB
+Packager       : Dave Reisner <dreisner@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Jul  4 05:50:03 2012
+Install Date   : Mon Sep  3 10:30:01 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Next-generation syslogd with advanced networking and filtering capabilities
+
+Name           : systemd
+Version        : 189-3
+URL            : http://www.freedesktop.org/wiki/Software/systemd
+Licenses       : GPL2  LGPL2.1  MIT
+Groups         : None
+Provides       : libsystemd=189  systemd-tools=189  udev=189
+Depends On     : acl  bash  dbus-core  glib2  kbd  kmod  hwids  libcap  libgcrypt  pam  util-linux  xz
+Optional Deps  : initscripts: legacy support for /etc/rc.conf
+                 python2-cairo: systemd-analyze
+                 python2-dbus: systemd-analyze
+                 systemd-sysvcompat: symlink package to provide sysvinit binaries
+                 cryptsetup: required for encrypted block devices
+Required By    : dbus-core  device-mapper  initscripts  lvm2  mkinitcpio  pcmciautils
+Conflicts With : libsystemd  systemd-tools  udev
+Replaces       : libsystemd  systemd-tools  udev
+Installed Size : 8232.00 KiB
+Packager       : Tom Gundersen <teg@jklm.no>
+Architecture   : i686
+Build Date     : Mon Aug 27 13:26:23 2012
+Install Date   : Thu Dec 31 19:42:21 1987
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : system and service manager
+
+Name           : sysvinit
+Version        : 2.88-7
+URL            : http://savannah.nongnu.org/projects/sysvinit
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : sysvinit-tools
+Optional Deps  : None
+Required By    : initscripts
+Conflicts With : None
+Replaces       : None
+Installed Size : 136.00 KiB
+Packager       : Tom Gundersen <teg@jklm.no>
+Architecture   : i686
+Build Date     : Thu Aug 30 13:11:52 2012
+Install Date   : Mon Sep  3 10:28:58 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : Linux System V Init
+
+Name           : sysvinit-tools
+Version        : 2.88-7
+URL            : http://savannah.nongnu.org/projects/sysvinit
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : util-linux  coreutils  glibc  awk
+Optional Deps  : None
+Required By    : sysvinit
+Conflicts With : None
+Replaces       : None
+Installed Size : 164.00 KiB
+Packager       : Tom Gundersen <teg@jklm.no>
+Architecture   : i686
+Build Date     : Thu Aug 30 13:11:50 2012
+Install Date   : Mon Sep  3 10:28:58 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Linux System V Init Tools
+
+Name           : tar
+Version        : 1.26-2
+URL            : http://www.gnu.org/software/tar/tar.html
+Licenses       : GPL3
+Groups         : base
+Provides       : None
+Depends On     : glibc  sh
+Optional Deps  : None
+Required By    : libtool
+Conflicts With : None
+Replaces       : None
+Installed Size : 2468.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Nov  3 07:14:31 2011
+Install Date   : Mon Sep  3 10:30:01 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : Utility used to store, backup, and transport files
+
+Name           : texinfo
+Version        : 4.13a-7
+URL            : http://www.gnu.org/software/texinfo/
+Licenses       : GPL3
+Groups         : base
+Provides       : None
+Depends On     : ncurses  findutils  gzip
+Optional Deps  : None
+Required By    : groff
+Conflicts With : None
+Replaces       : None
+Installed Size : 2308.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Mon Dec 12 00:35:48 2011
+Install Date   : Mon Sep  3 10:30:02 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : Utilities to work with and produce manuals, ASCII text, and on-line documentation from a single source file
+
+Name           : tzdata
+Version        : 2012e-1
+URL            : http://www.iana.org/time-zones
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : glibc
+Conflicts With : None
+Replaces       : None
+Installed Size : 5543.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : any
+Build Date     : Fri Aug  3 09:08:44 2012
+Install Date   : Thu Dec 31 19:42:05 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Sources for time zone and daylight saving time data
+
+Name           : unzip
+Version        : 6.0-6
+URL            : http://www.info-zip.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : bzip2  bash
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 328.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Feb 17 15:21:07 2012
+Install Date   : Sun Sep  2 14:33:34 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Unpacks .zip archives such as those made by PKZIP
+
+Name           : usbutils
+Version        : 006-1
+URL            : http://linux-usb.sourceforge.net/
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : libusb  hwids
+Optional Deps  : python2: for lsusb.py usage
+                 coreutils: for lsusb.py usage
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 196.00 KiB
+Packager       : Tobias Powalowski <tpowa@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Jul  8 03:08:12 2012
+Install Date   : Mon Sep  3 10:30:02 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : USB Device Utilities
+
+Name           : util-linux
+Version        : 2.21.2-5
+URL            : http://www.kernel.org/pub/linux/utils/util-linux/
+Licenses       : GPL2
+Groups         : base
+Provides       : util-linux-ng=2.21.2
+Depends On     : pam
+Optional Deps  : None
+Required By    : cryptsetup  e2fsprogs  fakeroot  jfsutils  mkinitcpio  reiserfsprogs  systemd  sysvinit-tools  xfsprogs
+Conflicts With : util-linux-ng
+Replaces       : None
+Installed Size : 7396.00 KiB
+Packager       : Tom Gundersen <teg@jklm.no>
+Architecture   : i686
+Build Date     : Thu Jul 12 19:25:20 2012
+Install Date   : Mon Sep  3 10:28:51 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : Miscellaneous system utilities for Linux
+
+Name           : vi
+Version        : 1:050325-2
+URL            : http://ex-vi.sourceforge.net/
+Licenses       : custom:ex
+Groups         : base
+Provides       : None
+Depends On     : ncurses
+Optional Deps  : mailx: used by the preserve command for notification
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 328.00 KiB
+Packager       : Stéphane Gaudreault <stephane@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Nov  4 16:26:48 2011
+Install Date   : Mon Sep  3 10:30:02 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : The original ex/vi text editor.
+
+Name           : which
+Version        : 2.20-5
+URL            : http://www.xs4all.nl/~carlo17/which
+Licenses       : GPL3
+Groups         : base
+Provides       : None
+Depends On     : glibc  sh
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size :  60.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Nov  3 07:37:18 2011
+Install Date   : Mon Sep  3 10:30:02 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : A utility to show the full path of commands
+
+Name           : wpa_supplicant
+Version        : 1.0-1
+URL            : http://hostap.epitest.fi/wpa_supplicant
+Licenses       : GPL
+Groups         : base
+Provides       : None
+Depends On     : openssl  dbus-core  readline  libnl
+Optional Deps  : wpa_supplicant_gui: wpa_gui program
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 844.00 KiB
+Packager       : Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
+Architecture   : i686
+Build Date     : Mon Jun 25 02:59:06 2012
+Install Date   : Mon Sep  3 10:30:02 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : A utility providing key negotiation for WPA wireless networks
+
+Name           : xfsprogs
+Version        : 3.1.8-2
+URL            : http://oss.sgi.com/projects/xfs/
+Licenses       : LGPL
+Groups         : base
+Provides       : None
+Depends On     : util-linux
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 3780.00 KiB
+Packager       : Tom Gundersen <teg@jklm.no>
+Architecture   : i686
+Build Date     : Tue May  1 10:11:56 2012
+Install Date   : Mon Sep  3 10:30:02 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : XFS filesystem utilities
+
+Name           : xz
+Version        : 5.0.4-1
+URL            : http://tukaani.org/xz/
+Licenses       : GPL  LGPL  custom
+Groups         : None
+Provides       : None
+Depends On     : sh
+Optional Deps  : None
+Required By    : libarchive  libtiff  libxml2  systemd
+Conflicts With : None
+Replaces       : None
+Installed Size : 1124.00 KiB
+Packager       : Pierre Schmitz <pierre@archlinux.de>
+Architecture   : i686
+Build Date     : Fri Jun 22 09:38:48 2012
+Install Date   : Thu Dec 31 19:42:21 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Library and command line tools for XZ and LZMA compressed files
+
+Name           : zip
+Version        : 3.0-3
+URL            : http://www.info-zip.org/Zip.html
+Licenses       : BSD
+Groups         : None
+Provides       : None
+Depends On     : bzip2
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 548.00 KiB
+Packager       : Pierre Schmitz <pierre@archlinux.de>
+Architecture   : i686
+Build Date     : Wed Feb  8 11:37:32 2012
+Install Date   : Sun Sep  2 14:33:34 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Creates PKZIP-compatible .zip files
+
+Name           : zlib
+Version        : 1.2.7-1
+URL            : http://www.zlib.net/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : binutils  cracklib  curl  file  kmod  libarchive  libtiff  libxml2  man-db  nss  python  python2
+Conflicts With : None
+Replaces       : None
+Installed Size : 344.00 KiB
+Packager       : Pierre Schmitz <pierre@archlinux.de>
+Architecture   : i686
+Build Date     : Thu May  3 01:34:33 2012
+Install Date   : Thu Dec 31 19:42:11 1987
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Compression library implementing the deflate compression method found in gzip and PKZIP
+
