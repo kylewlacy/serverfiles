@@ -1,0 +1,2 @@
+MAILTO=""
+34 * * * * $HOME/git/mirrors/update.sh
