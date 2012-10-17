@@ -12,5 +12,5 @@ While my server has (yet) to crash in order for me to test this, I would recomme
 
 Hiccups
 -------
--Be sure to symlink `/etc/profile` to `/etc/zprofile` or some things won't work as well for ZSH
--When setting up user accounts again, be sure to utter a UNIX prayer of some sort to increase your odds of `/etc/passwd` not breaking everything in some capacity. I reccomned [this mantra](http://www.wrongplanet.net/postt128227.html) if you don't happen to have one. It will probably break anyway.
+- Be sure to symlink `/etc/profile` to `/etc/zprofile` or some things won't work as well for ZSH
+- When setting up user accounts again, be sure to utter a UNIX prayer of some sort to increase your odds of `/etc/passwd` not breaking everything in some capacity. I reccomned [this mantra](http://www.wrongplanet.net/postt128227.html) if you don't happen to have one. It will probably break anyway.
