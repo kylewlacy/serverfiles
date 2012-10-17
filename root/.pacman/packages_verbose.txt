@@ -18,6 +18,46 @@ Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Access control list utilities, libraries and headers
 
+Name           : apr
+Version        : 1.4.6-1
+URL            : http://apr.apache.org/
+Licenses       : APACHE
+Groups         : None
+Provides       : None
+Depends On     : util-linux
+Optional Deps  : None
+Required By    : apr-util
+Conflicts With : None
+Replaces       : None
+Installed Size : 1312.00 KiB
+Packager       : Jan de Groot <jgc@archlinux.org>
+Architecture   : i686
+Build Date     : Sun May 13 13:17:23 2012
+Install Date   : Sun Oct  7 13:45:19 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : The Apache Portable Runtime
+
+Name           : apr-util
+Version        : 1.4.1-1
+URL            : http://apr.apache.org/
+Licenses       : APACHE
+Groups         : None
+Provides       : None
+Depends On     : apr  gdbm  expat  db  libldap  unixodbc
+Optional Deps  : None
+Required By    : subversion
+Conflicts With : None
+Replaces       : None
+Installed Size : 812.00 KiB
+Packager       : Jan de Groot <jgc@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Feb  7 05:28:32 2012
+Install Date   : Sun Oct  7 13:45:19 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : The Apache Portable Runtime
+
 Name           : archlinux-keyring
 Version        : 20120812-1
 URL            : https://projects.archlinux.org/archlinux-keyring.git/
@@ -37,6 +77,26 @@ Install Date   : Thu Dec 31 19:43:43 1987
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : Arch Linux PGP keyring
+
+Name           : atk
+Version        : 2.4.0-1
+URL            : http://www.gtk.org/
+Licenses       : LGPL
+Groups         : None
+Provides       : None
+Depends On     : glib2
+Optional Deps  : None
+Required By    : gtk2
+Conflicts With : None
+Replaces       : None
+Installed Size : 2928.00 KiB
+Packager       : Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
+Architecture   : i686
+Build Date     : Fri Mar 30 04:22:51 2012
+Install Date   : Tue Oct 16 16:37:45 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : A library providing a set of interfaces for accessibility
 
 Name           : attr
 Version        : 2.4.46-2
@@ -98,6 +158,34 @@ Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A GNU tool for automatically creating Makefiles
 
+Name           : avahi
+Version        : 0.6.31-3
+URL            : http://www.avahi.org/
+Licenses       : LGPL
+Groups         : None
+Provides       : howl  mdnsresponder
+Depends On     : expat  libdaemon  glib2  dbus  libcap  gdbm
+Optional Deps  : gtk3: avahi-discover-standalone, bshell, bssh, bvnc
+                 gtk2: gtk2 bindings
+                 qt3: qt3 bindings
+                 qt: qt bindings
+                 pygtk: avahi-bookmarks, avahi-discover
+                 twisted: avahi-bookmarks
+                 mono: mono bindings
+                 dbus-python: avahi-discover
+                 nss-mdns: NSS support for mDNS
+Required By    : libcups
+Conflicts With : howl  mdnsresponder
+Replaces       : None
+Installed Size : 2344.00 KiB
+Packager       : Gaetan Bisson <bisson@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Apr 18 05:11:25 2012
+Install Date   : Tue Oct 16 16:37:53 2012
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : Multicast/unicast DNS-SD framework
+
 Name           : bash
 Version        : 4.2.037-1
 URL            : http://www.gnu.org/software/bash/bash.html
@@ -106,7 +194,7 @@ Groups         : base
 Provides       : sh
 Depends On     : readline>=6.1  glibc
 Optional Deps  : None
-Required By    : autoconf  automake  bison  ca-certificates  cronie  db  dhcpcd  diffutils  e2fsprogs  fakeroot  filesystem  findutils  flex  gawk  gdbm  gettext  gmp  grep  gzip  initscripts  keyutils  libgpg-error  libksba  libpcap  libtool  lvm2  m4  make  man-db  mkinitcpio  nano  nss  pacman  perl  sed  shadow  systemd  tar  unzip  which  xz
+Required By    : autoconf  automake  bison  ca-certificates  cairo  cronie  db  dhcpcd  diffutils  e2fsprogs  fakeroot  filesystem  findutils  flex  freetype2  gawk  gdbm  gettext  gmp  grep  gzip  initscripts  keychain  keyutils  libgpg-error  libksba  libpcap  libpng  libtool  lvm2  m4  make  man-db  mkinitcpio  nano  nss  pacman  perl  sed  shadow  systemd  tar  unzip  which  xz
 Conflicts With : None
 Replaces       : None
 Installed Size : 3660.00 KiB
@@ -166,7 +254,7 @@ Groups         : base
 Provides       : None
 Depends On     : glibc
 Optional Deps  : None
-Required By    : gnupg  libarchive  python  python2  unzip  zip
+Required By    : freetype2  gnupg  libarchive  python  python2  unzip  zip
 Conflicts With : None
 Replaces       : None
 Installed Size : 260.00 KiB
@@ -186,7 +274,7 @@ Groups         : None
 Provides       : None
 Depends On     : bash  run-parts  openssl  findutils  coreutils  sed
 Optional Deps  : None
-Required By    : ca-certificates-java  curl
+Required By    : ca-certificates-java  curl  neon
 Conflicts With : None
 Replaces       : None
 Installed Size : 696.00 KiB
@@ -218,6 +306,26 @@ Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : Common CA certificates (JKS keystore)
 
+Name           : cairo
+Version        : 1.12.2-2
+URL            : http://cairographics.org/
+Licenses       : LGPL  MPL
+Groups         : None
+Provides       : cairo-xcb
+Depends On     : libpng  libxrender  fontconfig  pixman  glib2  sh
+Optional Deps  : xcb-util: for XCB backend
+Required By    : gtk2  pango
+Conflicts With : None
+Replaces       : cairo-xcb
+Installed Size : 3512.00 KiB
+Packager       : Evangelos Foutras <evangelos@foutrelis.com>
+Architecture   : i686
+Build Date     : Fri Jun  8 10:15:51 2012
+Install Date   : Tue Oct 16 16:37:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Cairo vector graphics library
+
 Name           : cloog
 Version        : 0.17.0-2
 URL            : http://www.bastoul.net/cloog/
@@ -237,6 +345,26 @@ Install Date   : Thu Dec 31 19:43:54 1987
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Library that generates loops for scanning polyhedra
+
+Name           : compositeproto
+Version        : 0.4.2-2
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : fixesproto
+Optional Deps  : None
+Required By    : libxcomposite
+Conflicts With : None
+Replaces       : None
+Installed Size :  36.00 KiB
+Packager       : Jan de Groot <jgc@archlinux.org>
+Architecture   : any
+Build Date     : Tue Feb  7 05:04:57 2012
+Install Date   : Tue Oct 16 16:37:51 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 Composite extension wire protocol
 
 Name           : coreutils
 Version        : 8.17-3
@@ -339,6 +467,26 @@ Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : An URL retrival utility and library
 
+Name           : damageproto
+Version        : 1.2.1-2
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : xproto  fixesproto
+Optional Deps  : None
+Required By    : libxdamage
+Conflicts With : None
+Replaces       : None
+Installed Size :  72.00 KiB
+Packager       : Pierre Schmitz <pierre@archlinux.de>
+Architecture   : any
+Build Date     : Fri Feb 24 23:01:46 2012
+Install Date   : Tue Oct 16 16:37:51 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 Damage extension wire protocol
+
 Name           : db
 Version        : 5.3.21-1
 URL            : http://www.oracle.com/technology/software/products/berkeley-db/index.html
@@ -347,7 +495,7 @@ Groups         : None
 Provides       : None
 Depends On     : gcc-libs  sh
 Optional Deps  : None
-Required By    : iproute2  pam  perl
+Required By    : apr-util  iproute2  pam  perl
 Conflicts With : None
 Replaces       : None
 Installed Size : 13588.00 KiB
@@ -359,6 +507,26 @@ Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : The Berkeley DB embedded database system
 
+Name           : dbus
+Version        : 1.6.4-1
+URL            : http://www.freedesktop.org/Software/dbus
+Licenses       : GPL  custom
+Groups         : None
+Provides       : None
+Depends On     : dbus-core>=1.6.4  libx11
+Optional Deps  : None
+Required By    : avahi
+Conflicts With : None
+Replaces       : None
+Installed Size :  68.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Jul 21 04:18:19 2012
+Install Date   : Tue Oct 16 16:37:53 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Freedesktop.org message bus system
+
 Name           : dbus-core
 Version        : 1.6.4-1
 URL            : http://www.freedesktop.org/Software/dbus
@@ -367,7 +535,7 @@ Groups         : None
 Provides       : None
 Depends On     : expat  coreutils  filesystem  libsystemd  shadow  systemd-tools
 Optional Deps  : None
-Required By    : systemd  wpa_supplicant
+Required By    : dbus  systemd  wpa_supplicant
 Conflicts With : None
 Replaces       : None
 Installed Size : 1781.00 KiB
@@ -527,7 +695,7 @@ Groups         : None
 Provides       : None
 Depends On     : glibc
 Optional Deps  : None
-Required By    : dbus-core  git  libarchive  python  python2
+Required By    : apr-util  avahi  dbus-core  fontconfig  git  libarchive  neon  python  python2
 Conflicts With : None
 Replaces       : None
 Installed Size : 500.00 KiB
@@ -567,7 +735,7 @@ Groups         : base
 Provides       : None
 Depends On     : glibc  zlib
 Optional Deps  : None
-Required By    : mkinitcpio
+Required By    : mkinitcpio  subversion
 Conflicts With : None
 Replaces       : None
 Installed Size : 2588.00 KiB
@@ -619,6 +787,26 @@ Install Reason : Explicitly installed
 Install Script : Yes
 Description    : GNU utilities to locate files
 
+Name           : fixesproto
+Version        : 5.0-2
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : xproto  xextproto
+Optional Deps  : None
+Required By    : compositeproto  damageproto  libxfixes
+Conflicts With : None
+Replaces       : None
+Installed Size : 100.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : any
+Build Date     : Sat Feb 25 02:06:39 2012
+Install Date   : Tue Oct 16 16:37:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 Fixes extension wire protocol
+
 Name           : flex
 Version        : 2.5.37-1
 URL            : http://flex.sourceforge.net
@@ -638,6 +826,46 @@ Install Date   : Mon Sep  3 10:30:07 2012
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A tool for generating text-scanning programs
+
+Name           : fontconfig
+Version        : 2.8.0-2
+URL            : http://www.fontconfig.org/release/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : expat  freetype2
+Optional Deps  : None
+Required By    : cairo  libxft
+Conflicts With : None
+Replaces       : None
+Installed Size : 3676.00 KiB
+Packager       : Ionut Biru <ibiru@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Feb 23 04:59:25 2012
+Install Date   : Tue Oct 16 16:37:47 2012
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : A library for configuring and customizing font access
+
+Name           : freetype2
+Version        : 2.4.10-1
+URL            : http://freetype.sourceforge.net
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : zlib  bzip2  sh
+Optional Deps  : None
+Required By    : fontconfig  pango
+Conflicts With : None
+Replaces       : None
+Installed Size : 2494.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Jun 15 09:49:17 2012
+Install Date   : Tue Oct 16 16:37:46 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : TrueType font rendering library
 
 Name           : gawk
 Version        : 4.0.1-1
@@ -687,7 +915,7 @@ Groups         : base
 Provides       : None
 Depends On     : glibc>=2.16
 Optional Deps  : None
-Required By    : db  gcc  gettext  gmp  groff  pcre
+Required By    : db  gcc  gettext  gmp  gnutls  groff  pcre
 Conflicts With : None
 Replaces       : None
 Installed Size : 3080.00 KiB
@@ -707,7 +935,7 @@ Groups         : None
 Provides       : None
 Depends On     : glibc  sh
 Optional Deps  : None
-Required By    : man-db  perl  python  python2
+Required By    : apr-util  avahi  man-db  perl  python  python2
 Conflicts With : None
 Replaces       : None
 Installed Size : 348.00 KiB
@@ -718,6 +946,26 @@ Install Date   : Thu Dec 31 19:42:25 1987
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : GNU database library
+
+Name           : gdk-pixbuf2
+Version        : 2.26.3-1
+URL            : http://www.gtk.org/
+Licenses       : GPL2
+Groups         : None
+Provides       : None
+Depends On     : glib2  libpng  libtiff  libjpeg  libx11
+Optional Deps  : None
+Required By    : gtk-update-icon-cache
+Conflicts With : None
+Replaces       : None
+Installed Size : 3916.00 KiB
+Packager       : Jan de Groot <jgc@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Aug 29 05:13:55 2012
+Install Date   : Tue Oct 16 16:37:55 2012
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : An image loading library
 
 Name           : gettext
 Version        : 0.18.1.1-4
@@ -775,7 +1023,7 @@ Groups         : None
 Provides       : None
 Depends On     : pcre  libffi
 Optional Deps  : python2: for gdbus-codegen
-Required By    : gettext  pkg-config  syslog-ng  systemd
+Required By    : atk  avahi  cairo  gdk-pixbuf2  gettext  pango  pkg-config  shared-mime-info  syslog-ng  systemd
 Conflicts With : None
 Replaces       : None
 Installed Size : 12080.00 KiB
@@ -795,7 +1043,7 @@ Groups         : base
 Provides       : None
 Depends On     : linux-api-headers>=3.5  tzdata
 Optional Deps  : None
-Required By    : attr  bash  binutils  bison  bzip2  coreutils  cracklib  device-mapper  dhcpcd  diffutils  eventlog  expat  fakeroot  file  findutils  flex  gawk  gcc-libs  gdbm  grep  gzip  initscripts  iproute2  kbd  keyutils  kmod  libcap  libffi  libgpg-error  libgssglue  libjpeg-turbo  libksba  libnl  libpcap  libpipeline  libusbx  m4  make  mdadm  mkinitcpio-busybox  ncurses  nspr  pacman  pam  patch  pciutils  perl  popt  ppp  pth  readline  run-parts  sudo  sysfsutils  syslinux  sysvinit-tools  tar  which  zlib
+Required By    : attr  bash  binutils  bison  bzip2  coreutils  cracklib  device-mapper  dhcpcd  diffutils  eventlog  expat  fakeroot  file  findutils  flex  gawk  gcc-libs  gdbm  grep  gzip  initscripts  iproute2  kbd  keyutils  kmod  libcap  libdatrie  libffi  libgpg-error  libgssglue  libjpeg-turbo  libksba  libnl  libpcap  libpipeline  libtasn1  libusbx  libxau  libxdmcp  m4  make  mdadm  mkinitcpio-busybox  ncurses  nspr  p11-kit  pacman  pam  patch  pciutils  perl  pixman  popt  ppp  pth  readline  run-parts  sudo  sysfsutils  syslinux  sysvinit-tools  tar  which  zlib
 Conflicts With : None
 Replaces       : None
 Installed Size : 34856.00 KiB
@@ -815,7 +1063,7 @@ Groups         : None
 Provides       : None
 Depends On     : gcc-libs  sh
 Optional Deps  : None
-Required By    : cloog  coreutils  mpfr  ppl
+Required By    : cloog  coreutils  mpfr  nettle  ppl
 Conflicts With : None
 Replaces       : None
 Installed Size : 1672.00 KiB
@@ -849,6 +1097,26 @@ Install Date   : Thu Dec 31 19:43:43 1987
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : Complete and free implementation of the OpenPGP standard
+
+Name           : gnutls
+Version        : 3.1.1-1
+URL            : http://www.gnu.org/software/gnutls/
+Licenses       : GPL3  LGPL
+Groups         : None
+Provides       : None
+Depends On     : gcc-libs>=4.7.1-5  libtasn1  readline  zlib  nettle>=2.4  p11-kit>=0.12
+Optional Deps  : None
+Required By    : libcups
+Conflicts With : None
+Replaces       : None
+Installed Size : 6529.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Mon Sep  3 02:25:19 2012
+Install Date   : Tue Oct 16 16:37:53 2012
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : A library which provides a secure layer over a reliable transport layer
 
 Name           : gpgme
 Version        : 1.3.1-4
@@ -910,6 +1178,46 @@ Install Date   : Thu Dec 31 19:43:33 1987
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : GNU troff text-formatting system
+
+Name           : gtk-update-icon-cache
+Version        : 2.24.11-2
+URL            : http://www.gtk.org/
+Licenses       : LGPL
+Groups         : None
+Provides       : None
+Depends On     : gdk-pixbuf2>=2.24.1-3
+Optional Deps  : None
+Required By    : gtk2
+Conflicts With : None
+Replaces       : None
+Installed Size :  28.00 KiB
+Packager       : Ionut Biru <ibiru@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Jul 22 01:52:41 2012
+Install Date   : Tue Oct 16 16:37:55 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : The GTK+ update icon cache tool
+
+Name           : gtk2
+Version        : 2.24.11-2
+URL            : http://www.gtk.org/
+Licenses       : LGPL
+Groups         : None
+Provides       : None
+Depends On     : atk  pango  libxcursor  libxinerama  libxrandr  libxi  libxcomposite  libxdamage  shared-mime-info  cairo  libcups  gtk-update-icon-cache
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : gtk2-docs
+Installed Size : 57412.00 KiB
+Packager       : Ionut Biru <ibiru@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Jul 22 01:52:17 2012
+Install Date   : Tue Oct 16 16:38:01 2012
+Install Reason : Explicitly installed
+Install Script : Yes
+Description    : GTK+ is a multi-platform toolkit (v2)
 
 Name           : gzip
 Version        : 1.5-1
@@ -1033,6 +1341,26 @@ Install Date   : Mon Sep  3 10:28:58 2012
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : System initialization/bootup scripts
+
+Name           : inputproto
+Version        : 2.2-1
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : libxi
+Conflicts With : None
+Replaces       : None
+Installed Size : 588.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : any
+Build Date     : Fri Mar  2 06:23:10 2012
+Install Date   : Tue Oct 16 16:37:51 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 Input extension wire protocol
 
 Name           : iproute2
 Version        : 3.5.1-1
@@ -1175,6 +1503,46 @@ Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Keytable files and keyboard utilities
 
+Name           : kbproto
+Version        : 1.0.6-1
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : libx11
+Conflicts With : None
+Replaces       : None
+Installed Size : 1085.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : any
+Build Date     : Fri Mar 23 10:17:50 2012
+Install Date   : Tue Oct 16 16:37:45 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 XKB extension wire protocol
+
+Name           : keychain
+Version        : 2.7.1-2
+URL            : http://www.funtoo.org/en/security/keychain/intro/
+Licenses       : GPL2
+Groups         : None
+Provides       : None
+Depends On     : sh
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size :  88.00 KiB
+Packager       : Eric Belanger <eric@archlinux.org>
+Architecture   : any
+Build Date     : Mon Feb  6 21:53:23 2012
+Install Date   : Sun Oct  7 15:20:13 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : A front-end to ssh-agent, allowing one long-running ssh-agent process per system, rather than per login
+
 Name           : keyutils
 Version        : 1.5.5-3
 URL            : http://www.kernel.org
@@ -1223,7 +1591,7 @@ Groups         : None
 Provides       : None
 Depends On     : e2fsprogs  libldap  keyutils
 Optional Deps  : None
-Required By    : heirloom-mailx  openssh  postgresql  postgresql-libs
+Required By    : heirloom-mailx  libcups  neon  openssh  postgresql  postgresql-libs
 Conflicts With : None
 Replaces       : None
 Installed Size : 4168.00 KiB
@@ -1343,7 +1711,7 @@ Groups         : None
 Provides       : None
 Depends On     : glibc  attr
 Optional Deps  : None
-Required By    : coreutils  iputils  pinentry  syslog-ng  systemd
+Required By    : avahi  coreutils  iputils  pinentry  syslog-ng  systemd
 Conflicts With : None
 Replaces       : None
 Installed Size : 200.00 KiB
@@ -1354,6 +1722,66 @@ Install Date   : Thu Dec 31 19:42:11 1987
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : POSIX 1003.1e capabilities
+
+Name           : libcups
+Version        : 1.6.1-5
+URL            : http://www.cups.org/
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : gnutls>=2.8.3  libtiff>=4.0.0  libpng>=1.5.7  krb5  avahi
+Optional Deps  : None
+Required By    : gtk2
+Conflicts With : None
+Replaces       : None
+Installed Size : 865.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Aug 14 13:30:04 2012
+Install Date   : Tue Oct 16 16:37:54 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : The CUPS Printing System - client libraries and headers
+
+Name           : libdaemon
+Version        : 0.14-2
+URL            : http://0pointer.de/lennart/projects/libdaemon/
+Licenses       : LGPL
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : avahi
+Conflicts With : None
+Replaces       : None
+Installed Size :  84.00 KiB
+Packager       : Gaetan Bisson <bisson@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Feb  5 08:43:43 2012
+Install Date   : Tue Oct 16 16:37:53 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Lightweight C library that eases the writing of UNIX daemons
+
+Name           : libdatrie
+Version        : 0.2.5-1
+URL            : http://linux.thai.net/projects/datrie
+Licenses       : LGPL
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : libthai
+Conflicts With : None
+Replaces       : None
+Installed Size :  76.00 KiB
+Packager       : Jan de Groot <jgc@archlinux.org>
+Architecture   : i686
+Build Date     : Mon Nov  7 01:15:23 2011
+Install Date   : Tue Oct 16 16:37:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Implementation of double-array structure for representing trie, as proposed by Junichi Aoe.
 
 Name           : libedit
 Version        : 20120601_3.0-1
@@ -1463,7 +1891,7 @@ Groups         : None
 Provides       : libjpeg=8.0.2
 Depends On     : glibc
 Optional Deps  : None
-Required By    : jre7-openjdk-headless  libtiff
+Required By    : gdk-pixbuf2  jre7-openjdk-headless  libtiff
 Conflicts With : libjpeg
 Replaces       : libjpeg
 Installed Size : 1340.00 KiB
@@ -1503,7 +1931,7 @@ Groups         : None
 Provides       : None
 Depends On     : libsasl  e2fsprogs
 Optional Deps  : None
-Required By    : dirmngr  krb5
+Required By    : apr-util  dirmngr  krb5
 Conflicts With : None
 Replaces       : None
 Installed Size : 2024.00 KiB
@@ -1523,7 +1951,7 @@ Groups         : None
 Provides       : None
 Depends On     : None
 Optional Deps  : None
-Required By    : libtool
+Required By    : libtool  unixodbc
 Conflicts With : None
 Replaces       : None
 Installed Size : 960.00 KiB
@@ -1615,6 +2043,26 @@ Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : a C library for manipulating pipelines of subprocesses in a flexible and convenient way
 
+Name           : libpng
+Version        : 1.5.12-1
+URL            : http://www.libpng.org/pub/png/libpng.html
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : zlib  sh
+Optional Deps  : None
+Required By    : cairo  gdk-pixbuf2  libcups
+Conflicts With : None
+Replaces       : None
+Installed Size : 720.00 KiB
+Packager       : Ionut Biru <ibiru@archlinux.org>
+Architecture   : i686
+Build Date     : Tue Jul 24 09:51:27 2012
+Install Date   : Tue Oct 16 16:37:46 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : A collection of routines used to create PNG format graphics files
+
 Name           : libpqxx
 Version        : 4.0-1
 URL            : http://pqxx.org/development/libpqxx/
@@ -1675,6 +2123,46 @@ Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : A library implementing the SSH2 protocol as defined by Internet Drafts
 
+Name           : libtasn1
+Version        : 2.13-1
+URL            : http://www.gnu.org/software/libtasn1/
+Licenses       : GPL3  LGPL
+Groups         : None
+Provides       : None
+Depends On     : glibc  texinfo
+Optional Deps  : None
+Required By    : gnutls
+Conflicts With : None
+Replaces       : None
+Installed Size : 381.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Jun  3 11:35:20 2012
+Install Date   : Tue Oct 16 16:37:52 2012
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : The ASN.1 library used in GNUTLS
+
+Name           : libthai
+Version        : 0.1.18-1
+URL            : http://linux.thai.net/projects/libthai
+Licenses       : LGPL
+Groups         : None
+Provides       : None
+Depends On     : libdatrie
+Optional Deps  : None
+Required By    : pango
+Conflicts With : None
+Replaces       : None
+Installed Size : 680.00 KiB
+Packager       : Jan de Groot <jgc@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Aug  1 03:12:39 2012
+Install Date   : Tue Oct 16 16:37:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Thai language support routines
+
 Name           : libtiff
 Version        : 4.0.2-1
 URL            : http://www.remotesensing.org/libtiff/
@@ -1683,7 +2171,7 @@ Groups         : None
 Provides       : None
 Depends On     : libjpeg  zlib  xz
 Optional Deps  : freeglut: for using tiffgt
-Required By    : lcms2
+Required By    : gdk-pixbuf2  lcms2  libcups
 Conflicts With : None
 Replaces       : None
 Installed Size : 3520.00 KiB
@@ -1755,6 +2243,246 @@ Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Library that provides generic access to USB device
 
+Name           : libx11
+Version        : 1.5.0-1
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : libxcb  xproto  kbproto
+Optional Deps  : None
+Required By    : dbus  gdk-pixbuf2  libxext  libxfixes  libxrender
+Conflicts With : None
+Replaces       : None
+Installed Size : 14808.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Jun  2 14:42:08 2012
+Install Date   : Tue Oct 16 16:37:46 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 client-side library
+
+Name           : libxau
+Version        : 1.0.7-1
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : glibc  xproto>=7.0.18
+Optional Deps  : None
+Required By    : libxcb
+Conflicts With : None
+Replaces       : None
+Installed Size :  76.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Mar  7 11:44:00 2012
+Install Date   : Tue Oct 16 16:37:45 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 authorisation library
+
+Name           : libxcb
+Version        : 1.8.1-1
+URL            : http://xcb.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : xcb-proto>=1.7  libxdmcp  libxau
+Optional Deps  : None
+Required By    : libx11
+Conflicts With : None
+Replaces       : None
+Installed Size : 4509.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Mar  9 07:53:52 2012
+Install Date   : Tue Oct 16 16:37:45 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 client-side library
+
+Name           : libxcomposite
+Version        : 0.4.3-2
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : libxfixes  compositeproto
+Optional Deps  : None
+Required By    : gtk2
+Conflicts With : None
+Replaces       : None
+Installed Size : 120.00 KiB
+Packager       : Pierre Schmitz <pierre@archlinux.de>
+Architecture   : i686
+Build Date     : Sun Feb 26 02:36:18 2012
+Install Date   : Tue Oct 16 16:37:51 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 Composite extension library
+
+Name           : libxcursor
+Version        : 1.1.13-1
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : libxfixes  libxrender
+Optional Deps  : None
+Required By    : gtk2
+Conflicts With : None
+Replaces       : None
+Installed Size : 198.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Mar  9 08:03:25 2012
+Install Date   : Tue Oct 16 16:37:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X cursor management library
+
+Name           : libxdamage
+Version        : 1.1.3-2
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : libxfixes>=4.0.4  damageproto>=1.2.0
+Optional Deps  : None
+Required By    : gtk2
+Conflicts With : None
+Replaces       : None
+Installed Size :  64.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Feb 17 03:24:11 2012
+Install Date   : Tue Oct 16 16:37:51 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 damaged region extension library
+
+Name           : libxdmcp
+Version        : 1.1.1-1
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : xproto  glibc
+Optional Deps  : None
+Required By    : libxcb
+Conflicts With : None
+Replaces       : None
+Installed Size : 140.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Mar  9 08:06:16 2012
+Install Date   : Tue Oct 16 16:37:45 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 Display Manager Control Protocol library
+
+Name           : libxext
+Version        : 1.3.1-1
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : libx11  xextproto
+Optional Deps  : None
+Required By    : libxi  libxinerama  libxrandr
+Conflicts With : None
+Replaces       : None
+Installed Size : 555.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Mar  9 08:09:12 2012
+Install Date   : Tue Oct 16 16:37:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 miscellaneous extensions library
+
+Name           : libxfixes
+Version        : 5.0-2
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : libx11  fixesproto>=5.0
+Optional Deps  : None
+Required By    : libxcomposite  libxcursor  libxdamage
+Conflicts With : None
+Replaces       : None
+Installed Size :  88.00 KiB
+Packager       : Pierre Schmitz <pierre@archlinux.de>
+Architecture   : i686
+Build Date     : Sun Feb 26 02:41:41 2012
+Install Date   : Tue Oct 16 16:37:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 miscellaneous 'fixes' extension library
+
+Name           : libxft
+Version        : 2.3.1-1
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : fontconfig  libxrender
+Optional Deps  : None
+Required By    : pango
+Conflicts With : None
+Replaces       : None
+Installed Size : 124.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Jun  2 14:27:14 2012
+Install Date   : Tue Oct 16 16:37:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : FreeType-based font drawing library for X
+
+Name           : libxi
+Version        : 1.6.1-1
+URL            : http://xorg.freedesktop.org
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : libxext  inputproto
+Optional Deps  : None
+Required By    : gtk2
+Conflicts With : None
+Replaces       : None
+Installed Size : 699.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Sat May 12 09:22:27 2012
+Install Date   : Tue Oct 16 16:37:51 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 Input extension library
+
+Name           : libxinerama
+Version        : 1.1.2-1
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : libxext  xineramaproto
+Optional Deps  : None
+Required By    : gtk2
+Conflicts With : None
+Replaces       : None
+Installed Size :  56.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Mar  9 08:14:46 2012
+Install Date   : Tue Oct 16 16:37:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 Xinerama extension library
+
 Name           : libxml2
 Version        : 2.8.0-1
 URL            : http://www.xmlsoft.org/
@@ -1763,7 +2491,7 @@ Groups         : None
 Provides       : None
 Depends On     : zlib>=1.2.4  readline>=6.1  ncurses>=5.7  xz
 Optional Deps  : None
-Required By    : postgresql
+Required By    : postgresql  shared-mime-info
 Conflicts With : None
 Replaces       : None
 Installed Size : 11072.00 KiB
@@ -1774,6 +2502,46 @@ Install Date   : Mon Sep 17 11:06:59 2012
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : XML parsing library, version 2
+
+Name           : libxrandr
+Version        : 1.4.0-1
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : libxext  libxrender  randrproto>=1.4.0
+Optional Deps  : None
+Required By    : gtk2
+Conflicts With : None
+Replaces       : None
+Installed Size : 177.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Jul 29 04:05:53 2012
+Install Date   : Tue Oct 16 16:37:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 RandR extension library
+
+Name           : libxrender
+Version        : 0.9.7-1
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : libx11>=1.3.4  renderproto
+Optional Deps  : None
+Required By    : cairo  libxcursor  libxft  libxrandr
+Conflicts With : None
+Replaces       : None
+Installed Size :  84.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Mar  9 08:23:18 2012
+Install Date   : Tue Oct 16 16:37:46 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X Rendering Extension client library
 
 Name           : libyaml
 Version        : 0.1.4-2
@@ -2139,6 +2907,46 @@ Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : System V Release 4.0 curses emulation library
 
+Name           : neon
+Version        : 0.29.6-4
+URL            : http://www.webdav.org/neon/
+Licenses       : GPL  LGPL
+Groups         : None
+Provides       : None
+Depends On     : krb5  expat  ca-certificates
+Optional Deps  : None
+Required By    : subversion
+Conflicts With : None
+Replaces       : None
+Installed Size : 1244.00 KiB
+Packager       : Pierre Schmitz <pierre@archlinux.de>
+Architecture   : i686
+Build Date     : Thu Mar 15 11:18:39 2012
+Install Date   : Sun Oct  7 13:45:19 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : HTTP and WebDAV client library with a C interface
+
+Name           : nettle
+Version        : 2.5-1
+URL            : http://www.lysator.liu.se/~nisse/nettle/
+Licenses       : GPL2
+Groups         : None
+Provides       : None
+Depends On     : gmp
+Optional Deps  : None
+Required By    : gnutls
+Conflicts With : None
+Replaces       : None
+Installed Size : 569.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Thu Jul 12 12:05:44 2012
+Install Date   : Tue Oct 16 16:37:52 2012
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : A low-level cryptographic library
+
 Name           : nspr
 Version        : 4.9.2-1
 URL            : http://www.mozilla.org/projects/nspr/
@@ -2220,6 +3028,26 @@ Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 
+Name           : p11-kit
+Version        : 0.13-1
+URL            : http://p11-glue.freedesktop.org
+Licenses       : BSD
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : gnutls
+Conflicts With : None
+Replaces       : None
+Installed Size : 436.00 KiB
+Packager       : Ionut Biru <ibiru@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Aug 12 13:40:15 2012
+Install Date   : Tue Oct 16 16:37:52 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : Library to work with PKCS#11 modules
+
 Name           : pacman
 Version        : 4.0.3-3
 URL            : http://www.archlinux.org/pacman/
@@ -2299,6 +3127,26 @@ Install Date   : Thu Dec 31 19:42:11 1987
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Base PAM configuration for services
+
+Name           : pango
+Version        : 1.30.1-1
+URL            : http://www.pango.org/
+Licenses       : LGPL
+Groups         : None
+Provides       : None
+Depends On     : glib2  cairo  libxft  libthai  freetype2
+Optional Deps  : None
+Required By    : gtk2
+Conflicts With : None
+Replaces       : None
+Installed Size : 4224.00 KiB
+Packager       : Jan de Groot <jgc@archlinux.org>
+Architecture   : i686
+Build Date     : Sun Jun 10 03:50:08 2012
+Install Date   : Tue Oct 16 16:37:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : A library for layout and rendering of text
 
 Name           : patch
 Version        : 2.6.1-3
@@ -2395,7 +3243,7 @@ Installed Size : 49492.00 KiB
 Packager       : Florian Pritz <bluewind@xinu.at>
 Architecture   : i686
 Build Date     : Thu Aug  9 07:51:29 2012
-Install Date   : Mon Sep  3 10:29:59 2012
+Install Date   : Sun Oct  7 13:44:24 2012
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A highly capable, feature-rich programming language
@@ -2440,6 +3288,26 @@ Install Date   : Thu Dec 31 19:43:42 1987
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : a collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
+
+Name           : pixman
+Version        : 0.26.2-1
+URL            : http://xorg.freedesktop.org
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : glibc
+Optional Deps  : None
+Required By    : cairo
+Conflicts With : None
+Replaces       : None
+Installed Size : 665.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Jun 30 00:29:17 2012
+Install Date   : Tue Oct 16 16:37:49 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : The pixel-manipulation library for X and cairo
 
 Name           : pkg-config
 Version        : 0.27.1-1
@@ -2665,6 +3533,26 @@ Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : A high-level scripting language
 
+Name           : randrproto
+Version        : 1.4.0-1
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : libxrandr
+Conflicts With : None
+Replaces       : None
+Installed Size : 140.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : any
+Build Date     : Sun Jul 29 04:02:29 2012
+Install Date   : Tue Oct 16 16:37:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 RandR extension wire protocol
+
 Name           : readline
 Version        : 6.2.004-1
 URL            : http://tiswww.case.edu/php/chet/readline/rltop.html
@@ -2673,7 +3561,7 @@ Groups         : None
 Provides       : None
 Depends On     : glibc  ncurses
 Optional Deps  : None
-Required By    : bash  gnupg  inetutils  libxml2  lvm2  postgresql  postgresql-libs  sqlite  wpa_supplicant
+Required By    : bash  gnupg  gnutls  inetutils  libxml2  lvm2  postgresql  postgresql-libs  sqlite  unixodbc  wpa_supplicant
 Conflicts With : None
 Replaces       : None
 Installed Size : 996.00 KiB
@@ -2704,6 +3592,26 @@ Install Date   : Mon Sep  3 10:29:59 2012
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Reiserfs utilities
+
+Name           : renderproto
+Version        : 0.11.1-2
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : libxrender
+Conflicts With : None
+Replaces       : None
+Installed Size : 120.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : any
+Build Date     : Sat Feb 25 01:47:51 2012
+Install Date   : Tue Oct 16 16:37:46 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 Render extension wire protocol
 
 Name           : ruby
 Version        : 1.9.3_p194-2
@@ -2806,6 +3714,26 @@ Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Password and account management tool suite with support for shadow files and PAM
 
+Name           : shared-mime-info
+Version        : 1.0-1
+URL            : http://freedesktop.org/Software/shared-mime-info
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : libxml2  glib2
+Optional Deps  : None
+Required By    : gtk2
+Conflicts With : None
+Replaces       : None
+Installed Size : 3451.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Sat Feb  4 03:18:48 2012
+Install Date   : Tue Oct 16 16:37:51 2012
+Install Reason : Installed as a dependency for another package
+Install Script : Yes
+Description    : Freedesktop.org Shared MIME Info
+
 Name           : sqlite
 Version        : 3.7.13-1
 URL            : http://www.sqlite.org/
@@ -2814,7 +3742,7 @@ Groups         : None
 Provides       : sqlite3=3.7.13
 Depends On     : readline
 Optional Deps  : None
-Required By    : nss  python2
+Required By    : nss  python2  subversion
 Conflicts With : None
 Replaces       : sqlite3
 Installed Size : 1117.00 KiB
@@ -2825,6 +3753,30 @@ Install Date   : Sun Sep  2 12:21:35 2012
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : A C library that implements an SQL database engine
+
+Name           : subversion
+Version        : 1.7.6-1
+URL            : http://subversion.apache.org/
+Licenses       : APACHE
+Groups         : None
+Provides       : svn
+Depends On     : neon  apr-util  sqlite  file
+Optional Deps  : libgnome-keyring
+                 kdeutils-kwallet
+                 bash-completion: for svn bash completion
+                 python2: for some hook scripts
+                 java-environment
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 26520.00 KiB
+Packager       : Stéphane Gaudreault <stephane@archlinux.org>
+Architecture   : i686
+Build Date     : Wed Aug 15 06:08:16 2012
+Install Date   : Sun Oct  7 13:45:23 2012
+Install Reason : Explicitly installed
+Install Script : No
+Description    : A Modern Concurrent Version Control System
 
 Name           : sudo
 Version        : 1.8.5.p3-1
@@ -3002,7 +3954,7 @@ Groups         : base
 Provides       : None
 Depends On     : ncurses  findutils  gzip
 Optional Deps  : None
-Required By    : groff
+Required By    : groff  libtasn1
 Conflicts With : None
 Replaces       : None
 Installed Size : 2308.00 KiB
@@ -3033,6 +3985,26 @@ Install Date   : Thu Dec 31 19:42:05 1987
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Sources for time zone and daylight saving time data
+
+Name           : unixodbc
+Version        : 2.3.1-1
+URL            : http://www.unixodbc.org/
+Licenses       : GPL2  LGPL2.1
+Groups         : None
+Provides       : None
+Depends On     : readline  libltdl
+Optional Deps  : None
+Required By    : apr-util
+Conflicts With : None
+Replaces       : None
+Installed Size : 856.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : i686
+Build Date     : Fri Dec 16 12:06:40 2011
+Install Date   : Sun Oct  7 13:45:19 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : ODBC is an open specification for providing application developers with a predictable API with which to access Data Sources
 
 Name           : unzip
 Version        : 6.0-6
@@ -3083,7 +4055,7 @@ Groups         : base
 Provides       : util-linux-ng=2.21.2
 Depends On     : pam
 Optional Deps  : None
-Required By    : cryptsetup  e2fsprogs  fakeroot  jfsutils  mkinitcpio  reiserfsprogs  systemd  sysvinit-tools  xfsprogs
+Required By    : apr  cryptsetup  e2fsprogs  fakeroot  jfsutils  mkinitcpio  reiserfsprogs  systemd  sysvinit-tools  xfsprogs
 Conflicts With : util-linux-ng
 Replaces       : None
 Installed Size : 7396.00 KiB
@@ -3155,6 +4127,46 @@ Install Reason : Explicitly installed
 Install Script : No
 Description    : A utility providing key negotiation for WPA wireless networks
 
+Name           : xcb-proto
+Version        : 1.7.1-1
+URL            : http://xcb.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : libxcb
+Conflicts With : None
+Replaces       : None
+Installed Size : 653.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : any
+Build Date     : Fri Mar 23 13:55:04 2012
+Install Date   : Tue Oct 16 16:37:45 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : XML-XCB protocol descriptions
+
+Name           : xextproto
+Version        : 7.2.1-1
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : fixesproto  libxext
+Conflicts With : None
+Replaces       : None
+Installed Size : 753.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : any
+Build Date     : Fri Mar 23 10:23:40 2012
+Install Date   : Tue Oct 16 16:37:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 various extension wire protocol
+
 Name           : xfsprogs
 Version        : 3.1.8-2
 URL            : http://oss.sgi.com/projects/xfs/
@@ -3174,6 +4186,46 @@ Install Date   : Mon Sep  3 10:30:02 2012
 Install Reason : Explicitly installed
 Install Script : No
 Description    : XFS filesystem utilities
+
+Name           : xineramaproto
+Version        : 1.2.1-2
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : libxinerama
+Conflicts With : None
+Replaces       : None
+Installed Size :  56.00 KiB
+Packager       : Allan McRae <allan@archlinux.org>
+Architecture   : any
+Build Date     : Fri Feb 24 23:05:12 2012
+Install Date   : Tue Oct 16 16:37:50 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 Xinerama extension wire protocol
+
+Name           : xproto
+Version        : 7.0.23-1
+URL            : http://xorg.freedesktop.org/
+Licenses       : custom
+Groups         : None
+Provides       : None
+Depends On     : None
+Optional Deps  : None
+Required By    : damageproto  fixesproto  libx11  libxau  libxdmcp
+Conflicts With : None
+Replaces       : None
+Installed Size : 1229.00 KiB
+Packager       : Andreas Radke <andyrtr@archlinux.org>
+Architecture   : any
+Build Date     : Fri Mar 16 10:09:46 2012
+Install Date   : Tue Oct 16 16:37:45 2012
+Install Reason : Installed as a dependency for another package
+Install Script : No
+Description    : X11 core wire protocol and auxiliary headers
 
 Name           : xz
 Version        : 5.0.4-1
@@ -3223,7 +4275,7 @@ Groups         : None
 Provides       : None
 Depends On     : glibc
 Optional Deps  : None
-Required By    : binutils  cracklib  curl  file  kmod  libarchive  libtiff  libxml2  man-db  nss  python  python2
+Required By    : binutils  cracklib  curl  file  freetype2  gnutls  kmod  libarchive  libpng  libtiff  libxml2  man-db  nss  python  python2
 Conflicts With : None
 Replaces       : None
 Installed Size : 344.00 KiB
