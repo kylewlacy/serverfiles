@@ -12,8 +12,8 @@ Replaces       : xfsacl
 Installed Size : 532.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Apr 28 21:50:46 2012
-Install Date   : Thu Dec 31 19:42:11 1987
+Build Date     : Sat 28 Apr 2012 09:50:46 PM PDT
+Install Date   : Thu 31 Dec 1987 07:42:11 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Access control list utilities, libraries and headers
@@ -32,8 +32,8 @@ Replaces       : None
 Installed Size : 1312.00 KiB
 Packager       : Jan de Groot <jgc@archlinux.org>
 Architecture   : i686
-Build Date     : Sun May 13 13:17:23 2012
-Install Date   : Sun Oct  7 13:45:19 2012
+Build Date     : Sun 13 May 2012 01:17:23 PM PDT
+Install Date   : Sun 07 Oct 2012 01:45:19 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : The Apache Portable Runtime
@@ -52,8 +52,8 @@ Replaces       : None
 Installed Size : 812.00 KiB
 Packager       : Jan de Groot <jgc@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Feb  7 05:28:32 2012
-Install Date   : Sun Oct  7 13:45:19 2012
+Build Date     : Tue 07 Feb 2012 05:28:32 AM PST
+Install Date   : Sun 07 Oct 2012 01:45:19 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : The Apache Portable Runtime
@@ -72,8 +72,8 @@ Replaces       : None
 Installed Size : 476.00 KiB
 Packager       : Pierre Schmitz <pierre@archlinux.de>
 Architecture   : any
-Build Date     : Sat Aug 11 15:28:33 2012
-Install Date   : Thu Dec 31 19:43:43 1987
+Build Date     : Sat 11 Aug 2012 03:28:33 PM PDT
+Install Date   : Thu 31 Dec 1987 07:43:43 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : Arch Linux PGP keyring
@@ -92,8 +92,8 @@ Replaces       : None
 Installed Size : 2928.00 KiB
 Packager       : Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
 Architecture   : i686
-Build Date     : Fri Mar 30 04:22:51 2012
-Install Date   : Tue Oct 16 16:37:45 2012
+Build Date     : Fri 30 Mar 2012 04:22:51 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:45 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : A library providing a set of interfaces for accessibility
@@ -112,8 +112,8 @@ Replaces       : xfsattr
 Installed Size : 364.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Apr 28 21:54:11 2012
-Install Date   : Thu Dec 31 19:42:11 1987
+Build Date     : Sat 28 Apr 2012 09:54:11 PM PDT
+Install Date   : Thu 31 Dec 1987 07:42:11 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Extended attribute support library for ACL support
@@ -132,8 +132,8 @@ Replaces       : None
 Installed Size : 2228.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : any
-Build Date     : Wed Apr 25 00:42:47 2012
-Install Date   : Mon Sep  3 10:30:03 2012
+Build Date     : Wed 25 Apr 2012 12:42:47 AM PDT
+Install Date   : Mon 03 Sep 2012 10:30:03 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A GNU tool for automatically configuring source code
@@ -152,8 +152,8 @@ Replaces       : None
 Installed Size : 1876.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : any
-Build Date     : Wed Aug 15 00:11:47 2012
-Install Date   : Mon Sep  3 10:30:05 2012
+Build Date     : Wed 15 Aug 2012 12:11:47 AM PDT
+Install Date   : Mon 03 Sep 2012 10:30:05 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A GNU tool for automatically creating Makefiles
@@ -180,8 +180,8 @@ Replaces       : None
 Installed Size : 2344.00 KiB
 Packager       : Gaetan Bisson <bisson@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Apr 18 05:11:25 2012
-Install Date   : Tue Oct 16 16:37:53 2012
+Build Date     : Wed 18 Apr 2012 05:11:25 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:53 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : Multicast/unicast DNS-SD framework
@@ -200,8 +200,8 @@ Replaces       : None
 Installed Size : 3660.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Jul 19 19:00:25 2012
-Install Date   : Mon Sep  3 10:28:48 2012
+Build Date     : Thu 19 Jul 2012 07:00:25 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:48 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : The GNU Bourne Again shell
@@ -220,8 +220,8 @@ Replaces       : None
 Installed Size : 16236.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Aug 10 23:04:06 2012
-Install Date   : Mon Sep  3 10:30:06 2012
+Build Date     : Fri 10 Aug 2012 11:04:06 PM PDT
+Install Date   : Mon 03 Sep 2012 10:30:06 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A set of programs to assemble and manipulate binary and object files
@@ -240,8 +240,8 @@ Replaces       : None
 Installed Size : 2104.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Aug  3 17:52:03 2012
-Install Date   : Mon Sep  3 10:30:06 2012
+Build Date     : Fri 03 Aug 2012 05:52:03 PM PDT
+Install Date   : Mon 03 Sep 2012 10:30:06 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : The GNU general-purpose parser generator
@@ -260,8 +260,8 @@ Replaces       : None
 Installed Size : 260.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Apr 29 01:14:30 2012
-Install Date   : Mon Sep  3 10:28:49 2012
+Build Date     : Sun 29 Apr 2012 01:14:30 AM PDT
+Install Date   : Mon 03 Sep 2012 10:28:49 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : A high-quality data compression program
@@ -280,8 +280,8 @@ Replaces       : None
 Installed Size : 696.00 KiB
 Packager       : Pierre Schmitz <pierre@archlinux.de>
 Architecture   : any
-Build Date     : Fri Jun 29 00:46:31 2012
-Install Date   : Thu Dec 31 19:43:37 1987
+Build Date     : Fri 29 Jun 2012 12:46:31 AM PDT
+Install Date   : Thu 31 Dec 1987 07:43:37 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : Common CA certificates
@@ -300,8 +300,8 @@ Replaces       : None
 Installed Size :  68.00 KiB
 Packager       : Pierre Schmitz <pierre@archlinux.de>
 Architecture   : any
-Build Date     : Fri Jun 29 01:15:49 2012
-Install Date   : Sun Sep  2 14:38:40 2012
+Build Date     : Fri 29 Jun 2012 01:15:49 AM PDT
+Install Date   : Sun 02 Sep 2012 02:38:40 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : Common CA certificates (JKS keystore)
@@ -320,8 +320,8 @@ Replaces       : cairo-xcb
 Installed Size : 3512.00 KiB
 Packager       : Evangelos Foutras <evangelos@foutrelis.com>
 Architecture   : i686
-Build Date     : Fri Jun  8 10:15:51 2012
-Install Date   : Tue Oct 16 16:37:50 2012
+Build Date     : Fri 08 Jun 2012 10:15:51 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Cairo vector graphics library
@@ -340,8 +340,8 @@ Replaces       : None
 Installed Size : 508.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Jun 14 21:18:27 2012
-Install Date   : Thu Dec 31 19:43:54 1987
+Build Date     : Thu 14 Jun 2012 09:18:27 PM PDT
+Install Date   : Thu 31 Dec 1987 07:43:54 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Library that generates loops for scanning polyhedra
@@ -360,8 +360,8 @@ Replaces       : None
 Installed Size :  36.00 KiB
 Packager       : Jan de Groot <jgc@archlinux.org>
 Architecture   : any
-Build Date     : Tue Feb  7 05:04:57 2012
-Install Date   : Tue Oct 16 16:37:51 2012
+Build Date     : Tue 07 Feb 2012 05:04:57 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:51 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 Composite extension wire protocol
@@ -380,8 +380,8 @@ Replaces       : mktemp
 Installed Size : 13644.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Jul 15 19:32:01 2012
-Install Date   : Mon Sep  3 10:28:50 2012
+Build Date     : Sun 15 Jul 2012 07:32:01 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:50 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : The basic file, shell and text manipulation utilities of the GNU operating system
@@ -400,8 +400,8 @@ Replaces       : None
 Installed Size : 1756.00 KiB
 Packager       : Tobias Powalowski <tpowa@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Aug 23 05:34:21 2012
-Install Date   : Thu Dec 31 19:42:11 1987
+Build Date     : Thu 23 Aug 2012 05:34:21 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:11 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Password Checking Library
@@ -421,8 +421,8 @@ Replaces       : None
 Installed Size : 192.00 KiB
 Packager       : Tom Gundersen <teg@jklm.no>
 Architecture   : i686
-Build Date     : Wed Aug  8 18:24:50 2012
-Install Date   : Mon Sep  3 10:28:50 2012
+Build Date     : Wed 08 Aug 2012 06:24:50 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:50 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Daemon that runs specified programs at scheduled times and related tools
@@ -441,8 +441,8 @@ Replaces       : None
 Installed Size : 796.00 KiB
 Packager       : Thomas Bächler <thomas@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Aug  9 11:08:08 2012
-Install Date   : Mon Sep  3 10:28:51 2012
+Build Date     : Thu 09 Aug 2012 11:08:08 AM PDT
+Install Date   : Mon 03 Sep 2012 10:28:51 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Userspace setup tool for transparent encryption of block devices using dm-crypt
@@ -461,8 +461,8 @@ Replaces       : None
 Installed Size : 1652.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Jul 27 14:43:19 2012
-Install Date   : Thu Dec 31 19:43:42 1987
+Build Date     : Fri 27 Jul 2012 02:43:19 PM PDT
+Install Date   : Thu 31 Dec 1987 07:43:42 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : An URL retrival utility and library
@@ -481,8 +481,8 @@ Replaces       : None
 Installed Size :  72.00 KiB
 Packager       : Pierre Schmitz <pierre@archlinux.de>
 Architecture   : any
-Build Date     : Fri Feb 24 23:01:46 2012
-Install Date   : Tue Oct 16 16:37:51 2012
+Build Date     : Fri 24 Feb 2012 11:01:46 PM PST
+Install Date   : Tue 16 Oct 2012 04:37:51 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 Damage extension wire protocol
@@ -501,8 +501,8 @@ Replaces       : None
 Installed Size : 13588.00 KiB
 Packager       : Stéphane Gaudreault <stephane@archlinux.org>
 Architecture   : i686
-Build Date     : Thu May 31 14:18:40 2012
-Install Date   : Thu Dec 31 19:42:11 1987
+Build Date     : Thu 31 May 2012 02:18:40 PM PDT
+Install Date   : Thu 31 Dec 1987 07:42:11 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : The Berkeley DB embedded database system
@@ -521,8 +521,8 @@ Replaces       : None
 Installed Size :  68.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Jul 21 04:18:19 2012
-Install Date   : Tue Oct 16 16:37:53 2012
+Build Date     : Sat 21 Jul 2012 04:18:19 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:53 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Freedesktop.org message bus system
@@ -541,8 +541,8 @@ Replaces       : None
 Installed Size : 1781.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Jul 21 04:10:59 2012
-Install Date   : Thu Dec 31 19:42:15 1987
+Build Date     : Sat 21 Jul 2012 04:10:59 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:15 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : Freedesktop.org message bus system
@@ -561,8 +561,8 @@ Replaces       : None
 Installed Size : 568.00 KiB
 Packager       : Eric Belanger <eric@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Aug  9 14:39:09 2012
-Install Date   : Mon Sep  3 10:28:50 2012
+Build Date     : Thu 09 Aug 2012 02:39:09 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:50 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Device mapper userspace library and tools
@@ -581,8 +581,8 @@ Replaces       : None
 Installed Size : 272.00 KiB
 Packager       : Ronald van Haren <ronald@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Jul 31 13:39:47 2012
-Install Date   : Mon Sep  3 10:28:51 2012
+Build Date     : Tue 31 Jul 2012 01:39:47 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:51 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : RFC2131 compliant DHCP client daemon
@@ -601,8 +601,8 @@ Replaces       : None
 Installed Size : 1152.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Sep  2 16:37:56 2011
-Install Date   : Mon Sep  3 10:28:51 2012
+Build Date     : Fri 02 Sep 2011 04:37:56 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:51 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Utility programs used for creating patch files
@@ -621,8 +621,8 @@ Replaces       : None
 Installed Size : 660.00 KiB
 Packager       : Tobias Powalowski <tpowa@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Mar  8 05:27:45 2012
-Install Date   : Thu Dec 31 19:43:42 1987
+Build Date     : Thu 08 Mar 2012 05:27:45 AM PST
+Install Date   : Thu 31 Dec 1987 07:43:42 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : A daemon to handle CRL and certificate requests
@@ -641,8 +641,8 @@ Replaces       : None
 Installed Size :   8.00 KiB
 Packager       : Gaetan Bisson <bisson@archlinux.org>
 Architecture   : any
-Build Date     : Sun Apr 22 00:31:34 2012
-Install Date   : Sat Sep  1 09:44:50 2012
+Build Date     : Sun 22 Apr 2012 12:31:34 AM PDT
+Install Date   : Sat 01 Sep 2012 09:44:50 AM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : DNSSEC trust anchors for the root zone
@@ -661,8 +661,8 @@ Replaces       : None
 Installed Size : 3476.00 KiB
 Packager       : Ronald van Haren <ronald@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Jul 31 13:45:22 2012
-Install Date   : Mon Sep  3 10:28:52 2012
+Build Date     : Tue 31 Jul 2012 01:45:22 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:52 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Ext2/3/4 filesystem utilities
@@ -681,8 +681,8 @@ Replaces       : None
 Installed Size :  60.00 KiB
 Packager       : Andrea Scarpino <andrea@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Nov  2 13:05:59 2011
-Install Date   : Thu Dec 31 19:43:44 1987
+Build Date     : Wed 02 Nov 2011 01:05:59 PM PDT
+Install Date   : Thu 31 Dec 1987 07:43:44 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : API to format and send structured log messages
@@ -701,8 +701,8 @@ Replaces       : None
 Installed Size : 500.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Mar 27 16:58:55 2012
-Install Date   : Thu Dec 31 19:42:15 1987
+Build Date     : Tue 27 Mar 2012 04:58:55 PM PDT
+Install Date   : Thu 31 Dec 1987 07:42:15 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : An XML parser library
@@ -721,8 +721,8 @@ Replaces       : None
 Installed Size : 224.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Jun  3 22:01:25 2012
-Install Date   : Mon Sep  3 10:30:07 2012
+Build Date     : Sun 03 Jun 2012 10:01:25 PM PDT
+Install Date   : Mon 03 Sep 2012 10:30:07 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Gives a fake root environment, useful for building packages as a non-privileged user
@@ -741,8 +741,8 @@ Replaces       : None
 Installed Size : 2588.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Feb 23 00:23:20 2012
-Install Date   : Mon Sep  3 10:28:52 2012
+Build Date     : Thu 23 Feb 2012 12:23:20 AM PST
+Install Date   : Mon 03 Sep 2012 10:28:52 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : File type identification utility
@@ -761,8 +761,8 @@ Replaces       : None
 Installed Size :  96.00 KiB
 Packager       : Tom Gundersen <teg@jklm.no>
 Architecture   : any
-Build Date     : Mon Aug 27 12:56:52 2012
-Install Date   : Mon Sep  3 10:28:52 2012
+Build Date     : Mon 27 Aug 2012 12:56:52 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:52 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Base filesystem
@@ -781,8 +781,8 @@ Replaces       : None
 Installed Size : 1592.00 KiB
 Packager       : Tobias Powalowski <tpowa@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Nov  2 05:52:53 2011
-Install Date   : Mon Sep  3 10:28:53 2012
+Build Date     : Wed 02 Nov 2011 05:52:53 AM PDT
+Install Date   : Mon 03 Sep 2012 10:28:53 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : GNU utilities to locate files
@@ -801,8 +801,8 @@ Replaces       : None
 Installed Size : 100.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : any
-Build Date     : Sat Feb 25 02:06:39 2012
-Install Date   : Tue Oct 16 16:37:50 2012
+Build Date     : Sat 25 Feb 2012 02:06:39 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 Fixes extension wire protocol
@@ -821,8 +821,8 @@ Replaces       : None
 Installed Size : 1792.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Aug  3 18:01:32 2012
-Install Date   : Mon Sep  3 10:30:07 2012
+Build Date     : Fri 03 Aug 2012 06:01:32 PM PDT
+Install Date   : Mon 03 Sep 2012 10:30:07 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A tool for generating text-scanning programs
@@ -841,8 +841,8 @@ Replaces       : None
 Installed Size : 3676.00 KiB
 Packager       : Ionut Biru <ibiru@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Feb 23 04:59:25 2012
-Install Date   : Tue Oct 16 16:37:47 2012
+Build Date     : Thu 23 Feb 2012 04:59:25 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:47 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : A library for configuring and customizing font access
@@ -861,8 +861,8 @@ Replaces       : None
 Installed Size : 2494.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Jun 15 09:49:17 2012
-Install Date   : Tue Oct 16 16:37:46 2012
+Build Date     : Fri 15 Jun 2012 09:49:17 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:46 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : TrueType font rendering library
@@ -881,8 +881,8 @@ Replaces       : None
 Installed Size : 2444.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Apr  4 02:12:26 2012
-Install Date   : Mon Sep  3 10:28:53 2012
+Build Date     : Wed 04 Apr 2012 02:12:26 AM PDT
+Install Date   : Mon 03 Sep 2012 10:28:53 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : GNU version of awk
@@ -901,8 +901,8 @@ Replaces       : None
 Installed Size : 70664.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Aug 10 22:25:45 2012
-Install Date   : Mon Sep  3 10:30:20 2012
+Build Date     : Fri 10 Aug 2012 10:25:45 PM PDT
+Install Date   : Mon 03 Sep 2012 10:30:20 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : The GNU Compiler Collection - C and C++ frontends
@@ -921,8 +921,8 @@ Replaces       : None
 Installed Size : 3080.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Aug 10 22:26:37 2012
-Install Date   : Mon Sep  3 10:28:54 2012
+Build Date     : Fri 10 Aug 2012 10:26:37 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:54 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Runtime libraries shipped by GCC
@@ -941,8 +941,8 @@ Replaces       : None
 Installed Size : 348.00 KiB
 Packager       : Stéphane Gaudreault <stephane@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Nov 18 16:26:34 2011
-Install Date   : Thu Dec 31 19:42:25 1987
+Build Date     : Fri 18 Nov 2011 04:26:34 PM PST
+Install Date   : Thu 31 Dec 1987 07:42:25 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : GNU database library
@@ -961,8 +961,8 @@ Replaces       : None
 Installed Size : 3916.00 KiB
 Packager       : Jan de Groot <jgc@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Aug 29 05:13:55 2012
-Install Date   : Tue Oct 16 16:37:55 2012
+Build Date     : Wed 29 Aug 2012 05:13:55 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:55 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : An image loading library
@@ -981,8 +981,8 @@ Replaces       : None
 Installed Size : 13912.00 KiB
 Packager       : Tobias Powalowski <tpowa@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Nov  4 04:46:34 2011
-Install Date   : Mon Sep  3 10:28:57 2012
+Build Date     : Fri 04 Nov 2011 04:46:34 AM PDT
+Install Date   : Mon 03 Sep 2012 10:28:57 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : GNU internationalization library
@@ -1009,8 +1009,8 @@ Replaces       : git-core
 Installed Size : 17340.00 KiB
 Packager       : Dan McGee <dan@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Aug 21 06:49:25 2012
-Install Date   : Sat Sep  1 10:39:56 2012
+Build Date     : Tue 21 Aug 2012 06:49:25 AM PDT
+Install Date   : Sat 01 Sep 2012 10:39:56 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : the fast distributed version control system
@@ -1029,8 +1029,8 @@ Replaces       : None
 Installed Size : 12080.00 KiB
 Packager       : Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
 Architecture   : i686
-Build Date     : Thu Jul 19 01:02:03 2012
-Install Date   : Thu Dec 31 19:42:20 1987
+Build Date     : Thu 19 Jul 2012 01:02:03 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:20 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Common C routines used by GTK+ and other libs
@@ -1043,14 +1043,14 @@ Groups         : base
 Provides       : None
 Depends On     : linux-api-headers>=3.5  tzdata
 Optional Deps  : None
-Required By    : attr  bash  binutils  bison  bzip2  coreutils  cracklib  device-mapper  dhcpcd  diffutils  eventlog  expat  fakeroot  file  findutils  flex  gawk  gcc-libs  gdbm  grep  gzip  initscripts  iproute2  kbd  keyutils  kmod  libcap  libdatrie  libffi  libgpg-error  libgssglue  libjpeg-turbo  libksba  libnl  libpcap  libpipeline  libtasn1  libusbx  libxau  libxdmcp  m4  make  mdadm  mkinitcpio-busybox  ncurses  nspr  p11-kit  pacman  pam  patch  pciutils  perl  pixman  popt  ppp  pth  readline  run-parts  sudo  sysfsutils  syslinux  sysvinit-tools  tar  which  zlib
+Required By    : attr  bash  binutils  bison  bzip2  coreutils  cracklib  device-mapper  dhcpcd  diffutils  eventlog  expat  fakeroot  file  findutils  flex  gawk  gcc-libs  gdbm  grep  gzip  initscripts  iproute2  kbd  keyutils  kmod  libcap  libdatrie  libffi  libgpg-error  libgssglue  libjpeg-turbo  libksba  libnl  libpcap  libpipeline  libtasn1  libusbx  libxau  libxdmcp  m4  make  mdadm  mkinitcpio-busybox  ncurses  nspr  p11-kit  pacman  pam  patch  pciutils  perl  pixman  popt  ppp  pptpd  pth  readline  run-parts  sudo  sysfsutils  syslinux  sysvinit-tools  tar  which  zlib
 Conflicts With : None
 Replaces       : None
 Installed Size : 34856.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Aug 29 04:50:15 2012
-Install Date   : Mon Sep  3 10:28:42 2012
+Build Date     : Wed 29 Aug 2012 04:50:15 AM PDT
+Install Date   : Mon 03 Sep 2012 10:28:42 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : GNU C Library
@@ -1069,8 +1069,8 @@ Replaces       : None
 Installed Size : 1672.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Mon May  7 01:35:09 2012
-Install Date   : Thu Dec 31 19:42:11 1987
+Build Date     : Mon 07 May 2012 01:35:09 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:11 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : A free library for arbitrary precision arithmetic
@@ -1092,8 +1092,8 @@ Replaces       : gnupg2
 Installed Size : 6912.00 KiB
 Packager       : Gaetan Bisson <bisson@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Apr 19 16:04:53 2012
-Install Date   : Thu Dec 31 19:43:43 1987
+Build Date     : Thu 19 Apr 2012 04:04:53 PM PDT
+Install Date   : Thu 31 Dec 1987 07:43:43 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : Complete and free implementation of the OpenPGP standard
@@ -1112,8 +1112,8 @@ Replaces       : None
 Installed Size : 6529.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Mon Sep  3 02:25:19 2012
-Install Date   : Tue Oct 16 16:37:53 2012
+Build Date     : Mon 03 Sep 2012 02:25:19 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:53 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : A library which provides a secure layer over a reliable transport layer
@@ -1132,8 +1132,8 @@ Replaces       : None
 Installed Size : 876.00 KiB
 Packager       : Gaetan Bisson <bisson@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Mar 24 10:07:32 2012
-Install Date   : Thu Dec 31 19:43:43 1987
+Build Date     : Sat 24 Mar 2012 10:07:32 AM PDT
+Install Date   : Thu 31 Dec 1987 07:43:43 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : A C wrapper library for GnuPG
@@ -1152,8 +1152,8 @@ Replaces       : None
 Installed Size : 1352.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Mon Aug 20 04:33:24 2012
-Install Date   : Mon Sep  3 10:28:58 2012
+Build Date     : Mon 20 Aug 2012 04:33:24 AM PDT
+Install Date   : Mon 03 Sep 2012 10:28:58 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A string search utility
@@ -1173,8 +1173,8 @@ Replaces       : None
 Installed Size : 8048.00 KiB
 Packager       : Tobias Powalowski <tpowa@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Nov  2 06:10:03 2011
-Install Date   : Thu Dec 31 19:43:33 1987
+Build Date     : Wed 02 Nov 2011 06:10:03 AM PDT
+Install Date   : Thu 31 Dec 1987 07:43:33 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : GNU troff text-formatting system
@@ -1193,8 +1193,8 @@ Replaces       : None
 Installed Size :  28.00 KiB
 Packager       : Ionut Biru <ibiru@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Jul 22 01:52:41 2012
-Install Date   : Tue Oct 16 16:37:55 2012
+Build Date     : Sun 22 Jul 2012 01:52:41 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:55 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : The GTK+ update icon cache tool
@@ -1213,8 +1213,8 @@ Replaces       : gtk2-docs
 Installed Size : 57412.00 KiB
 Packager       : Ionut Biru <ibiru@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Jul 22 01:52:17 2012
-Install Date   : Tue Oct 16 16:38:01 2012
+Build Date     : Sun 22 Jul 2012 01:52:17 AM PDT
+Install Date   : Tue 16 Oct 2012 04:38:01 PM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : GTK+ is a multi-platform toolkit (v2)
@@ -1233,8 +1233,8 @@ Replaces       : None
 Installed Size : 244.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Jun 17 16:18:14 2012
-Install Date   : Mon Sep  3 10:28:58 2012
+Build Date     : Sun 17 Jun 2012 04:18:14 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:58 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : GNU compression utility
@@ -1253,8 +1253,8 @@ Replaces       : mailx  mailx-heirloom
 Installed Size : 464.00 KiB
 Packager       : Stéphane Gaudreault <stephane@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Nov  4 13:46:38 2011
-Install Date   : Mon Sep  3 10:28:58 2012
+Build Date     : Fri 04 Nov 2011 01:46:38 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:58 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : A commandline utility for sending and receiving email
@@ -1273,8 +1273,8 @@ Replaces       : None
 Installed Size : 1212.00 KiB
 Packager       : Tom Gundersen <teg@jklm.no>
 Architecture   : any
-Build Date     : Thu Aug 23 01:41:36 2012
-Install Date   : Thu Dec 31 19:42:21 1987
+Build Date     : Thu 23 Aug 2012 01:41:36 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:21 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : hardware identification databases
@@ -1293,8 +1293,8 @@ Replaces       : None
 Installed Size : 3524.00 KiB
 Packager       : Gaetan Bisson <bisson@archlinux.org>
 Architecture   : any
-Build Date     : Sun Jul 22 10:24:07 2012
-Install Date   : Thu Dec 31 19:42:15 1987
+Build Date     : Sun 22 Jul 2012 10:24:07 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:15 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : /etc/protocols and /etc/services provided by IANA
@@ -1313,8 +1313,8 @@ Replaces       : None
 Installed Size : 1032.00 KiB
 Packager       : Eric Belanger <eric@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Aug 18 02:33:10 2012
-Install Date   : Mon Sep  3 10:28:58 2012
+Build Date     : Sat 18 Aug 2012 02:33:10 AM PDT
+Install Date   : Mon 03 Sep 2012 10:28:58 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A collection of common network programs
@@ -1336,8 +1336,8 @@ Replaces       : initscripts-systemd
 Installed Size : 152.00 KiB
 Packager       : Tom Gundersen <teg@jklm.no>
 Architecture   : any
-Build Date     : Mon Aug 27 13:02:32 2012
-Install Date   : Mon Sep  3 10:28:58 2012
+Build Date     : Mon 27 Aug 2012 01:02:32 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:58 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : System initialization/bootup scripts
@@ -1356,8 +1356,8 @@ Replaces       : None
 Installed Size : 588.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : any
-Build Date     : Fri Mar  2 06:23:10 2012
-Install Date   : Tue Oct 16 16:37:51 2012
+Build Date     : Fri 02 Mar 2012 06:23:10 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:51 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 Input extension wire protocol
@@ -1376,8 +1376,8 @@ Replaces       : iproute
 Installed Size : 1656.00 KiB
 Packager       : Ronald van Haren <ronald@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Aug 14 12:02:18 2012
-Install Date   : Thu Dec 31 19:42:34 1987
+Build Date     : Tue 14 Aug 2012 12:02:18 PM PDT
+Install Date   : Thu 31 Dec 1987 07:42:34 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : IP Routing Utilities
@@ -1396,8 +1396,8 @@ Replaces       : netkit-base
 Installed Size : 264.00 KiB
 Packager       : Stéphane Gaudreault <stephane@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Jul 12 03:20:17 2012
-Install Date   : Mon Sep  3 10:28:58 2012
+Build Date     : Thu 12 Jul 2012 03:20:17 AM PDT
+Install Date   : Mon 03 Sep 2012 10:28:58 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : IP Configuration Utilities (and Ping)
@@ -1416,8 +1416,8 @@ Replaces       : None
 Installed Size : 2640.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Jun 14 21:10:20 2012
-Install Date   : Thu Dec 31 19:43:54 1987
+Build Date     : Thu 14 Jun 2012 09:10:20 PM PDT
+Install Date   : Thu 31 Dec 1987 07:43:54 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Library for manipulating sets and relations of integer points bounded by linear constraints
@@ -1436,8 +1436,8 @@ Replaces       : None
 Installed Size : 1076.00 KiB
 Packager       : Guillaume ALAUX <guillaume@archlinux.org>
 Architecture   : any
-Build Date     : Sat May  5 04:51:56 2012
-Install Date   : Sun Sep  2 14:38:40 2012
+Build Date     : Sat 05 May 2012 04:51:56 AM PDT
+Install Date   : Sun 02 Sep 2012 02:38:40 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Open-source implementation of JavaScript written entirely in Java - JAR
@@ -1456,8 +1456,8 @@ Replaces       : None
 Installed Size : 1084.00 KiB
 Packager       : Gaetan Bisson <bisson@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Nov  2 05:48:59 2011
-Install Date   : Mon Sep  3 10:28:58 2012
+Build Date     : Wed 02 Nov 2011 05:48:59 AM PDT
+Install Date   : Mon 03 Sep 2012 10:28:58 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : JFS filesystem utilities
@@ -1477,8 +1477,8 @@ Replaces       : None
 Installed Size : 58368.00 KiB
 Packager       : Guillaume ALAUX <guillaume@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Sep  1 05:26:42 2012
-Install Date   : Sun Sep  2 14:38:55 2012
+Build Date     : Sat 01 Sep 2012 05:26:42 AM PDT
+Install Date   : Sun 02 Sep 2012 02:38:55 PM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Free Java environment based on OpenJDK 7.0 with IcedTea7 replacing binary plugs - Minimal Java runtime - needed for executing non GUI Java programs
@@ -1497,8 +1497,8 @@ Replaces       : None
 Installed Size : 4364.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Jul 15 18:58:49 2012
-Install Date   : Thu Dec 31 19:42:20 1987
+Build Date     : Sun 15 Jul 2012 06:58:49 PM PDT
+Install Date   : Thu 31 Dec 1987 07:42:20 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Keytable files and keyboard utilities
@@ -1517,8 +1517,8 @@ Replaces       : None
 Installed Size : 1085.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : any
-Build Date     : Fri Mar 23 10:17:50 2012
-Install Date   : Tue Oct 16 16:37:45 2012
+Build Date     : Fri 23 Mar 2012 10:17:50 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:45 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 XKB extension wire protocol
@@ -1537,8 +1537,8 @@ Replaces       : None
 Installed Size :  88.00 KiB
 Packager       : Eric Belanger <eric@archlinux.org>
 Architecture   : any
-Build Date     : Mon Feb  6 21:53:23 2012
-Install Date   : Sun Oct  7 15:20:13 2012
+Build Date     : Mon 06 Feb 2012 09:53:23 PM PST
+Install Date   : Sun 07 Oct 2012 03:20:13 PM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : A front-end to ssh-agent, allowing one long-running ssh-agent process per system, rather than per login
@@ -1557,8 +1557,8 @@ Replaces       : None
 Installed Size : 248.00 KiB
 Packager       : Tobias Powalowski <tpowa@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Jun 23 09:28:05 2012
-Install Date   : Thu Dec 31 19:42:33 1987
+Build Date     : Sat 23 Jun 2012 09:28:05 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:33 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Linux Key Management Utilities
@@ -1577,8 +1577,8 @@ Replaces       : module-init-tools
 Installed Size : 292.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Jul  3 15:38:39 2012
-Install Date   : Thu Dec 31 19:42:21 1987
+Build Date     : Tue 03 Jul 2012 03:38:39 PM PDT
+Install Date   : Thu 31 Dec 1987 07:42:21 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : Linux kernel module handling
@@ -1597,8 +1597,8 @@ Replaces       : None
 Installed Size : 4168.00 KiB
 Packager       : Stéphane Gaudreault <stephane@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Aug  9 02:25:11 2012
-Install Date   : Thu Dec 31 19:42:33 1987
+Build Date     : Thu 09 Aug 2012 02:25:11 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:33 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : The Kerberos network authentication system
@@ -1617,8 +1617,8 @@ Replaces       : None
 Installed Size : 1020.00 KiB
 Packager       : Eric Belanger <eric@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Jan 18 12:05:08 2012
-Install Date   : Sun Sep  2 14:38:39 2012
+Build Date     : Wed 18 Jan 2012 12:05:08 PM PST
+Install Date   : Sun 02 Sep 2012 02:38:39 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Small-footprint color management engine, version 2
@@ -1637,8 +1637,8 @@ Replaces       : None
 Installed Size : 3104.00 KiB
 Packager       : Gaetan Bisson <bisson@archlinux.org>
 Architecture   : i686
-Build Date     : Mon May 21 07:32:59 2012
-Install Date   : Sat Sep  1 09:44:50 2012
+Build Date     : Mon 21 May 2012 07:32:59 AM PDT
+Install Date   : Sat 01 Sep 2012 09:44:50 AM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Fast DNS library supporting recent RFCs
@@ -1657,8 +1657,8 @@ Replaces       : None
 Installed Size : 220.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Feb  5 18:25:08 2012
-Install Date   : Mon Sep  3 10:28:58 2012
+Build Date     : Sun 05 Feb 2012 06:25:08 PM PST
+Install Date   : Mon 03 Sep 2012 10:28:58 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : A terminal based program for viewing text files
@@ -1677,8 +1677,8 @@ Replaces       : None
 Installed Size : 2816.00 KiB
 Packager       : Dan McGee <dan@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Mar 30 08:42:04 2012
-Install Date   : Thu Dec 31 19:42:42 1987
+Build Date     : Fri 30 Mar 2012 08:42:04 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:42 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : library that can create and read several streaming archive formats
@@ -1697,8 +1697,8 @@ Replaces       : None
 Installed Size : 180.00 KiB
 Packager       : Tobias Powalowski <tpowa@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Jan 12 08:35:57 2012
-Install Date   : Thu Dec 31 19:43:42 1987
+Build Date     : Thu 12 Jan 2012 08:35:57 AM PST
+Install Date   : Thu 31 Dec 1987 07:43:42 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : A IPC library used by some GnuPG related software
@@ -1717,8 +1717,8 @@ Replaces       : None
 Installed Size : 200.00 KiB
 Packager       : Tom Gundersen <teg@jklm.no>
 Architecture   : i686
-Build Date     : Sat Apr 28 12:39:15 2012
-Install Date   : Thu Dec 31 19:42:11 1987
+Build Date     : Sat 28 Apr 2012 12:39:15 PM PDT
+Install Date   : Thu 31 Dec 1987 07:42:11 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : POSIX 1003.1e capabilities
@@ -1737,8 +1737,8 @@ Replaces       : None
 Installed Size : 865.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Aug 14 13:30:04 2012
-Install Date   : Tue Oct 16 16:37:54 2012
+Build Date     : Tue 14 Aug 2012 01:30:04 PM PDT
+Install Date   : Tue 16 Oct 2012 04:37:54 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : The CUPS Printing System - client libraries and headers
@@ -1757,8 +1757,8 @@ Replaces       : None
 Installed Size :  84.00 KiB
 Packager       : Gaetan Bisson <bisson@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Feb  5 08:43:43 2012
-Install Date   : Tue Oct 16 16:37:53 2012
+Build Date     : Sun 05 Feb 2012 08:43:43 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:53 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Lightweight C library that eases the writing of UNIX daemons
@@ -1777,8 +1777,8 @@ Replaces       : None
 Installed Size :  76.00 KiB
 Packager       : Jan de Groot <jgc@archlinux.org>
 Architecture   : i686
-Build Date     : Mon Nov  7 01:15:23 2011
-Install Date   : Tue Oct 16 16:37:50 2012
+Build Date     : Mon 07 Nov 2011 01:15:23 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Implementation of double-array structure for representing trie, as proposed by Junichi Aoe.
@@ -1797,8 +1797,8 @@ Replaces       : None
 Installed Size : 264.00 KiB
 Packager       : Gaetan Bisson <bisson@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Aug 29 06:05:06 2012
-Install Date   : Sat Sep  1 10:39:58 2012
+Build Date     : Wed 29 Aug 2012 06:05:06 AM PDT
+Install Date   : Sat 01 Sep 2012 10:39:58 AM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Command line editor library providing generic line editing, history, and tokenization functions
@@ -1817,8 +1817,8 @@ Replaces       : None
 Installed Size : 160.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Mon Apr 23 04:04:33 2012
-Install Date   : Thu Dec 31 19:42:17 1987
+Build Date     : Mon 23 Apr 2012 04:04:33 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:17 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : A portable, high level programming interface to various calling conventions
@@ -1837,8 +1837,8 @@ Replaces       : None
 Installed Size : 733.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Apr 14 01:31:02 2012
-Install Date   : Thu Dec 31 19:42:12 1987
+Build Date     : Sat 14 Apr 2012 01:31:02 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:12 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : a general purpose crypto library based on the code used
@@ -1857,8 +1857,8 @@ Replaces       : None
 Installed Size : 272.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Apr 14 01:25:13 2012
-Install Date   : Thu Dec 31 19:42:12 1987
+Build Date     : Sat 14 Apr 2012 01:25:13 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:12 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Support library for libgcrypt
@@ -1877,8 +1877,8 @@ Replaces       : None
 Installed Size : 164.00 KiB
 Packager       : Tom Gundersen <teg@jklm.no>
 Architecture   : i686
-Build Date     : Thu Aug 23 01:44:46 2012
-Install Date   : Thu Dec 31 19:42:11 1987
+Build Date     : Thu 23 Aug 2012 01:44:46 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:11 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Exports a gssapi interface which calls other random gssapi libraries
@@ -1897,8 +1897,8 @@ Replaces       : libjpeg
 Installed Size : 1340.00 KiB
 Packager       : Eric Belanger <eric@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Jul  3 13:53:16 2012
-Install Date   : Sun Sep  2 14:38:38 2012
+Build Date     : Tue 03 Jul 2012 01:53:16 PM PDT
+Install Date   : Sun 02 Sep 2012 02:38:38 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : libjpeg derivative with accelerated baseline JPEG compression and decompression
@@ -1917,8 +1917,8 @@ Replaces       : None
 Installed Size : 312.00 KiB
 Packager       : Tobias Powalowski <tpowa@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Aug  3 23:35:27 2011
-Install Date   : Thu Dec 31 19:43:42 1987
+Build Date     : Wed 03 Aug 2011 11:35:27 PM PDT
+Install Date   : Thu 31 Dec 1987 07:43:42 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : A CMS and X.509 access library
@@ -1937,8 +1937,8 @@ Replaces       : None
 Installed Size : 2024.00 KiB
 Packager       : Eric Belanger <eric@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Aug  1 00:51:58 2012
-Install Date   : Thu Dec 31 19:42:33 1987
+Build Date     : Wed 01 Aug 2012 12:51:58 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:33 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Lightweight Directory Access Protocol (LDAP) client libraries
@@ -1957,8 +1957,8 @@ Replaces       : None
 Installed Size : 960.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Jun 16 05:17:52 2012
-Install Date   : Thu Dec 31 19:44:09 1987
+Build Date     : Sat 16 Jun 2012 05:17:52 AM PDT
+Install Date   : Thu 31 Dec 1987 07:44:09 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : A system independent dlopen wrapper for GNU libtool
@@ -1977,8 +1977,8 @@ Replaces       : None
 Installed Size : 344.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Aug 10 19:09:13 2012
-Install Date   : Thu Dec 31 19:43:53 1987
+Build Date     : Fri 10 Aug 2012 07:09:13 PM PDT
+Install Date   : Thu 31 Dec 1987 07:43:53 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : Library for the arithmetic of complex numbers with arbitrarily high precision
@@ -1997,8 +1997,8 @@ Replaces       : None
 Installed Size : 1184.00 KiB
 Packager       : Thomas Bächler <thomas@archlinux.org>
 Architecture   : i686
-Build Date     : Mon Jun 25 11:38:25 2012
-Install Date   : Thu Dec 31 19:43:44 1987
+Build Date     : Mon 25 Jun 2012 11:38:25 AM PDT
+Install Date   : Thu 31 Dec 1987 07:43:44 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Library for applications dealing with netlink sockets
@@ -2017,8 +2017,8 @@ Replaces       : None
 Installed Size : 660.00 KiB
 Packager       : Thomas Bächler <thomas@archlinux.org>
 Architecture   : i686
-Build Date     : Mon Jun 25 11:34:45 2012
-Install Date   : Thu Dec 31 19:43:44 1987
+Build Date     : Mon 25 Jun 2012 11:34:45 AM PDT
+Install Date   : Thu 31 Dec 1987 07:43:44 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : A system-independent interface for user-level packet capture
@@ -2037,8 +2037,8 @@ Replaces       : None
 Installed Size :  87.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Mon May 28 04:29:26 2012
-Install Date   : Thu Dec 31 19:43:33 1987
+Build Date     : Mon 28 May 2012 04:29:26 AM PDT
+Install Date   : Thu 31 Dec 1987 07:43:33 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : a C library for manipulating pipelines of subprocesses in a flexible and convenient way
@@ -2057,8 +2057,8 @@ Replaces       : None
 Installed Size : 720.00 KiB
 Packager       : Ionut Biru <ibiru@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Jul 24 09:51:27 2012
-Install Date   : Tue Oct 16 16:37:46 2012
+Build Date     : Tue 24 Jul 2012 09:51:27 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:46 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : A collection of routines used to create PNG format graphics files
@@ -2077,8 +2077,8 @@ Replaces       : None
 Installed Size : 1624.00 KiB
 Packager       : Sergej Pupykin <pupykin.s+arch@gmail.com>
 Architecture   : i686
-Build Date     : Mon Dec 12 11:37:03 2011
-Install Date   : Mon Sep 17 11:05:00 2012
+Build Date     : Mon 12 Dec 2011 11:37:03 AM PST
+Install Date   : Mon 17 Sep 2012 11:05:00 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : C++ client API for PostgreSQL
@@ -2097,8 +2097,8 @@ Replaces       : None
 Installed Size : 468.00 KiB
 Packager       : Ionut Biru <ibiru@archlinux.org>
 Architecture   : i686
-Build Date     : Mon Jan  9 06:52:18 2012
-Install Date   : Thu Dec 31 19:42:33 1987
+Build Date     : Mon 09 Jan 2012 06:52:18 AM PST
+Install Date   : Thu 31 Dec 1987 07:42:33 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Cyrus Simple Authentication Service Layer (SASL) Library
@@ -2117,8 +2117,8 @@ Replaces       : None
 Installed Size : 1160.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : i686
-Build Date     : Fri May 18 16:32:40 2012
-Install Date   : Thu Dec 31 19:43:42 1987
+Build Date     : Fri 18 May 2012 04:32:40 PM PDT
+Install Date   : Thu 31 Dec 1987 07:43:42 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : A library implementing the SSH2 protocol as defined by Internet Drafts
@@ -2137,8 +2137,8 @@ Replaces       : None
 Installed Size : 381.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Jun  3 11:35:20 2012
-Install Date   : Tue Oct 16 16:37:52 2012
+Build Date     : Sun 03 Jun 2012 11:35:20 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:52 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : The ASN.1 library used in GNUTLS
@@ -2157,8 +2157,8 @@ Replaces       : None
 Installed Size : 680.00 KiB
 Packager       : Jan de Groot <jgc@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Aug  1 03:12:39 2012
-Install Date   : Tue Oct 16 16:37:50 2012
+Build Date     : Wed 01 Aug 2012 03:12:39 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Thai language support routines
@@ -2177,8 +2177,8 @@ Replaces       : None
 Installed Size : 3520.00 KiB
 Packager       : Eric Belanger <eric@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Jun 24 13:36:47 2012
-Install Date   : Sun Sep  2 14:38:39 2012
+Build Date     : Sun 24 Jun 2012 01:36:47 PM PDT
+Install Date   : Sun 02 Sep 2012 02:38:39 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Library for manipulation of TIFF images
@@ -2197,8 +2197,8 @@ Replaces       : None
 Installed Size : 768.00 KiB
 Packager       : Tobias Powalowski <tpowa@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Jul 29 14:00:57 2011
-Install Date   : Thu Dec 31 19:42:11 1987
+Build Date     : Fri 29 Jul 2011 02:00:57 PM PDT
+Install Date   : Thu 31 Dec 1987 07:42:11 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Transport Independent RPC library (SunRPC replacement)
@@ -2217,8 +2217,8 @@ Replaces       : None
 Installed Size : 1308.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Jun 16 05:17:50 2012
-Install Date   : Mon Sep  3 10:30:20 2012
+Build Date     : Sat 16 Jun 2012 05:17:50 AM PDT
+Install Date   : Mon 03 Sep 2012 10:30:20 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A generic library support script
@@ -2237,8 +2237,8 @@ Replaces       : libusb1  libusb
 Installed Size : 152.00 KiB
 Packager       : Tobias Powalowski <tpowa@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Jun 28 13:58:27 2012
-Install Date   : Thu Dec 31 19:43:44 1987
+Build Date     : Thu 28 Jun 2012 01:58:27 PM PDT
+Install Date   : Thu 31 Dec 1987 07:43:44 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Library that provides generic access to USB device
@@ -2257,8 +2257,8 @@ Replaces       : None
 Installed Size : 14808.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Jun  2 14:42:08 2012
-Install Date   : Tue Oct 16 16:37:46 2012
+Build Date     : Sat 02 Jun 2012 02:42:08 PM PDT
+Install Date   : Tue 16 Oct 2012 04:37:46 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 client-side library
@@ -2277,8 +2277,8 @@ Replaces       : None
 Installed Size :  76.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Mar  7 11:44:00 2012
-Install Date   : Tue Oct 16 16:37:45 2012
+Build Date     : Wed 07 Mar 2012 11:44:00 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:45 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 authorisation library
@@ -2297,8 +2297,8 @@ Replaces       : None
 Installed Size : 4509.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Mar  9 07:53:52 2012
-Install Date   : Tue Oct 16 16:37:45 2012
+Build Date     : Fri 09 Mar 2012 07:53:52 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:45 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 client-side library
@@ -2317,8 +2317,8 @@ Replaces       : None
 Installed Size : 120.00 KiB
 Packager       : Pierre Schmitz <pierre@archlinux.de>
 Architecture   : i686
-Build Date     : Sun Feb 26 02:36:18 2012
-Install Date   : Tue Oct 16 16:37:51 2012
+Build Date     : Sun 26 Feb 2012 02:36:18 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:51 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 Composite extension library
@@ -2337,8 +2337,8 @@ Replaces       : None
 Installed Size : 198.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Mar  9 08:03:25 2012
-Install Date   : Tue Oct 16 16:37:50 2012
+Build Date     : Fri 09 Mar 2012 08:03:25 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X cursor management library
@@ -2357,8 +2357,8 @@ Replaces       : None
 Installed Size :  64.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Feb 17 03:24:11 2012
-Install Date   : Tue Oct 16 16:37:51 2012
+Build Date     : Fri 17 Feb 2012 03:24:11 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:51 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 damaged region extension library
@@ -2377,8 +2377,8 @@ Replaces       : None
 Installed Size : 140.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Mar  9 08:06:16 2012
-Install Date   : Tue Oct 16 16:37:45 2012
+Build Date     : Fri 09 Mar 2012 08:06:16 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:45 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 Display Manager Control Protocol library
@@ -2397,8 +2397,8 @@ Replaces       : None
 Installed Size : 555.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Mar  9 08:09:12 2012
-Install Date   : Tue Oct 16 16:37:50 2012
+Build Date     : Fri 09 Mar 2012 08:09:12 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 miscellaneous extensions library
@@ -2417,8 +2417,8 @@ Replaces       : None
 Installed Size :  88.00 KiB
 Packager       : Pierre Schmitz <pierre@archlinux.de>
 Architecture   : i686
-Build Date     : Sun Feb 26 02:41:41 2012
-Install Date   : Tue Oct 16 16:37:50 2012
+Build Date     : Sun 26 Feb 2012 02:41:41 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 miscellaneous 'fixes' extension library
@@ -2437,8 +2437,8 @@ Replaces       : None
 Installed Size : 124.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Jun  2 14:27:14 2012
-Install Date   : Tue Oct 16 16:37:50 2012
+Build Date     : Sat 02 Jun 2012 02:27:14 PM PDT
+Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : FreeType-based font drawing library for X
@@ -2457,8 +2457,8 @@ Replaces       : None
 Installed Size : 699.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Sat May 12 09:22:27 2012
-Install Date   : Tue Oct 16 16:37:51 2012
+Build Date     : Sat 12 May 2012 09:22:27 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:51 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 Input extension library
@@ -2477,8 +2477,8 @@ Replaces       : None
 Installed Size :  56.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Mar  9 08:14:46 2012
-Install Date   : Tue Oct 16 16:37:50 2012
+Build Date     : Fri 09 Mar 2012 08:14:46 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 Xinerama extension library
@@ -2497,8 +2497,8 @@ Replaces       : None
 Installed Size : 11072.00 KiB
 Packager       : Jan de Groot <jgc@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Aug  9 13:10:16 2012
-Install Date   : Mon Sep 17 11:06:59 2012
+Build Date     : Thu 09 Aug 2012 01:10:16 PM PDT
+Install Date   : Mon 17 Sep 2012 11:06:59 AM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : XML parsing library, version 2
@@ -2517,8 +2517,8 @@ Replaces       : None
 Installed Size : 177.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Jul 29 04:05:53 2012
-Install Date   : Tue Oct 16 16:37:50 2012
+Build Date     : Sun 29 Jul 2012 04:05:53 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 RandR extension library
@@ -2537,8 +2537,8 @@ Replaces       : None
 Installed Size :  84.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Mar  9 08:23:18 2012
-Install Date   : Tue Oct 16 16:37:46 2012
+Build Date     : Fri 09 Mar 2012 08:23:18 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:46 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X Rendering Extension client library
@@ -2557,8 +2557,8 @@ Replaces       : None
 Installed Size : 332.00 KiB
 Packager       : Sergej Pupykin <pupykin.s+arch@gmail.com>
 Architecture   : i686
-Build Date     : Wed Feb 22 19:01:01 2012
-Install Date   : Sat Sep  1 12:35:59 2012
+Build Date     : Wed 22 Feb 2012 07:01:01 PM PST
+Install Date   : Sat 01 Sep 2012 12:35:59 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : YAML 1.1 library
@@ -2577,8 +2577,8 @@ Replaces       : None
 Installed Size : 544.00 KiB
 Packager       : Dan McGee <dan@archlinux.org>
 Architecture   : any
-Build Date     : Thu Oct 27 09:08:45 2011
-Install Date   : Mon Sep  3 10:28:59 2012
+Build Date     : Thu 27 Oct 2011 09:08:45 AM PDT
+Install Date   : Mon 03 Sep 2012 10:28:59 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : The standard licenses distribution package
@@ -2597,8 +2597,8 @@ Replaces       : kernel26
 Installed Size : 59268.00 KiB
 Packager       : Tobias Powalowski <tpowa@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Aug 26 01:19:46 2012
-Install Date   : Mon Sep  3 10:29:13 2012
+Build Date     : Sun 26 Aug 2012 01:19:46 AM PDT
+Install Date   : Mon 03 Sep 2012 10:29:13 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : The linux kernel and modules
@@ -2617,8 +2617,8 @@ Replaces       : None
 Installed Size : 4612.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Aug 10 18:22:48 2012
-Install Date   : Thu Dec 31 19:42:05 1987
+Build Date     : Fri 10 Aug 2012 06:22:48 PM PDT
+Install Date   : Thu 31 Dec 1987 07:42:05 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Kernel headers sanitized for use in userspace
@@ -2637,8 +2637,8 @@ Replaces       : kernel26-firmware  ar9170-fw  iwlwifi-1000-ucode  iwlwifi-3945-
 Installed Size : 42644.00 KiB
 Packager       : Thomas Bächler <thomas@archlinux.org>
 Architecture   : any
-Build Date     : Mon Jun 25 11:23:16 2012
-Install Date   : Thu Dec 31 19:42:42 1987
+Build Date     : Mon 25 Jun 2012 11:23:16 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:42 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Firmware files for Linux
@@ -2657,8 +2657,8 @@ Replaces       : None
 Installed Size : 112.00 KiB
 Packager       : Pierre Schmitz <pierre@archlinux.de>
 Architecture   : i686
-Build Date     : Fri Aug  3 01:05:23 2012
-Install Date   : Mon Sep  3 10:29:47 2012
+Build Date     : Fri 03 Aug 2012 01:05:23 AM PDT
+Install Date   : Mon 03 Sep 2012 10:29:47 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Rotates system logs automatically
@@ -2677,8 +2677,8 @@ Replaces       : None
 Installed Size : 3356.00 KiB
 Packager       : Eric Belanger <eric@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Aug  9 14:39:06 2012
-Install Date   : Mon Sep  3 10:29:48 2012
+Build Date     : Thu 09 Aug 2012 02:39:06 PM PDT
+Install Date   : Mon 03 Sep 2012 10:29:48 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Logical Volume Manager 2 utilities
@@ -2697,8 +2697,8 @@ Replaces       : None
 Installed Size : 272.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Nov  3 04:02:18 2011
-Install Date   : Mon Sep  3 10:30:03 2012
+Build Date     : Thu 03 Nov 2011 04:02:18 AM PDT
+Install Date   : Mon 03 Sep 2012 10:30:03 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : The GNU macro processor
@@ -2717,8 +2717,8 @@ Replaces       : None
 Installed Size : 1320.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Mon Sep 12 20:05:45 2011
-Install Date   : Mon Sep  3 10:30:20 2012
+Build Date     : Mon 12 Sep 2011 08:05:45 PM PDT
+Install Date   : Mon 03 Sep 2012 10:30:20 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : GNU make utility to maintain groups of programs
@@ -2738,8 +2738,8 @@ Replaces       : man
 Installed Size : 1425.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Jun 19 11:24:48 2012
-Install Date   : Mon Sep  3 10:29:48 2012
+Build Date     : Tue 19 Jun 2012 11:24:48 AM PDT
+Install Date   : Mon 03 Sep 2012 10:29:48 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A utility for reading man pages
@@ -2758,8 +2758,8 @@ Replaces       : None
 Installed Size : 15379.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : any
-Build Date     : Tue Aug 14 14:07:41 2012
-Install Date   : Mon Sep  3 10:29:50 2012
+Build Date     : Tue 14 Aug 2012 02:07:41 PM PDT
+Install Date   : Mon 03 Sep 2012 10:29:50 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Linux man pages
@@ -2778,8 +2778,8 @@ Replaces       : raidtools
 Installed Size : 1204.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : i686
-Build Date     : Fri May 25 16:51:58 2012
-Install Date   : Mon Sep  3 10:29:50 2012
+Build Date     : Fri 25 May 2012 04:51:58 PM PDT
+Install Date   : Mon 03 Sep 2012 10:29:50 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : A tool for managing/monitoring Linux md device arrays, also known as Software RAID
@@ -2801,8 +2801,8 @@ Replaces       : None
 Installed Size : 260.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : any
-Build Date     : Sun Jul 29 09:08:39 2012
-Install Date   : Thu Dec 31 19:42:42 1987
+Build Date     : Sun 29 Jul 2012 09:08:39 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:42 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : Modular initramfs image creation utility
@@ -2821,8 +2821,8 @@ Replaces       : None
 Installed Size : 336.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Jun  1 11:12:02 2012
-Install Date   : Thu Dec 31 19:42:42 1987
+Build Date     : Fri 01 Jun 2012 11:12:02 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:42 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : base initramfs tools
@@ -2841,8 +2841,8 @@ Replaces       : None
 Installed Size : 1312.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Jul  3 20:20:08 2012
-Install Date   : Thu Dec 31 19:43:53 1987
+Build Date     : Tue 03 Jul 2012 08:20:08 PM PDT
+Install Date   : Thu 31 Dec 1987 07:43:53 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : Multiple-precision floating-point library
@@ -2861,8 +2861,8 @@ Replaces       : None
 Installed Size : 832.00 KiB
 Packager       : Eric Belanger <eric@archlinux.org>
 Architecture   : any
-Build Date     : Tue Feb  7 00:42:55 2012
-Install Date   : Sun Sep  2 12:21:39 2012
+Build Date     : Tue 07 Feb 2012 12:42:55 AM PST
+Install Date   : Sun 02 Sep 2012 12:21:39 PM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : An audio metadata tag reader and writer
@@ -2881,8 +2881,8 @@ Replaces       : None
 Installed Size : 1521.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Nov  2 09:17:28 2011
-Install Date   : Mon Sep  3 10:29:50 2012
+Build Date     : Wed 02 Nov 2011 09:17:28 AM PDT
+Install Date   : Mon 03 Sep 2012 10:29:50 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Pico editor clone with enhancements
@@ -2901,8 +2901,8 @@ Replaces       : None
 Installed Size : 9484.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Feb  7 23:08:18 2012
-Install Date   : Thu Dec 31 19:42:09 1987
+Build Date     : Tue 07 Feb 2012 11:08:18 PM PST
+Install Date   : Thu 31 Dec 1987 07:42:09 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : System V Release 4.0 curses emulation library
@@ -2921,8 +2921,8 @@ Replaces       : None
 Installed Size : 1244.00 KiB
 Packager       : Pierre Schmitz <pierre@archlinux.de>
 Architecture   : i686
-Build Date     : Thu Mar 15 11:18:39 2012
-Install Date   : Sun Oct  7 13:45:19 2012
+Build Date     : Thu 15 Mar 2012 11:18:39 AM PDT
+Install Date   : Sun 07 Oct 2012 01:45:19 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : HTTP and WebDAV client library with a C interface
@@ -2941,8 +2941,8 @@ Replaces       : None
 Installed Size : 569.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Jul 12 12:05:44 2012
-Install Date   : Tue Oct 16 16:37:52 2012
+Build Date     : Thu 12 Jul 2012 12:05:44 PM PDT
+Install Date   : Tue 16 Oct 2012 04:37:52 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : A low-level cryptographic library
@@ -2961,8 +2961,8 @@ Replaces       : None
 Installed Size : 1260.00 KiB
 Packager       : Jan de Groot <jgc@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Aug  1 02:22:24 2012
-Install Date   : Sun Sep  2 14:38:39 2012
+Build Date     : Wed 01 Aug 2012 02:22:24 AM PDT
+Install Date   : Sun 02 Sep 2012 02:38:39 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Netscape Portable Runtime
@@ -2981,8 +2981,8 @@ Replaces       : None
 Installed Size : 5848.00 KiB
 Packager       : Jan de Groot <jgc@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Aug 19 09:03:00 2012
-Install Date   : Sun Sep  2 14:38:40 2012
+Build Date     : Sun 19 Aug 2012 09:03:00 AM PDT
+Install Date   : Sun 02 Sep 2012 02:38:40 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Mozilla Network Security Services
@@ -3002,8 +3002,8 @@ Replaces       : None
 Installed Size : 2600.00 KiB
 Packager       : Gaetan Bisson <bisson@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Aug 28 22:10:41 2012
-Install Date   : Sat Sep  1 10:39:58 2012
+Build Date     : Tue 28 Aug 2012 10:10:41 PM PDT
+Install Date   : Sat 01 Sep 2012 10:39:58 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Free version of the SSH connectivity tools
@@ -3022,8 +3022,8 @@ Replaces       : None
 Installed Size : 10396.00 KiB
 Packager       : Pierre Schmitz <pierre@archlinux.de>
 Architecture   : i686
-Build Date     : Thu May 10 09:26:44 2012
-Install Date   : Thu Dec 31 19:42:33 1987
+Build Date     : Thu 10 May 2012 09:26:44 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:33 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
@@ -3042,8 +3042,8 @@ Replaces       : None
 Installed Size : 436.00 KiB
 Packager       : Ionut Biru <ibiru@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Aug 12 13:40:15 2012
-Install Date   : Tue Oct 16 16:37:52 2012
+Build Date     : Sun 12 Aug 2012 01:40:15 PM PDT
+Install Date   : Tue 16 Oct 2012 04:37:52 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Library to work with PKCS#11 modules
@@ -3062,8 +3062,8 @@ Replaces       : None
 Installed Size : 3532.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Jul 10 14:45:33 2012
-Install Date   : Mon Sep  3 10:29:51 2012
+Build Date     : Tue 10 Jul 2012 02:45:33 PM PDT
+Install Date   : Mon 03 Sep 2012 10:29:51 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A library-based package manager with dependency support
@@ -3082,8 +3082,8 @@ Replaces       : None
 Installed Size :  24.00 KiB
 Packager       : Dan McGee <dan@archlinux.org>
 Architecture   : any
-Build Date     : Mon Jun 25 20:26:25 2012
-Install Date   : Thu Dec 31 19:43:43 1987
+Build Date     : Mon 25 Jun 2012 08:26:25 PM PDT
+Install Date   : Thu 31 Dec 1987 07:43:43 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Arch Linux mirror list for use by pacman
@@ -3102,8 +3102,8 @@ Replaces       : None
 Installed Size : 4128.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : i686
-Build Date     : Mon Jun  4 08:25:57 2012
-Install Date   : Thu Dec 31 19:42:11 1987
+Build Date     : Mon 04 Jun 2012 08:25:57 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:11 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : PAM (Pluggable Authentication Modules) library
@@ -3122,8 +3122,8 @@ Replaces       : None
 Installed Size :  36.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : any
-Build Date     : Sun Jul  1 08:34:18 2012
-Install Date   : Thu Dec 31 19:42:11 1987
+Build Date     : Sun 01 Jul 2012 08:34:18 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:11 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Base PAM configuration for services
@@ -3142,8 +3142,8 @@ Replaces       : None
 Installed Size : 4224.00 KiB
 Packager       : Jan de Groot <jgc@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Jun 10 03:50:08 2012
-Install Date   : Tue Oct 16 16:37:50 2012
+Build Date     : Sun 10 Jun 2012 03:50:08 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : A library for layout and rendering of text
@@ -3162,8 +3162,8 @@ Replaces       : None
 Installed Size : 160.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Nov  3 05:11:23 2011
-Install Date   : Mon Sep  3 10:30:20 2012
+Build Date     : Thu 03 Nov 2011 05:11:23 AM PDT
+Install Date   : Mon 03 Sep 2012 10:30:20 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : A utility to apply patch files to original sources
@@ -3182,8 +3182,8 @@ Replaces       : None
 Installed Size : 360.00 KiB
 Packager       : Tobias Powalowski <tpowa@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Jun 27 08:03:04 2012
-Install Date   : Mon Sep  3 10:29:51 2012
+Build Date     : Wed 27 Jun 2012 08:03:04 AM PDT
+Install Date   : Mon 03 Sep 2012 10:29:51 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : PCI bus configuration space access library and tools
@@ -3202,8 +3202,8 @@ Replaces       : None
 Installed Size :  80.00 KiB
 Packager       : Tom Gundersen <teg@jklm.no>
 Architecture   : i686
-Build Date     : Wed Apr  4 04:30:13 2012
-Install Date   : Mon Sep  3 10:29:51 2012
+Build Date     : Wed 04 Apr 2012 04:30:13 AM PDT
+Install Date   : Mon 03 Sep 2012 10:29:51 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Utilities for inserting and removing PCMCIA cards
@@ -3222,8 +3222,8 @@ Replaces       : None
 Installed Size : 3744.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Jul  8 18:25:08 2012
-Install Date   : Thu Dec 31 19:42:17 1987
+Build Date     : Sun 08 Jul 2012 06:25:08 PM PDT
+Install Date   : Thu 31 Dec 1987 07:42:17 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : A library that implements Perl 5-style regular expressions
@@ -3242,8 +3242,8 @@ Replaces       : None
 Installed Size : 49492.00 KiB
 Packager       : Florian Pritz <bluewind@xinu.at>
 Architecture   : i686
-Build Date     : Thu Aug  9 07:51:29 2012
-Install Date   : Sun Oct  7 13:44:24 2012
+Build Date     : Thu 09 Aug 2012 07:51:29 AM PDT
+Install Date   : Sun 07 Oct 2012 01:44:24 PM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A highly capable, feature-rich programming language
@@ -3262,8 +3262,8 @@ Replaces       : None
 Installed Size :  76.00 KiB
 Packager       : Eric Belanger <eric@archlinux.org>
 Architecture   : any
-Build Date     : Sun Jul 15 20:16:44 2012
-Install Date   : Sat Sep  1 10:39:55 2012
+Build Date     : Sun 15 Jul 2012 08:16:44 PM PDT
+Install Date   : Sat 01 Sep 2012 10:39:55 AM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Perl/CPAN Error module - Error/exception handling in an OO-ish way
@@ -3283,8 +3283,8 @@ Replaces       : None
 Installed Size : 308.00 KiB
 Packager       : Tobias Powalowski <tpowa@archlinux.org>
 Architecture   : i686
-Build Date     : Fri May 25 05:43:07 2012
-Install Date   : Thu Dec 31 19:43:42 1987
+Build Date     : Fri 25 May 2012 05:43:07 AM PDT
+Install Date   : Thu 31 Dec 1987 07:43:42 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : a collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
@@ -3303,8 +3303,8 @@ Replaces       : None
 Installed Size : 665.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Jun 30 00:29:17 2012
-Install Date   : Tue Oct 16 16:37:49 2012
+Build Date     : Sat 30 Jun 2012 12:29:17 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:49 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : The pixel-manipulation library for X and cairo
@@ -3323,8 +3323,8 @@ Replaces       : pkgconfig
 Installed Size : 112.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Aug 24 22:03:49 2012
-Install Date   : Mon Sep  3 10:30:20 2012
+Build Date     : Fri 24 Aug 2012 10:03:49 PM PDT
+Install Date   : Mon 03 Sep 2012 10:30:20 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : A system for managing library compile/link flags
@@ -3343,8 +3343,8 @@ Replaces       : None
 Installed Size : 572.00 KiB
 Packager       : Stéphane Gaudreault <stephane@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Apr  8 16:39:41 2012
-Install Date   : Thu Dec 31 19:42:22 1987
+Build Date     : Sun 08 Apr 2012 04:39:41 PM PDT
+Install Date   : Thu 31 Dec 1987 07:42:22 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : A commandline option parser
@@ -3366,8 +3366,8 @@ Replaces       : None
 Installed Size : 25148.00 KiB
 Packager       : Dan McGee <dan@archlinux.org>
 Architecture   : i686
-Build Date     : Mon Jun  4 08:34:09 2012
-Install Date   : Mon Sep 17 11:07:01 2012
+Build Date     : Mon 04 Jun 2012 08:34:09 AM PDT
+Install Date   : Mon 17 Sep 2012 11:07:01 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A sophisticated object-relational DBMS
@@ -3386,8 +3386,8 @@ Replaces       : None
 Installed Size : 3716.00 KiB
 Packager       : Dan McGee <dan@archlinux.org>
 Architecture   : i686
-Build Date     : Mon Jun  4 08:33:35 2012
-Install Date   : Mon Sep 17 11:05:00 2012
+Build Date     : Mon 04 Jun 2012 08:33:35 AM PDT
+Install Date   : Mon 17 Sep 2012 11:05:00 AM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Libraries for use with PostgreSQL
@@ -3406,8 +3406,8 @@ Replaces       : None
 Installed Size : 21460.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Jun 30 01:06:06 2012
-Install Date   : Thu Dec 31 19:43:58 1987
+Build Date     : Sat 30 Jun 2012 01:06:06 AM PDT
+Install Date   : Thu 31 Dec 1987 07:43:58 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : A modern library for convex polyhedra and other numerical abstractions.
@@ -3420,17 +3420,37 @@ Groups         : base
 Provides       : None
 Depends On     : glibc  libpcap>=1.0.0
 Optional Deps  : None
-Required By    : None
+Required By    : pptpd
 Conflicts With : None
 Replaces       : None
 Installed Size : 892.00 KiB
 Packager       : Thomas Bächler <thomas@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Nov  3 11:59:55 2011
-Install Date   : Mon Sep  3 10:29:59 2012
+Build Date     : Thu 03 Nov 2011 11:59:55 AM PDT
+Install Date   : Mon 03 Sep 2012 10:29:59 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : A daemon which implements the Point-to-Point Protocol for dial-up networking
+
+Name           : pptpd
+Version        : 1.3.4-10
+URL            : http://poptop.sourceforge.net/
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : ppp  glibc
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 112.00 KiB
+Packager       : Sergej Pupykin <pupykin.s+arch@gmail.com>
+Architecture   : i686
+Build Date     : Wed 25 Jul 2012 03:16:00 AM PDT
+Install Date   : Sat 20 Oct 2012 04:54:28 PM PDT
+Install Reason : Explicitly installed
+Install Script : No
+Description    : Poptop server
 
 Name           : procps-ng
 Version        : 3.3.3-3
@@ -3446,8 +3466,8 @@ Replaces       : procps
 Installed Size : 824.00 KiB
 Packager       : Eric Belanger <eric@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Jul 11 10:47:56 2012
-Install Date   : Mon Sep  3 10:29:59 2012
+Build Date     : Wed 11 Jul 2012 10:47:56 AM PDT
+Install Date   : Mon 03 Sep 2012 10:29:59 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Utilities for monitoring your system and processes on your system
@@ -3466,8 +3486,8 @@ Replaces       : None
 Installed Size : 692.00 KiB
 Packager       : Eric Belanger <eric@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Jun 24 12:51:59 2012
-Install Date   : Mon Sep  3 10:29:59 2012
+Build Date     : Sun 24 Jun 2012 12:51:59 PM PDT
+Install Date   : Mon 03 Sep 2012 10:29:59 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Miscellaneous procfs tools
@@ -3486,8 +3506,8 @@ Replaces       : None
 Installed Size : 200.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Oct 19 08:09:55 2011
-Install Date   : Thu Dec 31 19:43:42 1987
+Build Date     : Wed 19 Oct 2011 08:09:55 AM PDT
+Install Date   : Thu 31 Dec 1987 07:43:42 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : The GNU Portable Threads.
@@ -3507,8 +3527,8 @@ Replaces       : python3
 Installed Size : 78524.00 KiB
 Packager       : Stéphane Gaudreault <stephane@archlinux.org>
 Architecture   : i686
-Build Date     : Mon Apr 23 16:49:19 2012
-Install Date   : Sat Sep  1 12:30:02 2012
+Build Date     : Mon 23 Apr 2012 04:49:19 PM PDT
+Install Date   : Sat 01 Sep 2012 12:30:02 PM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Next generation of the python high-level scripting language
@@ -3527,8 +3547,8 @@ Replaces       : None
 Installed Size : 69996.00 KiB
 Packager       : Stéphane Gaudreault <stephane@archlinux.org>
 Architecture   : i686
-Build Date     : Mon Apr 23 17:08:24 2012
-Install Date   : Sun Sep  2 12:21:39 2012
+Build Date     : Mon 23 Apr 2012 05:08:24 PM PDT
+Install Date   : Sun 02 Sep 2012 12:21:39 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : A high-level scripting language
@@ -3547,8 +3567,8 @@ Replaces       : None
 Installed Size : 140.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : any
-Build Date     : Sun Jul 29 04:02:29 2012
-Install Date   : Tue Oct 16 16:37:50 2012
+Build Date     : Sun 29 Jul 2012 04:02:29 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 RandR extension wire protocol
@@ -3567,8 +3587,8 @@ Replaces       : None
 Installed Size : 996.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Jul 19 18:15:27 2012
-Install Date   : Thu Dec 31 19:42:09 1987
+Build Date     : Thu 19 Jul 2012 06:15:27 PM PDT
+Install Date   : Thu 31 Dec 1987 07:42:09 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : GNU readline library
@@ -3587,8 +3607,8 @@ Replaces       : None
 Installed Size : 1108.00 KiB
 Packager       : Pierre Schmitz <pierre@archlinux.de>
 Architecture   : i686
-Build Date     : Sat Nov  5 02:19:47 2011
-Install Date   : Mon Sep  3 10:29:59 2012
+Build Date     : Sat 05 Nov 2011 02:19:47 AM PDT
+Install Date   : Mon 03 Sep 2012 10:29:59 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Reiserfs utilities
@@ -3607,8 +3627,8 @@ Replaces       : None
 Installed Size : 120.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : any
-Build Date     : Sat Feb 25 01:47:51 2012
-Install Date   : Tue Oct 16 16:37:46 2012
+Build Date     : Sat 25 Feb 2012 01:47:51 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:46 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 Render extension wire protocol
@@ -3628,8 +3648,8 @@ Replaces       : None
 Installed Size : 20384.00 KiB
 Packager       : Thomas Dziedzic <gostrc@gmail.com>
 Architecture   : i686
-Build Date     : Mon Apr 23 05:59:14 2012
-Install Date   : Sat Sep  1 12:36:01 2012
+Build Date     : Mon 23 Apr 2012 05:59:14 AM PDT
+Install Date   : Sat 01 Sep 2012 12:36:01 PM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : An object-oriented language for quick and easy programming
@@ -3648,8 +3668,8 @@ Replaces       : None
 Installed Size :  92.00 KiB
 Packager       : Pierre Schmitz <pierre@archlinux.de>
 Architecture   : i686
-Build Date     : Fri Jun 29 00:39:05 2012
-Install Date   : Thu Dec 31 19:42:12 1987
+Build Date     : Fri 29 Jun 2012 12:39:05 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:12 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : run scripts or programs in a directory
@@ -3668,8 +3688,8 @@ Replaces       : None
 Installed Size : 860.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Jan 28 20:47:38 2012
-Install Date   : Mon Sep  3 09:55:26 2012
+Build Date     : Sat 28 Jan 2012 08:47:38 PM PST
+Install Date   : Mon 03 Sep 2012 09:55:26 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Full-screen window manager that multiplexes a physical terminal
@@ -3688,8 +3708,8 @@ Replaces       : None
 Installed Size : 796.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Nov  3 06:38:56 2011
-Install Date   : Mon Sep  3 10:29:59 2012
+Build Date     : Thu 03 Nov 2011 06:38:56 AM PDT
+Install Date   : Mon 03 Sep 2012 10:29:59 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : GNU stream editor
@@ -3708,8 +3728,8 @@ Replaces       : None
 Installed Size : 4888.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Jun 30 08:54:39 2012
-Install Date   : Mon Sep  3 10:30:00 2012
+Build Date     : Sat 30 Jun 2012 08:54:39 AM PDT
+Install Date   : Mon 03 Sep 2012 10:30:00 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Password and account management tool suite with support for shadow files and PAM
@@ -3728,8 +3748,8 @@ Replaces       : None
 Installed Size : 3451.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Feb  4 03:18:48 2012
-Install Date   : Tue Oct 16 16:37:51 2012
+Build Date     : Sat 04 Feb 2012 03:18:48 AM PST
+Install Date   : Tue 16 Oct 2012 04:37:51 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : Freedesktop.org Shared MIME Info
@@ -3748,8 +3768,8 @@ Replaces       : sqlite3
 Installed Size : 1117.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Jun 12 08:11:25 2012
-Install Date   : Sun Sep  2 12:21:35 2012
+Build Date     : Tue 12 Jun 2012 08:11:25 AM PDT
+Install Date   : Sun 02 Sep 2012 12:21:35 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : A C library that implements an SQL database engine
@@ -3772,8 +3792,8 @@ Replaces       : None
 Installed Size : 26520.00 KiB
 Packager       : Stéphane Gaudreault <stephane@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Aug 15 06:08:16 2012
-Install Date   : Sun Oct  7 13:45:23 2012
+Build Date     : Wed 15 Aug 2012 06:08:16 AM PDT
+Install Date   : Sun 07 Oct 2012 01:45:23 PM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : A Modern Concurrent Version Control System
@@ -3792,8 +3812,8 @@ Replaces       : None
 Installed Size : 2504.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Tue Aug 14 23:20:51 2012
-Install Date   : Sat Sep  1 10:39:55 2012
+Build Date     : Tue 14 Aug 2012 11:20:51 PM PDT
+Install Date   : Sat 01 Sep 2012 10:39:55 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Give certain users the ability to run some commands as root
@@ -3812,8 +3832,8 @@ Replaces       : None
 Installed Size : 168.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : i686
-Build Date     : Sat Apr 28 22:12:13 2012
-Install Date   : Mon Sep  3 10:28:58 2012
+Build Date     : Sat 28 Apr 2012 10:12:13 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:58 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : System Utilities Based on Sysfs
@@ -3836,8 +3856,8 @@ Replaces       : None
 Installed Size : 3864.00 KiB
 Packager       : Thomas Bächler <thomas@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Aug 23 11:23:32 2012
-Install Date   : Mon Sep  3 10:36:57 2012
+Build Date     : Thu 23 Aug 2012 11:23:32 AM PDT
+Install Date   : Mon 03 Sep 2012 10:36:57 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Collection of boot loaders that boot from FAT, ext2/3/4 and btrfs filesystems, from CDs and via PXE
@@ -3856,8 +3876,8 @@ Replaces       : None
 Installed Size : 1820.00 KiB
 Packager       : Dave Reisner <dreisner@archlinux.org>
 Architecture   : i686
-Build Date     : Wed Jul  4 05:50:03 2012
-Install Date   : Mon Sep  3 10:30:01 2012
+Build Date     : Wed 04 Jul 2012 05:50:03 AM PDT
+Install Date   : Mon 03 Sep 2012 10:30:01 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Next-generation syslogd with advanced networking and filtering capabilities
@@ -3880,8 +3900,8 @@ Replaces       : libsystemd  systemd-tools  udev
 Installed Size : 8232.00 KiB
 Packager       : Tom Gundersen <teg@jklm.no>
 Architecture   : i686
-Build Date     : Mon Aug 27 13:26:23 2012
-Install Date   : Thu Dec 31 19:42:21 1987
+Build Date     : Mon 27 Aug 2012 01:26:23 PM PDT
+Install Date   : Thu 31 Dec 1987 07:42:21 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : Yes
 Description    : system and service manager
@@ -3900,8 +3920,8 @@ Replaces       : None
 Installed Size : 136.00 KiB
 Packager       : Tom Gundersen <teg@jklm.no>
 Architecture   : i686
-Build Date     : Thu Aug 30 13:11:52 2012
-Install Date   : Mon Sep  3 10:28:58 2012
+Build Date     : Thu 30 Aug 2012 01:11:52 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:58 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Linux System V Init
@@ -3920,8 +3940,8 @@ Replaces       : None
 Installed Size : 164.00 KiB
 Packager       : Tom Gundersen <teg@jklm.no>
 Architecture   : i686
-Build Date     : Thu Aug 30 13:11:50 2012
-Install Date   : Mon Sep  3 10:28:58 2012
+Build Date     : Thu 30 Aug 2012 01:11:50 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:58 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Linux System V Init Tools
@@ -3940,8 +3960,8 @@ Replaces       : None
 Installed Size : 2468.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Nov  3 07:14:31 2011
-Install Date   : Mon Sep  3 10:30:01 2012
+Build Date     : Thu 03 Nov 2011 07:14:31 AM PDT
+Install Date   : Mon 03 Sep 2012 10:30:01 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Utility used to store, backup, and transport files
@@ -3960,8 +3980,8 @@ Replaces       : None
 Installed Size : 2308.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Mon Dec 12 00:35:48 2011
-Install Date   : Mon Sep  3 10:30:02 2012
+Build Date     : Mon 12 Dec 2011 12:35:48 AM PST
+Install Date   : Mon 03 Sep 2012 10:30:02 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Utilities to work with and produce manuals, ASCII text, and on-line documentation from a single source file
@@ -3980,8 +4000,8 @@ Replaces       : None
 Installed Size : 5543.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : any
-Build Date     : Fri Aug  3 09:08:44 2012
-Install Date   : Thu Dec 31 19:42:05 1987
+Build Date     : Fri 03 Aug 2012 09:08:44 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:05 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Sources for time zone and daylight saving time data
@@ -4000,8 +4020,8 @@ Replaces       : None
 Installed Size : 856.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Dec 16 12:06:40 2011
-Install Date   : Sun Oct  7 13:45:19 2012
+Build Date     : Fri 16 Dec 2011 12:06:40 PM PST
+Install Date   : Sun 07 Oct 2012 01:45:19 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : ODBC is an open specification for providing application developers with a predictable API with which to access Data Sources
@@ -4020,8 +4040,8 @@ Replaces       : None
 Installed Size : 328.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Feb 17 15:21:07 2012
-Install Date   : Sun Sep  2 14:33:34 2012
+Build Date     : Fri 17 Feb 2012 03:21:07 PM PST
+Install Date   : Sun 02 Sep 2012 02:33:34 PM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Unpacks .zip archives such as those made by PKZIP
@@ -4041,8 +4061,8 @@ Replaces       : None
 Installed Size : 196.00 KiB
 Packager       : Tobias Powalowski <tpowa@archlinux.org>
 Architecture   : i686
-Build Date     : Sun Jul  8 03:08:12 2012
-Install Date   : Mon Sep  3 10:30:02 2012
+Build Date     : Sun 08 Jul 2012 03:08:12 AM PDT
+Install Date   : Mon 03 Sep 2012 10:30:02 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : USB Device Utilities
@@ -4061,8 +4081,8 @@ Replaces       : None
 Installed Size : 7396.00 KiB
 Packager       : Tom Gundersen <teg@jklm.no>
 Architecture   : i686
-Build Date     : Thu Jul 12 19:25:20 2012
-Install Date   : Mon Sep  3 10:28:51 2012
+Build Date     : Thu 12 Jul 2012 07:25:20 PM PDT
+Install Date   : Mon 03 Sep 2012 10:28:51 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : Miscellaneous system utilities for Linux
@@ -4081,8 +4101,8 @@ Replaces       : None
 Installed Size : 328.00 KiB
 Packager       : Stéphane Gaudreault <stephane@archlinux.org>
 Architecture   : i686
-Build Date     : Fri Nov  4 16:26:48 2011
-Install Date   : Mon Sep  3 10:30:02 2012
+Build Date     : Fri 04 Nov 2011 04:26:48 PM PDT
+Install Date   : Mon 03 Sep 2012 10:30:02 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : The original ex/vi text editor.
@@ -4101,8 +4121,8 @@ Replaces       : None
 Installed Size :  60.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : i686
-Build Date     : Thu Nov  3 07:37:18 2011
-Install Date   : Mon Sep  3 10:30:02 2012
+Build Date     : Thu 03 Nov 2011 07:37:18 AM PDT
+Install Date   : Mon 03 Sep 2012 10:30:02 AM PDT
 Install Reason : Explicitly installed
 Install Script : Yes
 Description    : A utility to show the full path of commands
@@ -4121,8 +4141,8 @@ Replaces       : None
 Installed Size : 844.00 KiB
 Packager       : Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
 Architecture   : i686
-Build Date     : Mon Jun 25 02:59:06 2012
-Install Date   : Mon Sep  3 10:30:02 2012
+Build Date     : Mon 25 Jun 2012 02:59:06 AM PDT
+Install Date   : Mon 03 Sep 2012 10:30:02 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : A utility providing key negotiation for WPA wireless networks
@@ -4141,8 +4161,8 @@ Replaces       : None
 Installed Size : 653.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : any
-Build Date     : Fri Mar 23 13:55:04 2012
-Install Date   : Tue Oct 16 16:37:45 2012
+Build Date     : Fri 23 Mar 2012 01:55:04 PM PDT
+Install Date   : Tue 16 Oct 2012 04:37:45 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : XML-XCB protocol descriptions
@@ -4161,8 +4181,8 @@ Replaces       : None
 Installed Size : 753.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : any
-Build Date     : Fri Mar 23 10:23:40 2012
-Install Date   : Tue Oct 16 16:37:50 2012
+Build Date     : Fri 23 Mar 2012 10:23:40 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 various extension wire protocol
@@ -4181,8 +4201,8 @@ Replaces       : None
 Installed Size : 3780.00 KiB
 Packager       : Tom Gundersen <teg@jklm.no>
 Architecture   : i686
-Build Date     : Tue May  1 10:11:56 2012
-Install Date   : Mon Sep  3 10:30:02 2012
+Build Date     : Tue 01 May 2012 10:11:56 AM PDT
+Install Date   : Mon 03 Sep 2012 10:30:02 AM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : XFS filesystem utilities
@@ -4201,8 +4221,8 @@ Replaces       : None
 Installed Size :  56.00 KiB
 Packager       : Allan McRae <allan@archlinux.org>
 Architecture   : any
-Build Date     : Fri Feb 24 23:05:12 2012
-Install Date   : Tue Oct 16 16:37:50 2012
+Build Date     : Fri 24 Feb 2012 11:05:12 PM PST
+Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 Xinerama extension wire protocol
@@ -4221,8 +4241,8 @@ Replaces       : None
 Installed Size : 1229.00 KiB
 Packager       : Andreas Radke <andyrtr@archlinux.org>
 Architecture   : any
-Build Date     : Fri Mar 16 10:09:46 2012
-Install Date   : Tue Oct 16 16:37:45 2012
+Build Date     : Fri 16 Mar 2012 10:09:46 AM PDT
+Install Date   : Tue 16 Oct 2012 04:37:45 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 core wire protocol and auxiliary headers
@@ -4241,8 +4261,8 @@ Replaces       : None
 Installed Size : 1124.00 KiB
 Packager       : Pierre Schmitz <pierre@archlinux.de>
 Architecture   : i686
-Build Date     : Fri Jun 22 09:38:48 2012
-Install Date   : Thu Dec 31 19:42:21 1987
+Build Date     : Fri 22 Jun 2012 09:38:48 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:21 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Library and command line tools for XZ and LZMA compressed files
@@ -4261,8 +4281,8 @@ Replaces       : None
 Installed Size : 548.00 KiB
 Packager       : Pierre Schmitz <pierre@archlinux.de>
 Architecture   : i686
-Build Date     : Wed Feb  8 11:37:32 2012
-Install Date   : Sun Sep  2 14:33:34 2012
+Build Date     : Wed 08 Feb 2012 11:37:32 AM PST
+Install Date   : Sun 02 Sep 2012 02:33:34 PM PDT
 Install Reason : Explicitly installed
 Install Script : No
 Description    : Creates PKZIP-compatible .zip files
@@ -4281,8 +4301,8 @@ Replaces       : None
 Installed Size : 344.00 KiB
 Packager       : Pierre Schmitz <pierre@archlinux.de>
 Architecture   : i686
-Build Date     : Thu May  3 01:34:33 2012
-Install Date   : Thu Dec 31 19:42:11 1987
+Build Date     : Thu 03 May 2012 01:34:33 AM PDT
+Install Date   : Thu 31 Dec 1987 07:42:11 PM PST
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : Compression library implementing the deflate compression method found in gzip and PKZIP
