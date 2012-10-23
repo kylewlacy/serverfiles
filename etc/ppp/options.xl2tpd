@@ -1,0 +1,16 @@
+noccp
+auth
+crtscts
+mtu 1410
+mru 1410
+
+refuse-pap
+refuse-chap
+refuse-mschap
+
+require-mppe
+require-mschap-v2
+
+nodefaultroute
+proxyarp
+silent
