@@ -207,6 +207,7 @@ xcb-proto
 xextproto
 xfsprogs
 xineramaproto
+xl2tpd
 xproto
 xz
 zip

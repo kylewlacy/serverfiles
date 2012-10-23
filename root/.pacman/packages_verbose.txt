@@ -1377,7 +1377,7 @@ Installed Size : 1656.00 KiB
 Packager       : Ronald van Haren <ronald@archlinux.org>
 Architecture   : i686
 Build Date     : Tue 14 Aug 2012 12:02:18 PM PDT
-Install Date   : Thu 31 Dec 1987 07:42:34 PM PST
+Install Date   : Mon 22 Oct 2012 02:02:32 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : IP Routing Utilities
@@ -3420,7 +3420,7 @@ Groups         : base
 Provides       : None
 Depends On     : glibc  libpcap>=1.0.0
 Optional Deps  : None
-Required By    : pptpd
+Required By    : pptpd  xl2tpd
 Conflicts With : None
 Replaces       : None
 Installed Size : 892.00 KiB
@@ -4226,6 +4226,26 @@ Install Date   : Tue 16 Oct 2012 04:37:50 PM PDT
 Install Reason : Installed as a dependency for another package
 Install Script : No
 Description    : X11 Xinerama extension wire protocol
+
+Name           : xl2tpd
+Version        : 1.3.0-2
+URL            : http://www.xelerance.com/services/software/xl2tpd/
+Licenses       : GPL
+Groups         : None
+Provides       : None
+Depends On     : ppp
+Optional Deps  : None
+Required By    : None
+Conflicts With : None
+Replaces       : None
+Installed Size : 164.00 KiB
+Packager       : Sergej Pupykin <pupykin.s+arch@gmail.com>
+Architecture   : i686
+Build Date     : Mon 20 Feb 2012 03:44:13 AM PST
+Install Date   : Tue 23 Oct 2012 05:02:46 AM PDT
+Install Reason : Explicitly installed
+Install Script : No
+Description    : an open source implementation of the L2TP maintained by Xelerance Corporation
 
 Name           : xproto
 Version        : 7.0.23-1
